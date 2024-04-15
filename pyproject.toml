@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "lab"
+version = "0.1.0"
+description = ""
+authors = ["Antonis Tziorvas"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+geopandas = "^0.14.3"
+matplotlib = "^3.8.4"
+seaborn = "^0.13.2"
+scikit-learn = "^1.4.1.post1"
+ipykernel = "^6.29.4"
+requests = "^2.31.0"
+folium = "^0.16.0"
+mapclassify = "^2.6.1"
+shapely = "^2.0.3"
+statsmodels = "^0.14.1"
+xgboost = "^2.0.3"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+flake8 = "^7.0.0"
+mypy = "^1.9.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
