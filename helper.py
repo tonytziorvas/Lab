@@ -1,7 +1,9 @@
 # Users/tonytziorvas/Documents/Code/Work/Lab/draft.py
-import os
+
 import time
+from io import TextIOWrapper
 from typing import Dict, List, Union
+from zipfile import ZipFile
 
 import geopandas as gpd
 import pandas as pd
@@ -11,8 +13,6 @@ API_URL = (
     "https://api.deelfietsdashboard.nl/dashboard-api/public/vehicles_in_public_space"
 )
 
-OUTPUT_INDEX = len(os.listdir(path="data/raw")) + 1
-DEFAULT_OUTPUT_FILE = f"data/raw/data_{OUTPUT_INDEX}.csv"
 REFRESH_INTERVAL = 60
 
 
@@ -37,9 +37,8 @@ def make_api_request(input_file: str, output_file: str) -> None:
     print(f"Starting data retrieval process at {time.ctime(start_time)}")
     print(f"Refresh rate is {REFRESH_INTERVAL} seconds")
     while True:
-        try:
+        with requests.get(API_URL) as response:
             print("Making API request...")
-            response = requests.get(API_URL)
             print(f"API request status code: {response.status_code}")
 
             if response.status_code == 200:
@@ -56,8 +55,6 @@ def make_api_request(input_file: str, output_file: str) -> None:
 
             df.to_csv(output_file, index=False)
             print(f"Data saved to {output_file} with {len(df)} total rows")
-        except requests.RequestException as e:
-            print(f"Error occurred: {str(e)}")
 
         print("Waiting for next refresh...\n")
         time.sleep(REFRESH_INTERVAL)
@@ -85,6 +82,37 @@ def parse_json_data(
 
     df = df.drop("location", axis=1)
     print("Adding latitude and longitude columns and dropping location column")
+
+    return df
+
+
+def read_zip(zip_file_path: str, csv_name: str) -> pd.DataFrame:
+    """
+    Read a CSV file from a ZIP archive.
+
+    Args:
+        zip_file_path: The path to the ZIP archive.
+        csv_name: The name of the CSV file within the archive.
+
+    Returns:
+        A Pandas DataFrame containing the CSV data.
+
+    Raises:
+        FileNotFoundError: If the CSV file is not found in the archive.
+    """
+    with ZipFile(zip_file_path, "r") as zip_file:
+        # Check if the CSV file exists in the zip archive
+        if csv_name not in zip_file.namelist():
+            raise FileNotFoundError(
+                f"CSV file '{csv_name}' not found in the zip archive."
+            )
+
+        # Open the CSV file within the zip archive
+        with zip_file.open(csv_name, "r") as csv_file:
+            # Read the CSV file using an io.TextIOWrapper to handle decoding
+            csv_text_wrapper = TextIOWrapper(csv_file, encoding="utf-8")
+            # Create a pandas DataFrame from the CSV data
+            df = pd.read_csv(csv_text_wrapper)
 
     return df
 
@@ -129,7 +157,9 @@ def get_points_in_boundary(
 if __name__ == "__main__":
     import argparse
 
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description="Make API request and save data to CSV."
+    )
     parser.add_argument(
         "--input_file",
         help="Specify an input file",
@@ -141,8 +171,7 @@ if __name__ == "__main__":
         "--output_file",
         help="Specify an output file",
         type=str,
-        required=False,
-        default=DEFAULT_OUTPUT_FILE,
+        required=True,
     )
     args = parser.parse_args()
     print(f"Input File: {args.input_file} --- Destination File: {args.output_file}")
