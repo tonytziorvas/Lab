@@ -176,3 +176,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
     print(f"Input File: {args.input_file} --- Destination File: {args.output_file}")
     make_api_request(args.input_file, args.output_file)
+
+
+
+# given a df, filter all the columns that contain one of the substrings 'min', 'max', 'sum to convert them to integers
+# example column names: min_5, min_10, crowd, rolling_min_30
