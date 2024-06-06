@@ -6,8 +6,13 @@ from typing import Dict, List, Union
 from zipfile import ZipFile
 
 import geopandas as gpd
+import numpy as np
 import pandas as pd
 import requests
+from sklearn.metrics import accuracy_score, f1_score, make_scorer
+from sklearn.model_selection import cross_validate
+
+# from sklearn.preprocessing import FunctionTransformer
 
 API_URL = (
     "https://api.deelfietsdashboard.nl/dashboard-api/public/vehicles_in_public_space"
@@ -18,15 +23,21 @@ REFRESH_INTERVAL = 60
 
 # TODO : Make the script device-agnostic
 def make_api_request(input_file: str, output_file: str) -> None:
-    """
-    Function to make an API request and save the data.
+    """The function `make_api_request` retrieves data from an API at regular intervals
+    processes the data, and saves it to an output file.
 
-    This function makes a request to an external API and saves the
-    retrieved data to a CSV file. The function runs in a loop with a
-    REFRESH_INTERVAL, printing status messages at each iteration.
+    Parameters
+    ----------
+    input_file : str
+        The `input_file` parameter in the `make_api_request` function is a string
+        that represents the file path to a CSV file containing data that will be used
+        as input for the API request
+    output_file : str
+        The `output_file` parameter in the `make_api_request` function is a string
+        that represents the file path where the processed data will be saved to as
+        a CSV file. This file will contain the data retrieved from the API and
+        processed during the execution of the function.
 
-    Raises:
-        requests.RequestException: If an exception occurs during the request.
     """
     if input_file is None:
         df = pd.DataFrame()
@@ -87,18 +98,20 @@ def parse_json_data(
 
 
 def read_zip(zip_file_path: str, csv_name: str) -> pd.DataFrame:
-    """
-    Read a CSV file from a ZIP archive.
+    """The function `read_zip` reads a CSV file from a zip archive and returns
+    its contents as a pandas DataFrame.
 
-    Args:
-        zip_file_path: The path to the ZIP archive.
-        csv_name: The name of the CSV file within the archive.
+    Parameters
+    ----------
+    zip_file_path: The file path to the ZIP archive from which
+        you want to read the CSV file.
+    csv_name: The name of the CSV file that you want to extract
+    and read from the specified ZIP archive.
 
-    Returns:
-        A Pandas DataFrame containing the CSV data.
+    Returns
+    -------
+        a DataFrame containing the data from the specified CSV file
 
-    Raises:
-        FileNotFoundError: If the CSV file is not found in the archive.
     """
     with ZipFile(zip_file_path, "r") as zip_file:
         # Check if the CSV file exists in the zip archive
@@ -117,41 +130,105 @@ def read_zip(zip_file_path: str, csv_name: str) -> pd.DataFrame:
     return df
 
 
-def get_points_in_boundary(
-    city: gpd.GeoDataFrame, gdf: gpd.GeoDataFrame, ts_col: str
-) -> gpd.GeoDataFrame:
+def get_points_in_boundary(city, gdf, ts_col):
+    """The function `get_points_in_boundary` retrieves points within a city boundary
+    and maps district IDs to district names.
+
+    Parameters
+    ----------
+    city
+        A string representing the name of the city for which
+        you want to get points within the boundary.
+    gdf
+        `gdf` is a GeoDataFrame containing points data with spatial information such as
+        geometry coordinates.
+    ts_col
+        The column name in the GeoDataFrame (`gdf`) that contains the
+        timestamps associated with each point. This column is used to retrieve the
+        timestamps for the points that intersect with the city boundaries.
+
+    Returns
+    -------
+        The function `get_points_in_boundary` returns two objects:
+        `points` and `city_boundaries`.
+
     """
-    Find the points within the boundary of a given city.
+    city_boundaries = gpd.read_file(f"data/boundaries/{city}_.geojson")
 
-    Parameters:
-    city (gpd.GeoDataFrame): The city boundary.
-    gdf (gpd.GeoDataFrame): The GeoDataFrame containing the points.
+    # Query points that intersect with city boundaries
 
-    Returns:
-    gpd.GeoDataFrame: The points within the city boundary, with additional timestamp information.
-    """
-
-    # Query the spatial index of the GeoDataFrame to find the points within the boundary
     df_left = (
         pd.DataFrame(
-            data=gdf.sindex.query(city.geometry, predicate="intersects").T,
+            data=gdf.sindex.query(city_boundaries.geometry, predicate="intersects").T,
             columns=["district_id", "point_id"],
         )
         .sort_values(by="point_id")
         .reset_index(drop=True)
     )
 
-    # Get the timestamp information for each point
+    # Get corresponding timestamp and district_id for points
     df_right = (
         gdf.iloc[df_left["point_id"]][ts_col]
         .reset_index()
         .rename(columns={"index": "point_id", ts_col: "timestamp"})
     )
 
-    # Merge the points with their timestamp information
+    # Merge the two dataframes based on point_id
     points = pd.merge(df_left, df_right, on="point_id")
 
-    return points
+    # Map district_id to district names
+    district_codes = dict(city_boundaries.iloc[points.district_id.unique()]["name"])
+    points["district_id"] = points["district_id"].map(district_codes)
+
+    return points, city_boundaries
+
+
+# TODO Replace with FunctionTransformer of sklearn (https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.FunctionTransformer.html)
+def cyclic_encode(df: pd.DataFrame, col: str, period: int) -> pd.DataFrame:
+    """
+    Encode a column of a dataframe with sine and cosine functions
+    based on the period.
+
+    Parameters
+    ----------
+    df (pd.DataFrame): The dataframe to encode.
+    col (str): The name of the column to encode.
+    period (int): The period of the sine and cosine functions.
+
+    Returns:
+        pd.DataFrame: The encoded dataframe.
+    """
+    df[col + "_sin"] = np.sin(2 * np.pi * df[col] / period)
+    df[col + "_cos"] = np.cos(2 * np.pi * df[col] / period)
+
+    return df
+
+
+def label_smoothing(labels, epsilon=0.1):
+    """The function `label_smoothing` applies label smoothing to input labels with a
+    specified epsilon value.
+
+    Parameters
+    ----------
+    labels
+        The `labels` parameter is expected to be a 2D array representing one-hot
+        encoded labels for classification tasks. Each row in the array corresponds to a
+        sample, and each column represents a class with a binary indicator
+        (1 for the correct class, 0 for others).
+    epsilon
+        The `epsilon` parameter in the `label_smoothing` function represents the
+        smoothing factor that is used to adjust the labels. It is a hyperparameter
+        that controls the amount of smoothing applied to the labels. A higher value of
+        `epsilon` results in more smoothing, while a lower value preserves the original
+
+    Returns
+    -------
+        The function `label_smoothing` returns the labels after applying label
+        smoothing with a given epsilon value.
+
+    """
+    num_classes = labels.shape[1]
+    return (1 - epsilon) * labels + epsilon / num_classes
 
 
 if __name__ == "__main__":
@@ -176,8 +253,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
     print(f"Input File: {args.input_file} --- Destination File: {args.output_file}")
     make_api_request(args.input_file, args.output_file)
-
-
-
-# given a df, filter all the columns that contain one of the substrings 'min', 'max', 'sum to convert them to integers
-# example column names: min_5, min_10, crowd, rolling_min_30
