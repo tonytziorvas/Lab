@@ -9,8 +9,6 @@ import geopandas as gpd
 import numpy as np
 import pandas as pd
 import requests
-from sklearn.metrics import accuracy_score, f1_score, make_scorer
-from sklearn.model_selection import cross_validate
 
 # from sklearn.preprocessing import FunctionTransformer
 
@@ -114,17 +112,15 @@ def read_zip(zip_file_path: str, csv_name: str) -> pd.DataFrame:
 
     """
     with ZipFile(zip_file_path, "r") as zip_file:
-        # Check if the CSV file exists in the zip archive
         if csv_name not in zip_file.namelist():
             raise FileNotFoundError(
                 f"CSV file '{csv_name}' not found in the zip archive."
             )
 
-        # Open the CSV file within the zip archive
         with zip_file.open(csv_name, "r") as csv_file:
             # Read the CSV file using an io.TextIOWrapper to handle decoding
             csv_text_wrapper = TextIOWrapper(csv_file, encoding="utf-8")
-            # Create a pandas DataFrame from the CSV data
+
             df = pd.read_csv(csv_text_wrapper)
 
     return df
@@ -200,6 +196,7 @@ def cyclic_encode(df: pd.DataFrame, col: str, period: int) -> pd.DataFrame:
     """
     df[col + "_sin"] = np.sin(2 * np.pi * df[col] / period)
     df[col + "_cos"] = np.cos(2 * np.pi * df[col] / period)
+    df.drop(columns=col, inplace=True)
 
     return df
 
