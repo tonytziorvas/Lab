@@ -1,6 +1,7 @@
 /data/raw
 /data/processed
+/data/final
 __pycache__
 .ipynb_checkpoints
-/.dvc
-.dvcignore
+.pytest_cache
+.vscode
