@@ -28,6 +28,7 @@ lightgbm = "^4.4.0"
 dask = "^2024.6.2"
 dask-geopandas = "^0.4.1"
 bokeh = "^3.4.2"
+scikit-optimize = "^0.10.2"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.3.0"
