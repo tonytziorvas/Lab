@@ -1,4 +1,4 @@
 {
-  "docwriter.style": "NumPy",
+  "docwriter.style": "RustDoc",
   "docwriter.hotkey.mac": "⌥ + ."
 }
