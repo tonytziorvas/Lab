@@ -1,0 +1,88 @@
+====== Model: LGBMClassifier - Prediction Step: 5 ======
+
+====== Hyperparameter Tuning Results ======
+Best score: 0.967
+Best parameters:
+    - colsample_bytree: 1.0
+    - learning_rate: 0.01
+    - max_depth: 3
+    - reg_lambda: 0.3
+    - subsample: 0.5
+
+====== Cross-Validation Results ======
+Mean Test Accuracy: 0.941 ± 0.010
+Mean Test F1 Micro: 0.954 ± 0.009
+
+====== Train Set ======
+CV-Test Accuracy: 0.940 ± 0.039
+CV-Test F1 Micro: 0.955 ± 0.014
+
+====== Test Set ======
+CV-Test Accuracy: 0.774 ± 0.167
+CV-Test F1 Micro: 0.895 ± 0.096
+====== Model: LGBMClassifier - Prediction Step: 15 ======
+
+====== Hyperparameter Tuning Results ======
+Best score: 0.889
+Best parameters:
+    - colsample_bytree: 0.5
+    - learning_rate: 0.3
+    - max_depth: 3
+    - reg_lambda: 1.0
+    - subsample: 0.5
+
+====== Cross-Validation Results ======
+Mean Test Accuracy: 0.825 ± 0.014
+Mean Test F1 Micro: 0.867 ± 0.019
+
+====== Train Set ======
+CV-Test Accuracy: 0.827 ± 0.141
+CV-Test F1 Micro: 0.873 ± 0.078
+
+====== Test Set ======
+CV-Test Accuracy: 0.820 ± 0.115
+CV-Test F1 Micro: 0.912 ± 0.031
+====== Model: LGBMClassifier - Prediction Step: 30 ======
+
+====== Hyperparameter Tuning Results ======
+Best score: 0.787
+Best parameters:
+    - colsample_bytree: 0.5
+    - learning_rate: 0.3
+    - max_depth: 3
+    - reg_lambda: 1.0
+    - subsample: 0.5
+
+====== Cross-Validation Results ======
+Mean Test Accuracy: 0.751 ± 0.007
+Mean Test F1 Micro: 0.775 ± 0.005
+
+====== Train Set ======
+CV-Test Accuracy: 0.742 ± 0.175
+CV-Test F1 Micro: 0.771 ± 0.134
+
+====== Test Set ======
+CV-Test Accuracy: 0.716 ± 0.143
+CV-Test F1 Micro: 0.827 ± 0.075
+====== Model: LGBMClassifier - Prediction Step: 60 ======
+
+====== Hyperparameter Tuning Results ======
+Best score: 0.722
+Best parameters:
+    - colsample_bytree: 0.8
+    - learning_rate: 0.3
+    - max_depth: 3
+    - reg_lambda: 0.6
+    - subsample: 0.5
+
+====== Cross-Validation Results ======
+Mean Test Accuracy: 0.712 ± 0.017
+Mean Test F1 Micro: 0.704 ± 0.011
+
+====== Train Set ======
+CV-Test Accuracy: 0.716 ± 0.143
+CV-Test F1 Micro: 0.716 ± 0.116
+
+====== Test Set ======
+CV-Test Accuracy: 0.663 ± 0.134
+CV-Test F1 Micro: 0.742 ± 0.157
