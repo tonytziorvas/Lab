@@ -1,7 +1,12 @@
-/data/raw
-/data/processed
-/data/final
+/data/** 
 __pycache__
 .ipynb_checkpoints
 .pytest_cache
 .vscode
+Lab.code-workspace
+/misc/.env
+/archive/**
+/models/dump
+/models/temp
+/report/** 
+src/data/**

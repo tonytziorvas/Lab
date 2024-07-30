@@ -1,15 +1,6 @@
-import logging
-
 import geopandas as gpd
 
-from utils import helper
-
-logging.basicConfig(
-    format="[%(asctime)s] | %(message)s",
-    level=logging.INFO,
-    datefmt="%H:%M:%S",
-    # handlers=[logging.FileHandler("reports/make_dataset.log")],
-)
+from utils import helper, logger
 
 city = "rotterdam"
 OUTPUT_FILE = "data/final/points_per_district_full"
@@ -26,4 +17,6 @@ city_boundaries = gpd.read_file(f"misc/{city}_.geojson")
 
 
 if __name__ == "__main__":
+    logger = logger.setup_logger("make_dataset")
+    logger.info("Starting ETL Pipeline")
     helper.etl_pipeline(OUTPUT_FILE, CHUNK_SIZE, DTYPES, city_boundaries)
