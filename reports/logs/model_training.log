@@ -1,0 +1,248 @@
+2024-07-29 11:10 - INFO - model_training - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:10 - WARNING - model_training - Model exists. Skipping
+2024-07-29 11:10 - INFO - model_training - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 11:10 - INFO - model_training - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:10 - ERROR - model_training - In model: LGBMClassifier | y contains previously unseen labels: [4372]
+2024-07-29 11:10 - INFO - model_training - Training model for Botlek_c_lvl
+2024-07-29 11:10 - INFO - model_training - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:10 - ERROR - model_training - In model: LGBMClassifier | y contains previously unseen labels: [3216 7588]
+2024-07-29 11:10 - INFO - model_training - Training model for Charlois_c_lvl
+2024-07-29 11:10 - WARNING - model_training - Model exists. Skipping
+2024-07-29 11:10 - INFO - model_training - Training model for Delfshaven_c_lvl
+2024-07-29 11:10 - WARNING - model_training - Model exists. Skipping
+2024-07-29 11:10 - INFO - model_training - Training model for Feijenoord_c_lvl
+2024-07-29 11:10 - WARNING - model_training - Model exists. Skipping
+2024-07-29 11:10 - INFO - model_training - Training model for Hillegersberg-Schiebroek_c_lvl
+2024-07-29 11:10 - INFO - model_training - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:10 - ERROR - model_training - In model: LGBMClassifier | y contains previously unseen labels: [  57 2056 6428]
+2024-07-29 11:10 - INFO - model_training - Training model for Hoek_van_Holland_c_lvl
+2024-07-29 11:10 - INFO - model_training - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:10 - ERROR - model_training - In model: LGBMClassifier | y contains previously unseen labels: [ 434 4806]
+2024-07-29 11:10 - INFO - model_training - Training model for Hoogvliet_c_lvl
+2024-07-29 11:10 - INFO - model_training - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:10 - ERROR - model_training - In model: LGBMClassifier | y contains previously unseen labels: [4274 8646]
+2024-07-29 11:10 - INFO - model_training - Training model for Kralingen-Crooswijk_c_lvl
+2024-07-29 11:10 - WARNING - model_training - Model exists. Skipping
+2024-07-29 11:10 - INFO - model_training - Training model for Nieuw_Mathenesse_c_lvl
+2024-07-29 11:10 - INFO - model_training - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:10 - ERROR - model_training - In model: LGBMClassifier | y contains previously unseen labels: [ 229 4601]
+2024-07-29 11:10 - INFO - model_training - Training model for Noord_c_lvl
+2024-07-29 11:10 - INFO - model_training - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:14 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:14 - WARNING - Model exists. Skipping
+2024-07-29 11:14 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 11:14 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:16 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:16 - WARNING - Model exists. Skipping
+2024-07-29 11:16 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 11:16 - WARNING - Model exists. Skipping
+2024-07-29 11:16 - INFO - Training model for Botlek_c_lvl
+2024-07-29 11:16 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:21 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:21 - WARNING - Model exists. Skipping
+2024-07-29 11:21 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 11:21 - WARNING - Model exists. Skipping
+2024-07-29 11:21 - INFO - Training model for Botlek_c_lvl
+2024-07-29 11:21 - WARNING - Model exists. Skipping
+2024-07-29 11:21 - INFO - Training model for Charlois_c_lvl
+2024-07-29 11:21 - WARNING - Model exists. Skipping
+2024-07-29 11:21 - INFO - Training model for Delfshaven_c_lvl
+2024-07-29 11:21 - WARNING - Model exists. Skipping
+2024-07-29 11:21 - INFO - Training model for Feijenoord_c_lvl
+2024-07-29 11:21 - WARNING - Model exists. Skipping
+2024-07-29 11:21 - INFO - Training model for Hillegersberg-Schiebroek_c_lvl
+2024-07-29 11:21 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:21 - ERROR - In model: LGBMClassifier | y contains previously unseen labels: [  57 2056 6428]
+2024-07-29 11:21 - INFO - Training model for Hoek_van_Holland_c_lvl
+2024-07-29 11:21 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:21 - ERROR - In model: LGBMClassifier | y contains previously unseen labels: [ 434 4806]
+2024-07-29 11:21 - INFO - Training model for Hoogvliet_c_lvl
+2024-07-29 11:21 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:22 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:22 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:22 - ERROR - In model: LGBMClassifier | y contains previously unseen labels: [ 306 4678]
+2024-07-29 11:22 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 11:22 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:22 - ERROR - In model: LGBMClassifier | y contains previously unseen labels: [4372]
+2024-07-29 11:22 - INFO - Training model for Botlek_c_lvl
+2024-07-29 11:22 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:22 - ERROR - In model: LGBMClassifier | y contains previously unseen labels: [3216 7588]
+2024-07-29 11:22 - INFO - Training model for Charlois_c_lvl
+2024-07-29 11:22 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:22 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:22 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:27 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:27 - WARNING - Model exists. Skipping
+2024-07-29 11:27 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 11:27 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:32 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:32 - WARNING - Model exists. Skipping
+2024-07-29 11:32 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 11:32 - WARNING - Model exists. Skipping
+2024-07-29 11:32 - INFO - Training model for Botlek_c_lvl
+2024-07-29 11:32 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:33 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:33 - WARNING - Model exists. Skipping
+2024-07-29 11:33 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 11:33 - WARNING - Model exists. Skipping
+2024-07-29 11:33 - INFO - Training model for Botlek_c_lvl
+2024-07-29 11:33 - WARNING - Model exists. Skipping
+2024-07-29 11:33 - INFO - Training model for Charlois_c_lvl
+2024-07-29 11:33 - WARNING - Model exists. Skipping
+2024-07-29 11:33 - INFO - Training model for Delfshaven_c_lvl
+2024-07-29 11:33 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:33 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:33 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:38 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:38 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:46 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:46 - WARNING - Model exists. Skipping
+2024-07-29 11:46 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 11:46 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:46 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:46 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:51 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:51 - WARNING - Model exists. Skipping
+2024-07-29 11:51 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 11:51 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:54 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:54 - WARNING - Model exists. Skipping
+2024-07-29 11:54 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 11:54 - WARNING - Model exists. Skipping
+2024-07-29 11:54 - INFO - Training model for Botlek_c_lvl
+2024-07-29 11:54 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:54 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:54 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:56 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:56 - WARNING - Model exists. Skipping
+2024-07-29 11:56 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 11:56 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:57 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:57 - WARNING - Model exists. Skipping
+2024-07-29 11:57 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 11:57 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:57 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:57 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:58 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:58 - WARNING - Model exists. Skipping
+2024-07-29 11:58 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 11:58 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 11:59 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 11:59 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 12:02 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 12:02 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 12:04 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 12:04 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 12:05 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 12:05 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 12:05 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 12:05 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 12:06 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 12:06 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 12:07 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 12:07 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 12:08 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 12:08 - WARNING - Model exists. Skipping
+2024-07-29 12:08 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 12:08 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 12:10 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 12:10 - WARNING - Model exists. Skipping
+2024-07-29 12:10 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 12:10 - WARNING - Model exists. Skipping
+2024-07-29 12:10 - INFO - Training model for Botlek_c_lvl
+2024-07-29 12:10 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 12:11 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 12:11 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 12:12 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 12:12 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 12:14 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 12:14 - WARNING - Model exists. Skipping
+2024-07-29 12:14 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 12:14 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 12:14 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 12:14 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 12:16 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 12:16 - WARNING - Model exists. Skipping
+2024-07-29 12:16 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 12:16 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 12:16 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 12:16 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 12:17 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 12:17 - WARNING - Model exists. Skipping
+2024-07-29 12:17 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 12:17 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 12:17 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 12:17 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 14:57 - INFO - Extracting temporal features
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Encoding target variable
+2024-07-29 14:57 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 14:57 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 14:57 - INFO - Performing Grid Search
+2024-07-29 15:32 - INFO - Extracting temporal features
+2024-07-29 15:33 - INFO - Extracting temporal features
+2024-07-29 16:06 - INFO - Extracting temporal features
+2024-07-29 16:06 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 16:06 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 16:06 - INFO - Performing Grid Search
+2024-07-29 16:07 - INFO - Extracting temporal features
+2024-07-29 16:07 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 16:07 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 16:07 - INFO - Performing Grid Search
+2024-07-29 16:10 - INFO - Extracting temporal features
+2024-07-29 16:10 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 16:10 - WARNING - Model exists. Skipping
+2024-07-29 16:10 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 16:10 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 16:10 - INFO - Performing Grid Search
+2024-07-29 16:12 - INFO - Querying crowdedness table
+2024-07-29 16:12 - INFO - Extracting temporal features
+2024-07-29 16:12 - INFO - Encoding target labels
+2024-07-29 16:12 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 16:12 - WARNING - Model exists. Skipping
+2024-07-29 16:12 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 16:12 - WARNING - Model exists. Skipping
+2024-07-29 16:12 - INFO - Training model for Botlek_c_lvl
+2024-07-29 16:12 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 16:13 - INFO - Querying crowdedness table
+2024-07-29 16:13 - INFO - Extracting temporal features
+2024-07-29 16:13 - INFO - Encoding target labels
+2024-07-29 16:13 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 16:13 - WARNING - Model exists. Skipping
+2024-07-29 16:13 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 16:13 - WARNING - Model exists. Skipping
+2024-07-29 16:13 - INFO - Training model for Botlek_c_lvl
+2024-07-29 16:13 - WARNING - Model exists. Skipping
+2024-07-29 16:13 - INFO - Training model for Charlois_c_lvl
+2024-07-29 16:13 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 16:13 - INFO - Querying crowdedness table
+2024-07-29 16:13 - INFO - Extracting temporal features
+2024-07-29 16:13 - INFO - Encoding target labels
+2024-07-29 16:13 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 16:13 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-07-29 16:13 - INFO - Querying crowdedness table
+2024-07-29 16:13 - INFO - Extracting temporal features
+2024-07-29 16:13 - INFO - Encoding target labels
+2024-07-29 16:13 - INFO - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-07-29 16:13 - WARNING - Model exists. Skipping
+2024-07-29 16:13 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-07-29 16:13 - INFO - Model: LGBMClassifier | Prediction Step: 5

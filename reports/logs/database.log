@@ -1,0 +1,13 @@
+2024-07-29 14:45 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-29 14:45 - INFO - Creating table crowdedness
+2024-07-29 14:45 - INFO - Database Initialized
+2024-07-29 14:45 - INFO - Pushing data
+2024-07-29 14:45 - INFO - Data pushed to database
+2024-07-29 16:12 - INFO - Loading Database Credentials
+2024-07-29 16:12 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-29 16:13 - INFO - Loading Database Credentials
+2024-07-29 16:13 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-29 16:13 - INFO - Loading Database Credentials
+2024-07-29 16:13 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-29 16:13 - INFO - Loading Database Credentials
+2024-07-29 16:13 - INFO - Connecting to crowdedness DB on localhost:5432

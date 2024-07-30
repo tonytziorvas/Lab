@@ -1,0 +1,9 @@
+
+2024-07-29 13:57 - INFO - Starting ETL Pipeline
+2024-07-29 13:57 - INFO - Processing data/raw/week_6.csv.zip
+2024-07-29 13:57 - INFO - Unzipping data/raw/week_6.csv.zip to /var/folders/5_/7z8lzq913cl3q8m0z5pnmpjr0000gn/T/tmpnbba7ovv
+2024-07-29 13:57 - INFO - Processing 6th_week.csv
+2024-07-29 14:04 - INFO - Saving to data/processed/points_per_district_week_5.parquet
+2024-07-29 14:05 - INFO - Moving data/raw/week_6.csv.zip to data/raw/extracted
+2024-07-29 14:05 - INFO - Concatenating dataframes
+2024-07-29 14:05 - INFO - Dataset created
