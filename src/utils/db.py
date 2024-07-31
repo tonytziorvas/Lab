@@ -1,5 +1,6 @@
 import os
 
+import logger
 import pandas as pd
 from dotenv import load_dotenv
 from sqlalchemy import (
@@ -12,8 +13,6 @@ from sqlalchemy import (
     create_engine,
     inspect,
 )
-
-from utils import logger
 
 logging = logger.setup_logger("database")
 
@@ -45,6 +44,7 @@ def create_schema(push=False):
     engine = make_connection()
 
     with engine.connect() as conn:
+        logging.info("Connection established")
         try:
             meta = MetaData()
 
@@ -67,20 +67,24 @@ def create_schema(push=False):
                 logging.info("Database Initialized")
 
             if push:
-                logger.info("Pushing data")
-                df = pd.read_parquet("data/final/points_per_district_full.parquet.gzip")
-                df.to_sql(
-                    "crowdedness",
-                    con=conn,
-                    if_exists="append",
-                    index=False,
-                    method="multi",
-                )
-
-                logger.info("Data pushed to database")
+                push_data(conn)
         finally:
             conn.commit()
             engine.dispose()
+
+
+def push_data(conn):
+    logging.info("Pushing data")
+    df = pd.read_parquet("data/final/points_per_district_full.parquet.gzip")
+    df.to_sql(
+        "crowdedness",
+        con=conn,
+        if_exists="append",
+        index=False,
+        method="multi",
+    )
+
+    logging.info("Data pushed to database")
 
 
 if __name__ == "__main__":

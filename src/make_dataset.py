@@ -19,4 +19,4 @@ city_boundaries = gpd.read_file(f"misc/{city}_.geojson")
 if __name__ == "__main__":
     logger = logger.setup_logger("make_dataset")
     logger.info("Starting ETL Pipeline")
-    helper.etl_pipeline(OUTPUT_FILE, CHUNK_SIZE, DTYPES, city_boundaries)
+    helper.etl_pipeline(OUTPUT_FILE, CHUNK_SIZE, DTYPES, city_boundaries, stream=False)

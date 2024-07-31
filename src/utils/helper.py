@@ -3,12 +3,14 @@ import os
 import shutil
 import subprocess
 import tempfile
+import time
 import zipfile
-from typing import Callable, Dict, Optional
+from typing import Callable, Dict, Optional, final
 
 import geopandas as gpd
 import numpy as np
 import pandas as pd
+from flake8 import LOG
 from sklearn.compose import ColumnTransformer
 from sklearn.metrics import (
     balanced_accuracy_score,
@@ -21,12 +23,15 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from tqdm import tqdm
 
+from utils import db
+
 TS_COL = "ts"
 
 
 def count_rows_in_csv(file_path):
-    result = subprocess.run(["wc", "-l", file_path], capture_output=True, text=True)
-    return int(result.stdout.split()[0]) - 1  # Subtract 1 for header row
+    with open(file_path, "r") as file:
+        row_count = sum(1 for _ in file) - 1
+    return row_count
 
 
 def points_in_boundaries(
@@ -53,11 +58,18 @@ def points_in_boundaries(
         crs=4326,
     )  # type: ignore
 
-    merged = (
-        gpd.sjoin(chunk, city_boundaries, how="inner", predicate="intersects")
-        .rename(columns={"index_right": "district_id"})
-        .loc[:, ["district_id", ts_col, "latitude", "longitude"]]
+    df_left = pd.DataFrame(
+        data=chunk.sindex.query(city_boundaries.geometry, predicate="intersects").T,
+        columns=["district_id", "point_id"],
+    ).reset_index(drop=True)
+
+    df_right = (
+        chunk.iloc[df_left["point_id"]][ts_col]
+        .reset_index()
+        .rename(columns={"index": "point_id", ts_col: "timestamp"})
     )
+
+    merged = pd.merge(df_left, df_right, on="point_id")
 
     # Map district_id to district names
     district_codes = dict(city_boundaries.iloc[merged.district_id.unique()]["name"])
@@ -68,12 +80,12 @@ def points_in_boundaries(
 
 def _process_csv(
     file: str,
-    chunk_size: int = 10**6,
+    chunk_size: Optional[int] = 10**6,
     dtypes: Optional[Dict[str, str]] = None,
     filter_func: Optional[Callable] = None,
     city_boundaries: Optional[gpd.GeoDataFrame] = None,
     n_chunks: Optional[int] = None,
-) -> list[pd.DataFrame]:
+) -> pd.DataFrame:
     """
     Process a CSV file in chunks.
 
@@ -96,13 +108,13 @@ def _process_csv(
     ):
         chunk = filter_func(chunk, city_boundaries) if filter_func else chunk
         all_chunks.append(chunk)
-    return all_chunks
+    return pd.concat(all_chunks, ignore_index=True)
 
 
 def process_csv_zip(
     zip_path: str,
+    city_boundaries: gpd.GeoDataFrame,
     filter_func: Optional[Callable] = None,
-    city_boundaries: Optional[gpd.GeoDataFrame] = None,
     output_path: str = "output.parquet",
     chunk_size: int = 10**6,
     dtypes: Optional[Dict[str, str]] = None,
@@ -124,7 +136,7 @@ def process_csv_zip(
         n_rows = count_rows_in_csv(file_path)
         n_chunks = (n_rows // chunk_size) + 1
 
-        chunks = _process_csv(
+        df = _process_csv(
             file_path,
             chunk_size,
             dtypes,
@@ -132,42 +144,84 @@ def process_csv_zip(
             city_boundaries,
             n_chunks,
         )
-        processed_df = pd.concat(chunks)
 
         logger.info(f"Saving to {output_path}")
-        processed_df.to_parquet(output_path, compression="gzip")
+        df.to_parquet(output_path, compression="gzip")
     finally:
         logger.info(f"Moving {zip_path} to data/raw/extracted")
         shutil.rmtree(temp_dir)
         shutil.move(zip_path, "data/raw/extracted")
 
 
-def etl_pipeline(output_file, chunk_size, dtypes, city_boundaries):
+def etl_pipeline(output_file, chunk_size, dtypes, city_boundaries, stream=False):
+    logger = logging.getLogger("make_dataset")
 
-    # Load all csv files
-    zip_paths = sorted(
-        [
-            os.path.join("data/raw", file)
-            for file in os.listdir("data/raw")
-            if file.endswith(".csv.zip")
-        ]
-    )
-
-    # Process each csv file sequentially
-    for zip_path in zip_paths:
-        num_week = int(zip_path.split("_")[-1].split(".")[0])
-        output_path = f"data/processed/points_per_district_week_{num_week}.parquet"
-        process_csv_zip(
-            zip_path,
-            filter_func=points_in_boundaries,
-            city_boundaries=city_boundaries,
-            output_path=output_path,
-            chunk_size=chunk_size,
-            dtypes=dtypes,
+    if not stream:
+        # Load all csv files
+        zip_paths = sorted(
+            [
+                os.path.join("data/raw", file)
+                for file in os.listdir("data/raw")
+                if file.endswith(".csv.zip")
+            ]
         )
 
-    # Merge all processed parquet files
-    merge_processed_weeks(output_file)
+        # Process each csv file sequentially
+        for zip_path in zip_paths:
+            num_week = int(zip_path.split("_")[-1].split(".")[0])
+            output_path = f"data/processed/points_per_district_week_{num_week}.parquet"
+            process_csv_zip(
+                zip_path,
+                city_boundaries=city_boundaries,
+                filter_func=points_in_boundaries,
+                output_path=output_path,
+                chunk_size=chunk_size,
+                dtypes=dtypes,
+            )
+
+        # Merge all processed parquet files
+        merge_processed_weeks(output_file)
+    else:
+        # Process each csv file sequentially
+        csv_path = "src/data/raw/newdata.csv"
+
+        df = pd.read_csv(csv_path, dtype=dtypes)
+        df = points_in_boundaries(df, city_boundaries, ts_col="timestamp").reset_index(
+            drop=True
+        )
+
+        df = build_timeseries(df)
+        with db.make_connection().connect() as conn:
+            logger.info("Connected to Database")
+
+            i = 0
+            while True:
+                if os.listdir("src/data/raw"):
+                    df = pd.read_csv(csv_path, dtype=dtypes)
+                    print(f"Shape: {df.shape}")
+                    df = points_in_boundaries(
+                        df, city_boundaries, ts_col="timestamp"
+                    ).reset_index(drop=True)
+
+                    df = build_timeseries(df)
+                    print(f"Shape: {df.shape}")
+                    df.to_sql(
+                        "crowdedness",
+                        conn,
+                        if_exists="append",
+                        index=False,
+                        method="multi",
+                    )
+                    logger.info("Data pushed to database. Waiting for next batch")
+                    shutil.move(csv_path, f"src/data/processed/newdata_{i}.csv")
+                    conn.commit()
+                    i += 1
+                else:
+                    logger.warning(
+                        "No new data has been pulled. Waiting for 60 seconds"
+                    )
+
+                time.sleep(60)
 
 
 def merge_processed_weeks(output_file):
@@ -210,7 +264,7 @@ def feature_extraction(df, columns):
         "is_weekend": (df["timestamp"].dt.weekday >= 5).astype(np.uint8),
     }  # 4 Features
 
-    lagged_features = {}  # 12 Features per district
+    lagged_features = {}  # 19 Features per district
     rolling_features = {}  # len(windowds) * 5 Features per district
     exp_smoothing_features = {}  # len(windowds) Features per district
     windows = [5, 10, 15, 30] + [60 * i for i in range(1, 7)] + [60 * 24]
@@ -253,21 +307,6 @@ def feature_extraction(df, columns):
 def create_crowd_levels(df, target_district):
     target_column = f'{target_district.replace(" ", "_")}_c_lvl'
 
-    # mean_crowd = df[target_district].mean()
-    # std_crowd = df[target_district].std()
-
-    # bins = [
-    #     float("-inf"),
-    #     mean_crowd - 0.55 * (std_crowd if std_crowd != 0 else 1),
-    #     mean_crowd + 0.55 * (std_crowd if std_crowd != 0 else 1),
-    #     float("inf"),
-    # ]
-    # out = pd.cut(
-    #     df[target_district],
-    #     bins=bins,
-    #     labels=list(range(len(bins) - 1)),
-    #     include_lowest=True,
-    # ).astype(np.uint8)
     out = pd.qcut(
         df[target_district].rank(method="first"),
         q=[0, 0.3, 0.7, 1],
