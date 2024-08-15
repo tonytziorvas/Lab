@@ -1,10 +1,13 @@
 import os
+from contextlib import contextmanager
+from sqlite3 import OperationalError
+from typing import Literal
 
-import logger
 import pandas as pd
 from dotenv import load_dotenv
 from sqlalchemy import (
     Column,
+    Connection,
     Engine,
     Integer,
     MetaData,
@@ -13,71 +16,123 @@ from sqlalchemy import (
     create_engine,
     inspect,
 )
+from sqlalchemy.exc import SQLAlchemyError
+from sshtunnel import SSHTunnelForwarder
+
+from utils import logger
 
 logging = logger.setup_logger("database")
 
 
-def read_credentials():
-    load_dotenv("misc/.env")
+load_dotenv("misc/.env")
 
-    DB_USER = os.getenv("DB_USER")
-    DB_PASSWORD = os.getenv("DB_PASSWORD")
-    HOST = os.getenv("HOST")
-    PORT = os.getenv("PORT")
-    DB_NAME = os.getenv("DB_NAME")
+# SSH and DB configuration from environment variables
+SSH_HOST = os.getenv("SSH_HOST")
+SSH_PORT = int(os.getenv("SSH_PORT", 22))
+SSH_USER = os.getenv("SSH_USER")
+SSH_PASSWORD = os.getenv("SSH_PASSWORD")
 
-    return DB_USER, DB_PASSWORD, HOST, PORT, DB_NAME
-
-
-def make_connection(dialect: str = "psycopg2") -> Engine:
-    logging.info("Loading Database Credentials")
-    DB_USER, DB_PASSWORD, HOST, PORT, DB_NAME = read_credentials()
-    connection_string = (
-        f"postgresql+{dialect}://{DB_USER}:{DB_PASSWORD}@{HOST}:{PORT}/{DB_NAME}"
-    )
-
-    logging.info(f"Connecting to {DB_NAME} DB on {HOST}:{PORT}")
-    return create_engine(connection_string, echo=False)
+DB_HOST = os.getenv("DB_HOST")
+DB_PORT = int(os.getenv("DB_PORT", 5432))
+DB_NAME = os.getenv("DB_NAME")
+DB_USER = os.getenv("DB_USER")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
 
 
-def create_schema(push=False):
-    engine = make_connection()
+# TODO use the `create_ssh_tunnel` as a helper of create_db_engine
+@contextmanager
+def create_ssh_tunnel():
 
-    with engine.connect() as conn:
-        logging.info("Connection established")
-        try:
-            meta = MetaData()
+    tunnel = None
+    try:
+        logging.info("Setting up SSH tunnel")
+        tunnel = SSHTunnelForwarder(
+            (SSH_HOST, SSH_PORT),
+            ssh_username=SSH_USER,
+            ssh_password=SSH_PASSWORD,
+            remote_bind_address=(DB_HOST, DB_PORT),
+            local_bind_address=("127.0.0.1", 5432),
+        )
+        tunnel.start()
+        logging.info(f"SSH tunnel established on remote port {tunnel.local_bind_port}.")
+        yield tunnel
+    except Exception as e:
+        logging.error(f"Failed to establish SSH tunnel: {e}")
+        raise
+    finally:
+        if tunnel:
+            tunnel.stop()
+            logging.info("SSH tunnel closed.")
 
-            crowd_table = Table(
-                "crowdedness",
-                meta,
-                Column("id", Integer, primary_key=True, autoincrement=True),
-                Column("district_id", String(128), nullable=False),
-                Column("timestamp", Integer, nullable=False),
-                Column("crowd", Integer, nullable=False),
-            )
 
-            inspector = inspect(engine)
-            if inspector.has_table(crowd_table.name):
-                logging.info(f"Table {crowd_table.name} already exists")
+@contextmanager
+def create_db_engine(tunnel):
+    """
+    Creates a SQLAlchemy engine connected through the SSH tunnel.
+    Yields the engine for use in a with statement.
+    """
+    engine = None
+    try:
+        logging.info("Creating SQLAlchemy engine")
+        connection_string = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{tunnel.local_bind_port}/{DB_NAME}"
+
+        engine = create_engine(
+            connection_string, echo=False, pool_pre_ping=True, pool_recycle=3600
+        )
+        yield engine
+    except SQLAlchemyError as e:
+        logging.error(f"Failed to create engine or connect to database | {e}")
+        raise
+    finally:
+        if engine:
+            engine.dispose()
+            logging.info("SQLAlchemy engine disposed")
+
+
+def init_db(engine: Engine, push: bool = True) -> Literal[-1, 0, 1]:
+    table_name = "crowdedness"
+
+    try:
+        with engine.connect() as conn:
+            logging.info("Connection established")
+
+            if inspect(engine).has_table(table_name):
+                logging.info(f"Table {table_name} already exists")
             else:
-                logging.info(f"Creating table {crowd_table.name}")
-                crowd_table.create(engine)
-
-                logging.info("Database Initialized")
+                create_table(engine, table_name)
+                logging.info(f"Created table {table_name}")
 
             if push:
                 push_data(conn)
-        finally:
-            conn.commit()
-            engine.dispose()
+                return 1
+            return 0
+    except OperationalError as e:
+        logging.error(f"Connection failed | {e}")
+        return -1
 
 
-def push_data(conn):
+def create_table(engine: Engine, table_name: str):
+    meta = MetaData()
+    crowd_table = Table(
+        table_name,
+        meta,
+        Column("id", Integer, primary_key=True, autoincrement=True),
+        Column("district_id", String(128), nullable=False),
+        Column("timestamp", Integer, nullable=False),
+        Column("crowd", Integer, nullable=False),
+    )
+
+    crowd_table.create(engine)
+
+
+def push_data(
+    conn: Connection,
+    file_path: str = "data/final/points_per_district_full.parquet.gzip",
+    table_name: str = "crowdedness",
+):
     logging.info("Pushing data")
-    df = pd.read_parquet("data/final/points_per_district_full.parquet.gzip")
-    df.to_sql(
-        "crowdedness",
+    pd.read_parquet(file_path).to_sql(
+        table_name,
         con=conn,
         if_exists="append",
         index=False,
@@ -87,5 +142,24 @@ def push_data(conn):
     logging.info("Data pushed to database")
 
 
+def main():
+    try:
+        with create_ssh_tunnel() as tunnel:
+            with create_db_engine(tunnel) as engine:
+                logging.info("Database engine is ready for use")
+
+                with engine.connect():
+                    logging.info("Database connection established")
+                    query = (
+                        "SELECT * FROM crowdedness ORDER BY timestamp DESC LIMIT 10;"
+                    )
+
+                    df = pd.read_sql_query(query, engine)
+                    print(df.head())
+
+    except Exception as e:
+        logging.error(f"An error occurred during the process: {e}")
+
+
 if __name__ == "__main__":
-    create_schema(push=True)
+    main()

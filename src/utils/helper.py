@@ -1,16 +1,14 @@
 import logging
 import os
 import shutil
-import subprocess
 import tempfile
 import time
 import zipfile
-from typing import Callable, Dict, Optional, final
+from typing import Callable, Dict, Optional
 
 import geopandas as gpd
 import numpy as np
 import pandas as pd
-from flake8 import LOG
 from sklearn.compose import ColumnTransformer
 from sklearn.metrics import (
     balanced_accuracy_score,
@@ -23,9 +21,33 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from tqdm import tqdm
 
-from utils import db
+from utils.db import create_db_engine, create_ssh_tunnel
 
 TS_COL = "ts"
+
+
+def fetch_data(
+    chunk_size: int = 10**6,
+    last_day_included: bool = False,
+    last_api_call: bool = False,
+) -> pd.DataFrame:
+    table_name = "crowdedness"
+
+    logging.info(f"Querying {table_name} table")
+    with create_ssh_tunnel() as tunnel:
+        with create_db_engine(tunnel) as engine:
+            with engine.connect() as conn:
+                query = f"SELECT * FROM {table_name}"
+                if last_day_included:
+                    yesterday = "CURRENT_TIMESTAMP::timestamp - INTERVAL '1 day'"
+                    yesterday_epoch = f"(SELECT EXTRACT(EPOCH FROM ({yesterday})))"
+                    query += f" where timestamp >= {yesterday_epoch};"
+                elif last_api_call:
+                    max_ts = f"(SELECT MAX(timestamp) FROM {table_name})"
+                    query += f" WHERE timestamp = {max_ts};"
+
+                chunks = pd.read_sql_query(sql=query, con=conn, chunksize=chunk_size)
+            return pd.concat(chunks, ignore_index=True, axis=0)
 
 
 def count_rows_in_csv(file_path):
@@ -70,6 +92,7 @@ def points_in_boundaries(
     )
 
     merged = pd.merge(df_left, df_right, on="point_id")
+    merged = merged.drop(columns=["name", "created_at", "geometry", "cartodb_id"])
 
     # Map district_id to district names
     district_codes = dict(city_boundaries.iloc[merged.district_id.unique()]["name"])

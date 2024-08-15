@@ -3,23 +3,23 @@ import shutil
 from itertools import product
 
 import joblib
+import numpy as np
 import pandas as pd
 from lightgbm import LGBMClassifier
 from sklearn.metrics import f1_score, make_scorer
 from sklearn.model_selection import TimeSeriesSplit
 from xgboost import XGBClassifier
 
-from utils import helper, logger
+from utils import db, helper, logger
 
 
+# ? Should method chaining be applied to eliminate duplicate dfs
 def main():
-
-    df = pd.read_parquet("data/final/points_per_district_full.parquet.gzip")
-    df = helper.pivot_table(df)
-
+    df = helper.fetch_data("crowdedness", most_recent=False).pipe(helper.pivot_table)
     lagged_df = helper.feature_extraction(df, df.columns[1:]).reset_index(drop=True)
 
     target_columns = {}
+
     for target_district in df.columns[1:]:
         out, target_column = helper.create_crowd_levels(df, target_district)
         target_columns[target_column] = out
@@ -29,7 +29,7 @@ def main():
 
     lagged_df.set_index("timestamp", inplace=True)
 
-    # TODO store model variables in a config file
+    # todo: store model variables in a config file
     models = [
         LGBMClassifier(
             boosting_type="gbdt",
@@ -61,7 +61,8 @@ def main():
     n_targets = len(target_labels)
 
     for district in target_labels:
-        district_dir = f"models/{district.replace(' ', '_')}"
+        benchmarks = []
+        district_dir = f"models/{district}"
         logging.info(f"Training model for {district}")
 
         if os.path.exists(district_dir):
@@ -81,21 +82,20 @@ def main():
                 step,
             )
 
-            # num_features = X_train.select_dtypes(include=np.number).columns.tolist()
-            # pipeline = helper.build_pipeline(model, num_features)
-            pipeline = model
+            num_features = X_train.select_dtypes(include=np.number).columns.tolist()
+            pipeline = helper.build_pipeline(model, num_features)
+
             param_grid = {
-                # "classifier__n_estimators": np.arange(50, 300, 50),
-                # "classifier__max_depth": [3, 6, 10],
-                # "classifier__learning_rate": [0.01, 0.1, 0.3],
+                "classifier__n_estimators": np.arange(50, 300, 50),
+                "classifier__max_depth": [3, 6, 10],
+                "classifier__learning_rate": [0.01, 0.1, 0.3],
                 "classifier__subsample": [0.5, 0.7, 1.0],
-                # "classifier__colsample_bytree": [0.5, 0.8, 1.0],
-                # "classifier__reg_alpha": np.linspace(0.3, 1.0, 3).round(1),
-                # "classifier__reg_lambda": np.linspace(0.3, 1.0, 3).round(1),
+                "classifier__colsample_bytree": [0.5, 0.8, 1.0],
+                "classifier__reg_alpha": np.linspace(0.3, 1.0, 3).round(1),
+                "classifier__reg_lambda": np.linspace(0.3, 1.0, 3).round(1),
             }
             try:
                 if i == 0:
-
                     best_model = helper.grid_search(
                         pipeline,
                         param_grid,
@@ -116,12 +116,14 @@ def main():
 
                 y_pred = best_model.predict(X_test)
 
-                helper.log_metrics(step, y_test, best_model, y_pred)
+                metrics = helper.log_metrics(step, y_test, best_model, y_pred)
+                benchmarks.append(metrics)
             except ValueError as e:
                 logging.error(f"In model: {model_name} | {e}")
                 shutil.rmtree(district_dir)
                 break
             i += 1
+        benchmarks = pd.concat([*benchmarks], axis=0, ignore_index=True)
 
 
 if __name__ == "__main__":

@@ -58,3 +58,806 @@
 2024-07-31 10:36 - INFO - Database Initialized
 2024-07-31 10:36 - INFO - Pushing data
 2024-07-31 10:37 - INFO - Data pushed to database
+2024-07-31 12:14 - INFO - Loading Database Credentials
+2024-07-31 12:14 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-31 12:14 - INFO - Connection established
+2024-07-31 12:14 - INFO - Table crowdedness already exists
+2024-07-31 12:14 - INFO - Pushing data
+2024-07-31 12:15 - INFO - Loading Database Credentials
+2024-07-31 12:15 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-31 12:15 - INFO - Connection established
+2024-07-31 12:15 - INFO - Creating table crowdedness
+2024-07-31 12:15 - INFO - Database Initialized
+2024-07-31 12:15 - INFO - Loading Database Credentials
+2024-07-31 12:15 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-31 12:15 - INFO - Connection established
+2024-07-31 12:15 - INFO - Table crowdedness already exists
+2024-07-31 12:15 - INFO - Pushing data
+2024-07-31 12:16 - INFO - Data pushed to database
+2024-07-31 21:33 - INFO - Loading Database Credentials
+2024-07-31 21:33 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-31 21:34 - INFO - Loading Database Credentials
+2024-07-31 21:34 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-31 21:37 - INFO - Loading Database Credentials
+2024-07-31 21:37 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-31 21:47:10 - INFO - Loading Database Credentials
+2024-07-31 21:47:10 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-31 21:47:57 - INFO - Loading Database Credentials
+2024-07-31 21:47:57 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-31 21:54:56 - INFO - Loading Database Credentials
+2024-07-31 21:54:56 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-31 21:55:38 - INFO - Loading Database Credentials
+2024-07-31 21:55:38 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-31 22:00:28 - INFO - Loading Database Credentials
+2024-07-31 22:00:28 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-31 22:21:03 - INFO - Loading Database Credentials
+2024-07-31 22:21:03 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-31 22:21:27 - INFO - Loading Database Credentials
+2024-07-31 22:21:27 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-31 22:21:46 - INFO - Loading Database Credentials
+2024-07-31 22:21:46 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-31 23:23:05 - INFO - Loading Database Credentials
+2024-07-31 23:23:05 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-07-31 23:37:18 - INFO - Loading Database Credentials
+2024-07-31 23:37:18 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-08-01 11:25:48 - INFO - Loading Database Credentials
+2024-08-01 11:25:48 - INFO - Connecting to crowdedness DB on localhost:5432
+2024-08-07 11:12:55 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 11:12:55 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 11:12:56 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 11:12:56 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 11:12:56 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 11:12:56 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 11:12:56 - INFO - init_db:67 - Connection established
+2024-08-07 11:12:56 - INFO - init_db:73 - Created table crowdedness
+2024-08-07 11:12:56 - INFO - push_data:103 - Pushing data
+2024-08-07 11:13:46 - INFO - push_data:112 - Data pushed to database
+2024-08-07 11:25:08 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 11:25:08 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 11:25:08 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 11:28:01 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 11:28:01 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 11:28:01 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 11:32:08 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 11:32:08 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 11:32:08 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 11:35:51 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 11:35:51 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 11:35:51 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 11:36:09 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 11:36:09 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 11:36:09 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 11:36:53 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 11:36:53 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 11:36:53 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 11:49:04 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 11:49:04 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 11:49:04 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 11:49:34 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 11:49:34 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 11:49:34 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 12:01:03 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 12:01:03 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 12:01:03 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 12:01:05 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 12:01:05 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 12:01:05 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 12:01:17 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 12:01:17 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 12:01:17 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 12:01:19 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 12:01:19 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 12:01:19 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 12:01:43 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 12:01:43 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 12:01:43 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 12:01:45 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 12:01:45 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 12:01:45 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 12:04:00 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 12:04:00 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 12:04:00 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 12:04:02 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 12:04:02 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 12:04:02 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 14:56:15 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 14:56:15 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 14:56:15 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 14:56:41 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 14:56:41 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 14:56:41 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 15:02:05 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 15:02:05 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 15:02:05 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 15:02:33 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 15:02:33 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 15:02:33 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 15:04:58 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 15:04:58 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 15:04:58 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 15:23:16 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 15:23:16 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 15:23:16 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 15:23:41 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 15:23:41 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 15:23:41 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 15:24:03 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 15:24:03 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 15:24:03 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 15:24:42 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 15:24:42 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 15:24:42 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 15:31:59 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 15:31:59 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 15:31:59 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 15:33:09 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 15:33:09 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 15:33:09 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:34:52 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:34:52 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:34:52 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:35:22 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:35:22 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:35:22 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:35:56 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:35:56 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:35:56 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:36:46 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:36:46 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:36:46 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:36:58 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:36:58 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:36:58 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:37:12 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:37:12 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:37:12 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:37:15 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:37:15 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:37:15 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:37:22 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:37:22 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:37:22 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:37:24 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:37:24 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:37:24 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:38:57 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:38:57 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:38:57 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:49:33 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:49:33 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:49:34 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:50:14 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:50:14 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:50:14 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:50:17 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:50:17 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:50:17 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:50:18 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:50:18 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:50:18 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:50:18 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:50:18 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:50:19 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:50:55 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:50:55 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:50:55 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:52:23 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:52:23 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:52:23 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:53:47 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:53:47 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:53:47 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:56:31 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:56:31 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:56:31 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:57:10 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:57:10 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:57:10 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:58:31 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:58:31 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:58:31 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:58:40 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:58:40 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:58:40 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 19:59:10 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 19:59:10 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 19:59:11 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 20:00:05 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 20:00:05 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 20:00:05 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 20:00:16 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 20:00:16 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 20:00:16 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 20:03:25 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 20:03:25 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 20:03:25 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 20:05:15 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 20:05:15 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 20:05:15 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 20:06:19 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 20:06:19 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 20:06:19 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 20:09:10 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 20:09:10 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 20:09:10 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 20:10:01 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 20:10:01 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 20:10:01 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 20:11:17 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 20:11:17 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 20:11:18 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 20:39:48 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 20:39:48 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 20:39:48 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-07 20:40:32 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-07 20:40:32 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-07 20:40:32 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 11:05:55 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 11:05:55 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 11:05:55 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 11:15:24 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 11:15:24 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 11:15:24 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 11:16:46 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 11:16:46 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 11:16:46 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 11:46:16 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 11:46:16 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 11:46:16 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 11:47:14 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 11:47:14 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 11:47:14 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 11:48:00 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 11:48:00 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 11:48:00 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 11:48:17 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 11:48:17 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 11:48:17 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 11:51:52 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 11:51:52 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 11:51:52 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 11:51:58 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 11:51:58 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 11:51:58 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 11:52:04 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 11:52:04 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 11:52:04 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 11:52:07 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 11:52:07 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 11:52:07 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 11:52:15 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 11:52:15 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 11:52:15 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 11:52:17 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 11:52:17 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 11:52:17 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 11:52:18 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 11:52:18 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 11:52:19 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 11:52:29 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 11:52:29 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 11:52:29 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 11:52:57 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 11:52:57 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 11:52:57 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 11:53:11 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 11:53:11 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 11:53:11 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 11:53:48 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 11:53:48 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 11:53:48 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 12:03:45 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 12:03:45 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 12:03:45 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 12:19:36 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 12:19:36 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 12:19:36 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 12:55:59 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 12:55:59 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 12:55:59 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 12:56:39 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 12:56:39 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 12:56:39 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 13:11:25 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 13:11:25 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 13:11:25 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 13:11:42 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 13:11:42 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 13:11:42 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 13:12:14 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 13:12:14 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 13:12:14 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 13:12:54 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 13:12:54 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 13:12:54 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 13:13:23 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 13:13:23 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 13:13:23 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 13:16:04 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 13:16:04 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 13:16:04 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 14:18:06 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 14:18:06 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 14:18:06 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 14:18:48 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 14:18:48 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 14:18:48 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 14:20:39 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 14:20:39 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 14:20:39 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 14:29:23 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 14:29:23 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 14:29:23 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 14:30:18 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 14:30:18 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 14:30:18 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 14:35:39 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 14:35:39 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 14:35:40 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 14:36:35 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 14:36:35 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 14:36:36 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 14:36:51 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 14:36:51 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 14:36:51 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 14:38:29 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 14:38:29 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 14:38:29 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 14:45:30 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 14:45:30 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 14:45:30 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 14:48:09 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 14:48:09 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 14:48:09 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 14:48:57 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 14:48:57 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 14:48:57 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 14:58:29 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 14:58:29 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 14:58:29 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 14:59:15 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 14:59:15 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 14:59:15 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 14:59:32 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 14:59:32 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 14:59:32 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 15:01:46 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 15:01:46 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 15:01:46 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 15:02:22 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 15:02:22 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 15:02:22 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 15:02:58 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 15:02:58 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 15:02:58 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 15:03:28 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 15:03:28 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 15:03:28 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 15:04:00 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 15:04:00 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 15:04:00 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 15:05:30 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 15:05:30 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 15:05:30 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 15:07:37 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 15:07:37 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 15:07:37 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 15:08:39 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 15:08:39 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 15:08:39 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 15:09:21 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 15:09:21 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 15:09:21 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 15:10:34 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 15:10:34 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 15:10:34 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 15:42:07 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 15:42:07 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 15:42:07 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 15:42:29 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 15:42:29 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 15:42:29 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 15:43:24 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 15:43:24 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 15:43:24 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 15:46:06 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 15:46:06 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 15:46:06 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 15:47:00 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 15:47:00 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 15:47:00 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 15:48:04 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 15:48:04 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 15:48:04 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 16:01:39 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 16:01:39 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 16:01:39 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 16:04:24 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 16:04:24 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 16:04:24 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 16:04:29 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 16:04:29 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 16:04:29 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 16:04:52 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 16:04:52 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 16:04:52 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 16:05:59 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 16:05:59 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 16:05:59 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-10 16:41:08 - INFO - make_connection:38 - Loading Database Credentials
+2024-08-10 16:41:08 - INFO - make_connection:44 - Connecting to crowdedness DB on localhost:5432
+2024-08-10 16:41:08 - INFO - make_connection:53 - Database crowdedness exists
+2024-08-12 10:31:41 - INFO - make_connection:48 - Loading Database Credentials
+2024-08-12 10:31:41 - INFO - make_connection:53 - Setting up SSH tunnel to snf-895612.vm.okeanos.grnet.gr
+2024-08-12 10:34:13 - INFO - make_connection:59 - Loading Database Credentials
+2024-08-12 10:34:13 - INFO - make_connection:64 - Setting up SSH tunnel to snf-895612.vm.okeanos.grnet.gr
+2024-08-12 11:55:05 - INFO - make_connection:59 - Loading Database Credentials
+2024-08-12 11:55:05 - INFO - make_connection:64 - Setting up SSH tunnel to snf-895612.vm.okeanos.grnet.gr
+2024-08-12 12:01:17 - INFO - make_connection:56 - Loading Database Credentials
+2024-08-12 12:01:17 - INFO - make_connection:70 - Setting up SSH tunnel to snf-895612.vm.okeanos.grnet.gr
+2024-08-12 12:01:18 - INFO - make_connection:81 - SSH Tunnel established on local port: 5432
+2024-08-12 12:01:18 - INFO - make_connection:85 - Connecting to crowdedness DB on localhost:5432
+2024-08-12 12:11:26 - INFO - make_connection:52 - Loading Database Credentials
+2024-08-12 12:11:26 - INFO - make_connection:66 - Setting up SSH tunnel to snf-895612.vm.okeanos.grnet.gr
+2024-08-12 12:11:26 - INFO - make_connection:76 - SSH Tunnel established on remote port: 5432
+2024-08-12 12:11:26 - INFO - make_connection:80 - Connecting to crowdedness DB on localhost:5432
+2024-08-12 12:13:43 - INFO - make_connection:52 - Loading Database Credentials
+2024-08-12 12:13:43 - INFO - make_connection:66 - Setting up SSH tunnel to snf-895612.vm.okeanos.grnet.gr
+2024-08-12 12:13:44 - INFO - make_connection:76 - SSH Tunnel established on remote port: 5432
+2024-08-12 12:13:44 - INFO - make_connection:80 - Connecting to crowdedness DB on localhost:5432
+2024-08-12 12:15:23 - INFO - make_connection:52 - Loading Database Credentials
+2024-08-12 12:15:23 - INFO - make_connection:66 - Setting up SSH tunnel to snf-895612.vm.okeanos.grnet.gr
+2024-08-12 12:15:24 - INFO - make_connection:76 - SSH Tunnel established on remote port: 5432
+2024-08-12 12:15:24 - INFO - make_connection:80 - Connecting to crowdedness DB on localhost:5432
+2024-08-12 12:16:05 - INFO - make_connection:52 - Loading Database Credentials
+2024-08-12 12:16:05 - INFO - make_connection:66 - Setting up SSH tunnel to snf-895612.vm.okeanos.grnet.gr
+2024-08-12 12:16:06 - INFO - make_connection:76 - SSH Tunnel established on remote port: 5432
+2024-08-12 12:16:06 - INFO - make_connection:80 - Connecting to crowdedness DB on postgres:5432
+2024-08-12 13:12:41 - INFO - create_ssh_tunnel:37 - Setting up SSH tunnel...
+2024-08-12 13:12:42 - INFO - create_ssh_tunnel:46 - SSH tunnel established on remote port 6543.
+2024-08-12 13:12:42 - INFO - create_db_engine:65 - Creating SQLAlchemy engine...
+2024-08-12 13:12:42 - INFO - create_db_engine:68 - SQLAlchemy engine created.
+2024-08-12 13:12:42 - INFO - main:83 - Database engine is ready for use.
+2024-08-12 13:12:44 - ERROR - create_db_engine:71 - Failed to create SQLAlchemy engine: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 6543 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:12:44 - INFO - create_db_engine:76 - SQLAlchemy engine disposed.
+2024-08-12 13:12:44 - ERROR - create_ssh_tunnel:49 - Failed to establish SSH tunnel: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 6543 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:12:44 - INFO - create_ssh_tunnel:54 - SSH tunnel closed.
+2024-08-12 13:12:44 - ERROR - main:90 - An error occurred during the process: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 6543 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:15:22 - INFO - create_ssh_tunnel:38 - Setting up SSH tunnel...
+2024-08-12 13:15:23 - INFO - create_ssh_tunnel:47 - SSH tunnel established on remote port 5432.
+2024-08-12 13:15:23 - INFO - create_db_engine:66 - Creating SQLAlchemy engine...
+2024-08-12 13:15:23 - INFO - create_db_engine:69 - SQLAlchemy engine created.
+2024-08-12 13:15:23 - INFO - main:84 - Database engine is ready for use.
+2024-08-12 13:15:24 - ERROR - create_db_engine:72 - Failed to create SQLAlchemy engine: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:15:24 - INFO - create_db_engine:77 - SQLAlchemy engine disposed.
+2024-08-12 13:15:24 - ERROR - create_ssh_tunnel:50 - Failed to establish SSH tunnel: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:15:24 - INFO - create_ssh_tunnel:55 - SSH tunnel closed.
+2024-08-12 13:15:24 - ERROR - main:94 - An error occurred during the process: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:19:24 - INFO - create_ssh_tunnel:38 - Setting up SSH tunnel...
+2024-08-12 13:19:25 - INFO - create_ssh_tunnel:47 - SSH tunnel established on remote port 5432.
+2024-08-12 13:19:25 - INFO - create_db_engine:66 - Creating SQLAlchemy engine...
+2024-08-12 13:19:25 - INFO - create_db_engine:68 - Connecting to crowdedness DB on postgres:5432
+2024-08-12 13:19:25 - INFO - create_db_engine:75 - SQLAlchemy engine created.
+2024-08-12 13:19:25 - INFO - main:90 - Database engine is ready for use.
+2024-08-12 13:19:25 - ERROR - create_db_engine:78 - Failed to create SQLAlchemy engine: (psycopg2.OperationalError) could not translate host name "postgres" to address: nodename nor servname provided, or not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:19:25 - INFO - create_db_engine:83 - SQLAlchemy engine disposed.
+2024-08-12 13:19:25 - ERROR - create_ssh_tunnel:50 - Failed to establish SSH tunnel: (psycopg2.OperationalError) could not translate host name "postgres" to address: nodename nor servname provided, or not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:19:25 - INFO - create_ssh_tunnel:55 - SSH tunnel closed.
+2024-08-12 13:19:25 - ERROR - main:100 - An error occurred during the process: (psycopg2.OperationalError) could not translate host name "postgres" to address: nodename nor servname provided, or not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:20:49 - INFO - create_ssh_tunnel:38 - Setting up SSH tunnel...
+2024-08-12 13:20:50 - INFO - create_ssh_tunnel:47 - SSH tunnel established on remote port 5432.
+2024-08-12 13:20:50 - INFO - create_db_engine:66 - Creating SQLAlchemy engine...
+2024-08-12 13:20:50 - INFO - create_db_engine:68 - Connecting to crowdedness DB on localhost:5432
+2024-08-12 13:20:50 - INFO - create_db_engine:75 - SQLAlchemy engine created.
+2024-08-12 13:20:50 - INFO - main:90 - Database engine is ready for use.
+2024-08-12 13:20:50 - ERROR - create_db_engine:78 - Failed to create SQLAlchemy engine: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:20:50 - INFO - create_db_engine:83 - SQLAlchemy engine disposed.
+2024-08-12 13:20:50 - ERROR - create_ssh_tunnel:50 - Failed to establish SSH tunnel: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:20:50 - INFO - create_ssh_tunnel:55 - SSH tunnel closed.
+2024-08-12 13:20:50 - ERROR - main:100 - An error occurred during the process: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:23:22 - INFO - create_ssh_tunnel:38 - Setting up SSH tunnel...
+2024-08-12 13:23:22 - INFO - create_ssh_tunnel:47 - SSH tunnel established on remote port 5432.
+2024-08-12 13:23:22 - INFO - create_db_engine:66 - Creating SQLAlchemy engine...
+2024-08-12 13:23:22 - INFO - create_db_engine:68 - Connecting to crowdedness DB on localhost:5000
+2024-08-12 13:23:22 - INFO - create_db_engine:75 - SQLAlchemy engine created.
+2024-08-12 13:23:22 - INFO - main:90 - Database engine is ready for use.
+2024-08-12 13:23:22 - ERROR - create_db_engine:78 - Failed to create SQLAlchemy engine: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:23:22 - INFO - create_db_engine:83 - SQLAlchemy engine disposed.
+2024-08-12 13:23:22 - ERROR - create_ssh_tunnel:50 - Failed to establish SSH tunnel: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:23:22 - INFO - create_ssh_tunnel:55 - SSH tunnel closed.
+2024-08-12 13:23:22 - ERROR - main:100 - An error occurred during the process: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:34:32 - INFO - create_ssh_tunnel:38 - Setting up SSH tunnel...
+2024-08-12 13:34:32 - INFO - create_ssh_tunnel:47 - SSH tunnel established on remote port 5432.
+2024-08-12 13:34:32 - INFO - create_db_engine:66 - Creating SQLAlchemy engine...
+2024-08-12 13:34:32 - INFO - create_db_engine:68 - Connecting to crowdedness DB on localhost:5432
+2024-08-12 13:34:32 - INFO - create_db_engine:75 - SQLAlchemy engine created.
+2024-08-12 13:34:32 - INFO - main:90 - Database engine is ready for use.
+2024-08-12 13:34:32 - ERROR - create_db_engine:78 - Failed to create SQLAlchemy engine: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:34:32 - INFO - create_db_engine:83 - SQLAlchemy engine disposed.
+2024-08-12 13:34:32 - ERROR - create_ssh_tunnel:50 - Failed to establish SSH tunnel: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:34:32 - INFO - create_ssh_tunnel:55 - SSH tunnel closed.
+2024-08-12 13:34:32 - ERROR - main:100 - An error occurred during the process: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:34:48 - INFO - create_ssh_tunnel:38 - Setting up SSH tunnel...
+2024-08-12 13:34:49 - INFO - create_ssh_tunnel:47 - SSH tunnel established on remote port 5432.
+2024-08-12 13:34:49 - INFO - create_db_engine:66 - Creating SQLAlchemy engine...
+2024-08-12 13:34:49 - INFO - create_db_engine:68 - Connecting to crowdedness DB on localhost:5432
+2024-08-12 13:34:49 - INFO - create_db_engine:75 - SQLAlchemy engine created.
+2024-08-12 13:34:49 - INFO - main:90 - Database engine is ready for use.
+2024-08-12 13:34:49 - ERROR - create_db_engine:78 - Failed to create SQLAlchemy engine: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:34:49 - INFO - create_db_engine:83 - SQLAlchemy engine disposed.
+2024-08-12 13:34:49 - ERROR - create_ssh_tunnel:50 - Failed to establish SSH tunnel: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:34:49 - INFO - create_ssh_tunnel:55 - SSH tunnel closed.
+2024-08-12 13:34:49 - ERROR - main:100 - An error occurred during the process: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:36:03 - INFO - create_ssh_tunnel:38 - Setting up SSH tunnel...
+2024-08-12 13:36:04 - INFO - create_ssh_tunnel:47 - SSH tunnel established on remote port 5432.
+2024-08-12 13:36:04 - INFO - create_db_engine:66 - Creating SQLAlchemy engine...
+2024-08-12 13:36:04 - INFO - create_db_engine:70 - Connecting to crowdedness DB on localhost:5432
+2024-08-12 13:36:04 - INFO - create_db_engine:77 - SQLAlchemy engine created.
+2024-08-12 13:36:04 - INFO - main:92 - Database engine is ready for use.
+2024-08-12 13:36:04 - ERROR - create_db_engine:80 - Failed to create SQLAlchemy engine: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:36:04 - INFO - create_db_engine:85 - SQLAlchemy engine disposed.
+2024-08-12 13:36:04 - ERROR - create_ssh_tunnel:50 - Failed to establish SSH tunnel: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:36:04 - INFO - create_ssh_tunnel:55 - SSH tunnel closed.
+2024-08-12 13:36:04 - ERROR - main:102 - An error occurred during the process: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:46:16 - INFO - create_ssh_tunnel:38 - Setting up SSH tunnel...
+2024-08-12 13:46:17 - INFO - create_ssh_tunnel:47 - SSH tunnel established on remote port 5432.
+2024-08-12 13:46:17 - INFO - create_db_engine:66 - Creating SQLAlchemy engine...
+2024-08-12 13:46:17 - INFO - create_db_engine:70 - Connecting to crowdedness DB on localhost:5432
+2024-08-12 13:46:17 - INFO - create_db_engine:77 - SQLAlchemy engine created.
+2024-08-12 13:46:17 - INFO - main:92 - Database engine is ready for use.
+2024-08-12 13:46:17 - ERROR - create_db_engine:80 - Failed to create SQLAlchemy engine: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:46:17 - INFO - create_db_engine:85 - SQLAlchemy engine disposed.
+2024-08-12 13:46:17 - ERROR - create_ssh_tunnel:50 - Failed to establish SSH tunnel: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:46:17 - INFO - create_ssh_tunnel:55 - SSH tunnel closed.
+2024-08-12 13:46:17 - ERROR - main:102 - An error occurred during the process: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:47:31 - INFO - create_ssh_tunnel:38 - Setting up SSH tunnel...
+2024-08-12 13:47:32 - INFO - create_ssh_tunnel:47 - SSH tunnel established on remote port 5432.
+2024-08-12 13:47:32 - INFO - create_db_engine:66 - Creating SQLAlchemy engine...
+2024-08-12 13:47:32 - INFO - create_db_engine:70 - Connecting to crowdedness DB on localhost:5432
+2024-08-12 13:47:32 - INFO - create_db_engine:77 - SQLAlchemy engine created.
+2024-08-12 13:47:32 - INFO - main:92 - Database engine is ready for use.
+2024-08-12 13:47:32 - ERROR - create_db_engine:80 - Failed to create SQLAlchemy engine: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:47:32 - INFO - create_db_engine:85 - SQLAlchemy engine disposed.
+2024-08-12 13:47:32 - ERROR - create_ssh_tunnel:50 - Failed to establish SSH tunnel: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:47:32 - INFO - create_ssh_tunnel:55 - SSH tunnel closed.
+2024-08-12 13:47:32 - ERROR - main:102 - An error occurred during the process: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-12 13:51:04 - INFO - create_ssh_tunnel:38 - Setting up SSH tunnel...
+2024-08-12 13:51:05 - INFO - create_ssh_tunnel:47 - SSH tunnel established on remote port 5432.
+2024-08-12 13:51:05 - INFO - create_db_engine:66 - Creating SQLAlchemy engine...
+2024-08-12 13:51:05 - INFO - create_db_engine:70 - Connecting to crowdedness DB on localhost:5000
+2024-08-12 13:51:05 - INFO - create_db_engine:77 - SQLAlchemy engine created.
+2024-08-12 13:51:05 - INFO - main:92 - Database engine is ready for use.
+2024-08-12 14:06:10 - INFO - create_ssh_tunnel:34 - Setting up SSH tunnel
+2024-08-12 14:06:10 - INFO - create_ssh_tunnel:43 - SSH tunnel established on remote port 5432.
+2024-08-12 14:06:10 - INFO - create_db_engine:62 - Creating SQLAlchemy engine
+2024-08-12 14:06:10 - INFO - create_db_engine:66 - Connecting to crowdedness DB on localhost:5000
+2024-08-12 14:06:10 - INFO - create_db_engine:73 - SQLAlchemy engine created.
+2024-08-12 14:06:10 - INFO - main:88 - Database engine is ready for use.
+2024-08-12 14:12:44 - INFO - create_ssh_tunnel:34 - Setting up SSH tunnel
+2024-08-12 14:12:45 - INFO - create_ssh_tunnel:43 - SSH tunnel established on remote port 5432.
+2024-08-12 14:12:45 - INFO - create_db_engine:62 - Creating SQLAlchemy engine
+2024-08-12 14:12:47 - INFO - create_db_engine:70 - Database connection successful.
+2024-08-12 14:12:47 - INFO - main:85 - Database engine is ready for use
+2024-08-12 14:12:47 - INFO - main:88 - Database connection established
+2024-08-12 14:12:48 - INFO - create_db_engine:78 - SQLAlchemy engine disposed
+2024-08-12 14:12:48 - INFO - create_ssh_tunnel:51 - SSH tunnel closed.
+2024-08-12 14:13:22 - INFO - create_ssh_tunnel:34 - Setting up SSH tunnel
+2024-08-12 14:13:23 - INFO - create_ssh_tunnel:43 - SSH tunnel established on remote port 5432.
+2024-08-12 14:13:23 - INFO - create_db_engine:62 - Creating SQLAlchemy engine
+2024-08-12 14:13:23 - INFO - main:85 - Database engine is ready for use
+2024-08-12 14:13:23 - INFO - main:88 - Database connection established
+2024-08-12 14:13:24 - INFO - create_db_engine:78 - SQLAlchemy engine disposed
+2024-08-12 14:13:24 - INFO - create_ssh_tunnel:51 - SSH tunnel closed.
+2024-08-12 14:13:36 - INFO - create_ssh_tunnel:34 - Setting up SSH tunnel
+2024-08-12 14:13:37 - INFO - create_ssh_tunnel:43 - SSH tunnel established on remote port 5432.
+2024-08-12 14:13:37 - INFO - create_db_engine:62 - Creating SQLAlchemy engine
+2024-08-12 14:13:37 - INFO - main:85 - Database engine is ready for use
+2024-08-12 14:13:38 - INFO - main:88 - Database connection established
+2024-08-12 14:13:38 - INFO - create_db_engine:78 - SQLAlchemy engine disposed
+2024-08-12 14:13:38 - INFO - create_ssh_tunnel:51 - SSH tunnel closed.
+2024-08-12 14:14:26 - INFO - create_ssh_tunnel:34 - Setting up SSH tunnel
+2024-08-12 14:14:27 - INFO - create_ssh_tunnel:43 - SSH tunnel established on remote port 5432.
+2024-08-12 14:14:27 - INFO - create_db_engine:62 - Creating SQLAlchemy engine
+2024-08-12 14:14:27 - INFO - main:85 - Database engine is ready for use
+2024-08-12 14:14:28 - INFO - main:88 - Database connection established
+2024-08-12 14:14:29 - INFO - create_db_engine:78 - SQLAlchemy engine disposed
+2024-08-12 14:14:29 - INFO - create_ssh_tunnel:51 - SSH tunnel closed.
+2024-08-12 14:17:17 - INFO - create_ssh_tunnel:34 - Setting up SSH tunnel
+2024-08-12 14:17:18 - INFO - create_ssh_tunnel:43 - SSH tunnel established on remote port 5432.
+2024-08-12 14:17:18 - INFO - create_db_engine:62 - Creating SQLAlchemy engine
+2024-08-12 14:17:18 - INFO - main:85 - Database engine is ready for use
+2024-08-12 14:17:20 - INFO - main:88 - Database connection established
+2024-08-12 14:17:20 - INFO - create_db_engine:78 - SQLAlchemy engine disposed
+2024-08-12 14:17:20 - INFO - create_ssh_tunnel:51 - SSH tunnel closed.
+2024-08-15 09:42:57 - INFO - create_ssh_tunnel:45 - Setting up SSH tunnel
+2024-08-15 09:42:58 - INFO - create_ssh_tunnel:54 - SSH tunnel established on remote port 5432.
+2024-08-15 09:42:58 - INFO - create_db_engine:73 - Creating SQLAlchemy engine
+2024-08-15 09:42:58 - INFO - main:149 - Database engine is ready for use
+2024-08-15 09:42:58 - ERROR - create_db_engine:84 - Failed to create engine or connect to database | (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-15 09:42:58 - INFO - create_db_engine:89 - SQLAlchemy engine disposed
+2024-08-15 09:42:58 - ERROR - create_ssh_tunnel:57 - Failed to establish SSH tunnel: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-15 09:42:58 - INFO - create_ssh_tunnel:62 - SSH tunnel closed.
+2024-08-15 09:42:58 - ERROR - main:161 - An error occurred during the process: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "enigma21"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-15 09:43:12 - INFO - create_ssh_tunnel:45 - Setting up SSH tunnel
+2024-08-15 09:43:13 - INFO - create_ssh_tunnel:54 - SSH tunnel established on remote port 5432.
+2024-08-15 09:43:13 - INFO - create_db_engine:73 - Creating SQLAlchemy engine
+2024-08-15 09:43:13 - INFO - main:149 - Database engine is ready for use
+2024-08-15 09:43:14 - INFO - main:152 - Database connection established
+2024-08-15 09:43:15 - INFO - create_db_engine:89 - SQLAlchemy engine disposed
+2024-08-15 09:43:15 - INFO - create_ssh_tunnel:62 - SSH tunnel closed.
+2024-08-15 09:43:58 - INFO - create_ssh_tunnel:45 - Setting up SSH tunnel
+2024-08-15 09:43:59 - INFO - create_ssh_tunnel:54 - SSH tunnel established on remote port 5432.
+2024-08-15 09:43:59 - INFO - create_db_engine:73 - Creating SQLAlchemy engine
+2024-08-15 09:43:59 - INFO - main:149 - Database engine is ready for use
+2024-08-15 09:44:01 - INFO - main:152 - Database connection established
+2024-08-15 09:44:02 - INFO - create_db_engine:89 - SQLAlchemy engine disposed
+2024-08-15 09:44:02 - INFO - create_ssh_tunnel:62 - SSH tunnel closed.
+2024-08-15 11:25:52 - INFO - create_ssh_tunnel:48 - Setting up SSH tunnel
+2024-08-15 11:25:53 - INFO - create_ssh_tunnel:57 - SSH tunnel established on remote port 5432.
+2024-08-15 11:25:53 - INFO - create_db_engine:76 - Creating SQLAlchemy engine
+2024-08-15 11:25:56 - ERROR - create_db_engine:84 - Failed to create engine or connect to database | (psycopg2.errors.SyntaxError) syntax error at or near "1"
+LINE 1: ... FROM crowdedness WHERE timestamp >= NOW() - INTERVAL 1 DAY;
+                                                                 ^
+
+[SQL: SELECT * FROM crowdedness WHERE timestamp >= NOW() - INTERVAL 1 DAY;]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-08-15 11:25:56 - INFO - create_db_engine:89 - SQLAlchemy engine disposed
+2024-08-15 11:25:56 - ERROR - create_ssh_tunnel:60 - Failed to establish SSH tunnel: (psycopg2.errors.SyntaxError) syntax error at or near "1"
+LINE 1: ... FROM crowdedness WHERE timestamp >= NOW() - INTERVAL 1 DAY;
+                                                                 ^
+
+[SQL: SELECT * FROM crowdedness WHERE timestamp >= NOW() - INTERVAL 1 DAY;]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-08-15 11:25:56 - INFO - create_ssh_tunnel:65 - SSH tunnel closed.
+2024-08-15 11:27:19 - INFO - create_ssh_tunnel:48 - Setting up SSH tunnel
+2024-08-15 11:27:20 - INFO - create_ssh_tunnel:57 - SSH tunnel established on remote port 5432.
+2024-08-15 11:27:20 - INFO - create_db_engine:76 - Creating SQLAlchemy engine
+2024-08-15 11:27:22 - ERROR - create_db_engine:84 - Failed to create engine or connect to database | (psycopg2.errors.UndefinedFunction) operator does not exist: integer >= timestamp with time zone
+LINE 1: SELECT * FROM crowdedness WHERE timestamp >= NOW() - INTERVA...
+                                                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT * FROM crowdedness WHERE timestamp >= NOW() - INTERVAL '1 DAY';]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-08-15 11:27:22 - INFO - create_db_engine:89 - SQLAlchemy engine disposed
+2024-08-15 11:27:22 - ERROR - create_ssh_tunnel:60 - Failed to establish SSH tunnel: (psycopg2.errors.UndefinedFunction) operator does not exist: integer >= timestamp with time zone
+LINE 1: SELECT * FROM crowdedness WHERE timestamp >= NOW() - INTERVA...
+                                                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT * FROM crowdedness WHERE timestamp >= NOW() - INTERVAL '1 DAY';]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-08-15 11:27:23 - INFO - create_ssh_tunnel:65 - SSH tunnel closed.
+2024-08-15 12:26:52 - INFO - create_ssh_tunnel:48 - Setting up SSH tunnel
+2024-08-15 12:26:55 - INFO - create_ssh_tunnel:57 - SSH tunnel established on remote port 5432.
+2024-08-15 12:26:55 - INFO - create_db_engine:76 - Creating SQLAlchemy engine
+2024-08-15 12:26:59 - INFO - create_db_engine:89 - SQLAlchemy engine disposed
+2024-08-15 12:26:59 - INFO - create_ssh_tunnel:65 - SSH tunnel closed.
+2024-08-15 12:57:05 - INFO - create_ssh_tunnel:48 - Setting up SSH tunnel
+2024-08-15 12:57:06 - INFO - create_ssh_tunnel:57 - SSH tunnel established on remote port 5432.
+2024-08-15 12:57:06 - INFO - create_db_engine:76 - Creating SQLAlchemy engine
+2024-08-15 12:57:10 - INFO - create_db_engine:89 - SQLAlchemy engine disposed
+2024-08-15 12:57:10 - INFO - create_ssh_tunnel:65 - SSH tunnel closed.
+2024-08-15 12:57:17 - INFO - create_ssh_tunnel:48 - Setting up SSH tunnel
+2024-08-15 12:57:18 - INFO - create_ssh_tunnel:57 - SSH tunnel established on remote port 5432.
+2024-08-15 12:57:18 - INFO - create_db_engine:76 - Creating SQLAlchemy engine
+2024-08-15 12:57:21 - INFO - create_db_engine:89 - SQLAlchemy engine disposed
+2024-08-15 12:57:21 - INFO - create_ssh_tunnel:65 - SSH tunnel closed.
+2024-08-15 13:51:35 - INFO - create_ssh_tunnel:48 - Setting up SSH tunnel
+2024-08-15 13:51:35 - INFO - create_ssh_tunnel:57 - SSH tunnel established on remote port 5432.
+2024-08-15 13:51:35 - INFO - create_db_engine:76 - Creating SQLAlchemy engine
+2024-08-15 13:51:39 - INFO - create_db_engine:89 - SQLAlchemy engine disposed
+2024-08-15 13:51:39 - INFO - create_ssh_tunnel:65 - SSH tunnel closed.
+2024-08-15 13:51:43 - INFO - create_ssh_tunnel:48 - Setting up SSH tunnel
+2024-08-15 13:51:44 - INFO - create_ssh_tunnel:57 - SSH tunnel established on remote port 5432.
+2024-08-15 13:51:44 - INFO - create_db_engine:76 - Creating SQLAlchemy engine
+2024-08-15 13:51:47 - INFO - create_db_engine:89 - SQLAlchemy engine disposed
+2024-08-15 13:51:47 - INFO - create_ssh_tunnel:65 - SSH tunnel closed.
+2024-08-15 13:51:52 - INFO - create_ssh_tunnel:48 - Setting up SSH tunnel
+2024-08-15 13:51:53 - INFO - create_ssh_tunnel:57 - SSH tunnel established on remote port 5432.
+2024-08-15 13:51:53 - INFO - create_db_engine:76 - Creating SQLAlchemy engine
+2024-08-15 13:51:57 - INFO - create_db_engine:89 - SQLAlchemy engine disposed
+2024-08-15 13:51:57 - INFO - create_ssh_tunnel:65 - SSH tunnel closed.
+2024-08-15 13:51:58 - INFO - create_ssh_tunnel:48 - Setting up SSH tunnel
+2024-08-15 13:51:59 - INFO - create_ssh_tunnel:57 - SSH tunnel established on remote port 5432.
+2024-08-15 13:51:59 - INFO - create_db_engine:76 - Creating SQLAlchemy engine
+2024-08-15 13:52:03 - INFO - create_db_engine:89 - SQLAlchemy engine disposed
+2024-08-15 13:52:03 - INFO - create_ssh_tunnel:65 - SSH tunnel closed.
+2024-08-15 14:12:52 - INFO - create_ssh_tunnel:48 - Setting up SSH tunnel
+2024-08-15 14:12:53 - INFO - create_ssh_tunnel:57 - SSH tunnel established on remote port 5432.
+2024-08-15 14:12:53 - INFO - create_db_engine:76 - Creating SQLAlchemy engine
+2024-08-15 14:12:58 - INFO - create_db_engine:89 - SQLAlchemy engine disposed
+2024-08-15 14:12:58 - INFO - create_ssh_tunnel:65 - SSH tunnel closed.
+2024-08-15 14:13:29 - INFO - create_ssh_tunnel:48 - Setting up SSH tunnel
+2024-08-15 14:13:30 - INFO - create_ssh_tunnel:57 - SSH tunnel established on remote port 5432.
+2024-08-15 14:13:30 - INFO - create_db_engine:76 - Creating SQLAlchemy engine
+2024-08-15 14:13:33 - INFO - create_db_engine:89 - SQLAlchemy engine disposed
+2024-08-15 14:13:33 - INFO - create_ssh_tunnel:65 - SSH tunnel closed.
+2024-08-15 14:13:45 - INFO - create_ssh_tunnel:48 - Setting up SSH tunnel
+2024-08-15 14:13:46 - INFO - create_ssh_tunnel:57 - SSH tunnel established on remote port 5432.
+2024-08-15 14:13:46 - INFO - create_db_engine:76 - Creating SQLAlchemy engine
+2024-08-15 14:13:50 - INFO - create_db_engine:89 - SQLAlchemy engine disposed
+2024-08-15 14:13:50 - INFO - create_ssh_tunnel:65 - SSH tunnel closed.
+2024-08-15 14:13:53 - INFO - create_ssh_tunnel:48 - Setting up SSH tunnel
+2024-08-15 14:13:54 - INFO - create_ssh_tunnel:57 - SSH tunnel established on remote port 5432.
+2024-08-15 14:13:54 - INFO - create_db_engine:76 - Creating SQLAlchemy engine
+2024-08-15 14:13:57 - INFO - create_db_engine:89 - SQLAlchemy engine disposed
+2024-08-15 14:13:57 - INFO - create_ssh_tunnel:65 - SSH tunnel closed.

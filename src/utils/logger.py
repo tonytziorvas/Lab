@@ -18,9 +18,9 @@ def setup_logger(name: str, level: int = logging.INFO):
 
         # Define format for logs
         formatter = logging.Formatter(
-            fmt="{asctime} - {levelname} - {message}",
+            fmt="{asctime} - {levelname} - {funcName}:{lineno} - {message}",
             style="{",
-            datefmt="%Y-%m-%d %H:%M",
+            datefmt="%Y-%m-%d %H:%M:%S",
         )
 
         stdout_handler.setFormatter(formatter)

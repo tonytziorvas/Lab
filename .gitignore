@@ -3,10 +3,7 @@ __pycache__
 .pytest_cache
 .vscode
 Lab.code-workspace
-
-/archive/**
+.misc/.env
 /data/** 
-/models/dump
-/models/temp
+/models/**
 /reports/** 
-/src/data/**
