@@ -7,7 +7,7 @@ import geopandas as gpd
 import numpy as np
 import pandas as pd
 
-from utils import helper, logger
+from src.utils import helper, logger
 
 
 def main(model_name, district, city):
@@ -29,7 +29,7 @@ def main(model_name, district, city):
     i = 0
     DATA_DIR = "data/raw"
     while True:
-        df = helper.fetch_data(most_recent=True).pipe(helper.build_timeseries)
+        df = helper.fetch_data(last_api_call=True).pipe(helper.build_timeseries)
 
         # if os.listdir(f"{DATA_DIR}/raw"):
         #     df = helper.points_in_boundaries(

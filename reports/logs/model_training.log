@@ -246,3 +246,4 @@
 2024-07-29 16:13 - WARNING - Model exists. Skipping
 2024-07-29 16:13 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
 2024-07-29 16:13 - INFO - Model: LGBMClassifier | Prediction Step: 5
+2024-09-02 09:30:44 - INFO - feature_extraction:283 - Extracting temporal features

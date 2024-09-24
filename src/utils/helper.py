@@ -21,7 +21,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from tqdm import tqdm
 
-from utils.db import create_db_engine, create_ssh_tunnel
+from utils.db import create_db_engine
 
 TS_COL = "ts"
 
@@ -34,20 +34,21 @@ def fetch_data(
     table_name = "crowdedness"
 
     logging.info(f"Querying {table_name} table")
-    with create_ssh_tunnel() as tunnel:
-        with create_db_engine(tunnel) as engine:
-            with engine.connect() as conn:
-                query = f"SELECT * FROM {table_name}"
-                if last_day_included:
-                    yesterday = "CURRENT_TIMESTAMP::timestamp - INTERVAL '1 day'"
-                    yesterday_epoch = f"(SELECT EXTRACT(EPOCH FROM ({yesterday})))"
-                    query += f" where timestamp >= {yesterday_epoch};"
-                elif last_api_call:
-                    max_ts = f"(SELECT MAX(timestamp) FROM {table_name})"
-                    query += f" WHERE timestamp = {max_ts};"
 
-                chunks = pd.read_sql_query(sql=query, con=conn, chunksize=chunk_size)
-            return pd.concat(chunks, ignore_index=True, axis=0)
+    with create_db_engine() as engine:
+        with engine.connect() as conn:
+            query = f"SELECT * FROM {table_name}"
+
+            if last_day_included:
+                yesterday = "CURRENT_TIMESTAMP::timestamp - INTERVAL '1 day'"
+                yesterday_epoch = f"(SELECT EXTRACT(EPOCH FROM ({yesterday})))"
+                query += f" where timestamp >= {yesterday_epoch};"
+            elif last_api_call:
+                max_ts = f"(SELECT MAX(timestamp) FROM {table_name})"
+                query += f" WHERE timestamp = {max_ts};"
+
+            chunks = pd.read_sql_query(sql=query, con=conn, chunksize=chunk_size)
+        return pd.concat(chunks, ignore_index=True, axis=0)
 
 
 def count_rows_in_csv(file_path):
@@ -214,37 +215,38 @@ def etl_pipeline(output_file, chunk_size, dtypes, city_boundaries, stream=False)
         )
 
         df = build_timeseries(df)
-        with db.make_connection().connect() as conn:
-            logger.info("Connected to Database")
+        with db.create_db_engine() as engine:
+            with engine.connect() as conn:
+                logger.info("Connected to Database")
 
-            i = 0
-            while True:
-                if os.listdir("src/data/raw"):
-                    df = pd.read_csv(csv_path, dtype=dtypes)
-                    print(f"Shape: {df.shape}")
-                    df = points_in_boundaries(
-                        df, city_boundaries, ts_col="timestamp"
-                    ).reset_index(drop=True)
+                i = 0
+                while True:
+                    if os.listdir("src/data/raw"):
+                        df = pd.read_csv(csv_path, dtype=dtypes)
+                        print(f"Shape: {df.shape}")
+                        df = points_in_boundaries(
+                            df, city_boundaries, ts_col="timestamp"
+                        ).reset_index(drop=True)
 
-                    df = build_timeseries(df)
-                    print(f"Shape: {df.shape}")
-                    df.to_sql(
-                        "crowdedness",
-                        conn,
-                        if_exists="append",
-                        index=False,
-                        method="multi",
-                    )
-                    logger.info("Data pushed to database. Waiting for next batch")
-                    shutil.move(csv_path, f"src/data/processed/newdata_{i}.csv")
-                    conn.commit()
-                    i += 1
-                else:
-                    logger.warning(
-                        "No new data has been pulled. Waiting for 60 seconds"
-                    )
+                        df = build_timeseries(df)
+                        print(f"Shape: {df.shape}")
+                        df.to_sql(
+                            "crowdedness",
+                            conn,
+                            if_exists="append",
+                            index=False,
+                            method="multi",
+                        )
+                        logger.info("Data pushed to database. Waiting for next batch")
+                        shutil.move(csv_path, f"src/data/processed/newdata_{i}.csv")
+                        conn.commit()
+                        i += 1
+                    else:
+                        logger.warning(
+                            "No new data has been pulled. Waiting for 60 seconds"
+                        )
 
-                time.sleep(60)
+                    time.sleep(60)
 
 
 def merge_processed_weeks(output_file):

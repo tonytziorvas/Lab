@@ -10,12 +10,12 @@ from sklearn.metrics import f1_score, make_scorer
 from sklearn.model_selection import TimeSeriesSplit
 from xgboost import XGBClassifier
 
-from utils import db, helper, logger
+from utils import helper, logger
 
 
 # ? Should method chaining be applied to eliminate duplicate dfs
 def main():
-    df = helper.fetch_data("crowdedness", most_recent=False).pipe(helper.pivot_table)
+    df = helper.fetch_data().pipe(helper.pivot_table)
     lagged_df = helper.feature_extraction(df, df.columns[1:]).reset_index(drop=True)
 
     target_columns = {}

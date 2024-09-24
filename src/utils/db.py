@@ -1,10 +1,10 @@
 import os
 from contextlib import contextmanager
-from sqlite3 import OperationalError
 from typing import Literal
 
 import pandas as pd
 from dotenv import load_dotenv
+from psycopg2 import OperationalError
 from sqlalchemy import (
     Column,
     Connection,
@@ -14,7 +14,6 @@ from sqlalchemy import (
     String,
     Table,
     create_engine,
-    inspect,
 )
 from sqlalchemy.exc import SQLAlchemyError
 from sshtunnel import SSHTunnelForwarder
@@ -39,9 +38,8 @@ DB_USER = os.getenv("DB_USER")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
 
 
-# TODO use the `create_ssh_tunnel` as a helper of create_db_engine
 @contextmanager
-def create_ssh_tunnel():
+def __create_ssh_tunnel():
 
     tunnel = None
     try:
@@ -66,41 +64,36 @@ def create_ssh_tunnel():
 
 
 @contextmanager
-def create_db_engine(tunnel):
+def create_db_engine():
     """
-    Creates a SQLAlchemy engine connected through the SSH tunnel.
+    Creates an SQLAlchemy engine connected through the SSH tunnel.
     Yields the engine for use in a with statement.
     """
-    engine = None
-    try:
-        logging.info("Creating SQLAlchemy engine")
-        connection_string = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{tunnel.local_bind_port}/{DB_NAME}"
+    with __create_ssh_tunnel() as tunnel:
+        engine = None
+        try:
+            logging.info("Creating SQLAlchemy engine")
+            connection_string = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{tunnel.local_bind_port}/{DB_NAME}"
 
-        engine = create_engine(
-            connection_string, echo=False, pool_pre_ping=True, pool_recycle=3600
-        )
-        yield engine
-    except SQLAlchemyError as e:
-        logging.error(f"Failed to create engine or connect to database | {e}")
-        raise
-    finally:
-        if engine:
-            engine.dispose()
-            logging.info("SQLAlchemy engine disposed")
+            engine = create_engine(
+                connection_string, echo=False, pool_pre_ping=True, pool_recycle=3600
+            )
+            yield engine
+        except SQLAlchemyError as e:
+            logging.error(f"Failed to create engine or connect to database | {e}")
+            raise
+        finally:
+            if engine:
+                engine.dispose()
+                logging.info("SQLAlchemy engine disposed")
 
 
-def init_db(engine: Engine, push: bool = True) -> Literal[-1, 0, 1]:
-    table_name = "crowdedness"
+def init_db(engine: Engine, table_name: str, push: bool = True) -> Literal[-1, 0, 1]:
 
     try:
         with engine.connect() as conn:
             logging.info("Connection established")
-
-            if inspect(engine).has_table(table_name):
-                logging.info(f"Table {table_name} already exists")
-            else:
-                create_table(engine, table_name)
-                logging.info(f"Created table {table_name}")
+            create_table(engine, table_name)
 
             if push:
                 push_data(conn)
@@ -144,18 +137,15 @@ def push_data(
 
 def main():
     try:
-        with create_ssh_tunnel() as tunnel:
-            with create_db_engine(tunnel) as engine:
-                logging.info("Database engine is ready for use")
+        with create_db_engine() as engine:
+            logging.info("Database engine is ready for use")
 
-                with engine.connect():
-                    logging.info("Database connection established")
-                    query = (
-                        "SELECT * FROM crowdedness ORDER BY timestamp DESC LIMIT 10;"
-                    )
+            with engine.connect() as conn:
+                logging.info("Database connection established")
+                query = "SELECT * FROM crowdedness ORDER BY timestamp DESC LIMIT 10;"
 
-                    df = pd.read_sql_query(query, engine)
-                    print(df.head())
+                df = pd.read_sql_query(query, conn)
+                print(df.head())
 
     except Exception as e:
         logging.error(f"An error occurred during the process: {e}")

@@ -12,18 +12,12 @@ from utils import helper
 STEPS = [5, 15, 30, 60]
 BOUNDARIES = gpd.read_file("misc/rotterdam_.geojson")
 MODEL_MAP = {"lgb": "LGBMClassifier", "xgb": "XGBClassifier"}
-DATA_PATH = "data/processed/points_per_district_week_6.parquet"
 
 
 def main():
     st.set_page_config(layout="wide")
     cols = st.columns([2, 1])
 
-    # data = (
-    #     pd.read_parquet(DATA_PATH)
-    #     .pipe(helper.build_timeseries)
-    #     .pipe(helper.pivot_table)
-    # )
     data = helper.fetch_data().pipe(helper.pivot_table)
     data["timestamp"] = pd.to_datetime(data["timestamp"], unit="s")
 
