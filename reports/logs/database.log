@@ -893,3 +893,822 @@ HINT:  No operator matches the given name and argument types. You might need to 
 2024-09-24 11:31:31 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
 2024-09-24 11:31:36 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
 2024-09-24 11:31:36 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-25 15:56:25 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-25 15:56:33 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-25 15:56:33 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-25 15:56:50 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-25 15:56:50 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-25 15:58:08 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-25 15:58:09 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-25 15:58:09 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-25 15:58:30 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-25 15:58:30 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-25 16:01:21 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-25 16:01:21 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-25 16:01:21 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-25 16:01:44 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-25 16:01:45 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-25 16:12:29 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-25 16:12:30 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-25 16:12:30 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-25 16:12:53 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-25 16:12:53 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-25 16:17:35 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-25 16:17:36 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-25 16:17:36 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-25 16:17:57 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-25 16:17:57 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-25 16:37:31 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-25 16:37:32 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-25 16:37:32 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-25 16:37:50 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-25 16:37:50 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-25 16:38:28 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-25 16:38:29 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-25 16:38:29 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-25 16:38:47 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-25 16:38:47 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-25 17:38:27 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-25 17:38:28 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-25 17:38:28 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-25 17:38:51 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-25 17:38:51 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-25 17:42:49 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-25 17:42:50 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-25 17:42:50 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-25 17:43:08 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-25 17:43:08 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 00:07:14 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 00:07:15 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 00:07:15 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 00:07:32 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 00:07:32 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 00:08:36 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 00:08:37 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 00:08:37 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 00:08:54 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 00:08:54 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 00:10:40 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 00:10:40 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 00:10:40 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 00:10:57 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 00:10:57 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 00:42:43 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 00:42:44 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 00:42:44 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 00:43:04 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 00:43:04 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 00:43:52 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 00:43:52 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 00:43:52 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 00:44:15 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 00:44:15 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 00:44:37 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 00:44:38 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 00:44:38 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 00:44:56 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 00:44:56 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 00:47:39 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 00:47:40 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 00:47:40 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 00:47:57 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 00:47:57 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 00:49:43 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 00:49:44 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 00:49:44 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 00:50:06 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 00:50:06 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 01:26:09 - INFO - __create_ssh_tunnel:45 - Setting up SSH tunnel
+2024-09-26 01:26:09 - INFO - __create_ssh_tunnel:54 - SSH tunnel established on remote port 5432.
+2024-09-26 01:26:09 - INFO - create_db_engine:74 - Creating SQLAlchemy engine
+2024-09-26 01:26:09 - INFO - main:140 - Database engine is ready for use
+2024-09-26 01:26:11 - INFO - main:143 - Database connection established
+2024-09-26 01:26:12 - INFO - create_db_engine:87 - SQLAlchemy engine disposed
+2024-09-26 01:26:12 - INFO - __create_ssh_tunnel:62 - SSH tunnel closed.
+2024-09-26 01:30:20 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 01:30:20 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 01:30:20 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 01:30:42 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 01:30:43 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 01:38:10 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 01:38:11 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 01:38:11 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 01:38:26 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 01:38:26 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 01:41:24 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 01:41:25 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 01:41:25 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 01:41:46 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 01:41:46 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 10:20:45 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 10:20:45 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 10:20:45 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 10:20:50 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 10:20:50 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 10:21:40 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 10:21:41 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 10:21:41 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 10:21:45 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 10:21:45 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 10:22:37 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 10:22:37 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 10:22:37 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 10:22:42 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 10:22:42 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 10:25:09 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 10:25:10 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 10:25:10 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 10:25:15 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 10:25:15 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 10:26:18 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 10:26:19 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 10:26:19 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 10:26:23 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 10:26:23 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 10:27:58 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 10:27:58 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 10:27:58 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 10:28:03 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 10:28:03 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 10:44:24 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 10:44:24 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 10:44:24 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 10:44:29 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 10:44:30 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 10:46:51 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 10:46:51 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 10:46:51 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 10:46:56 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 10:46:56 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 10:48:28 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 10:48:29 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 10:48:29 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 10:48:34 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 10:48:34 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 10:49:45 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 10:49:46 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 10:49:46 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 10:49:51 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 10:49:51 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 10:53:00 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 10:53:01 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 10:53:01 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 10:53:06 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 10:53:06 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 10:54:07 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 10:54:08 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 10:54:08 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 10:54:12 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 10:54:12 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 10:54:56 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 10:54:57 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 10:54:57 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 10:55:01 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 10:55:01 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 10:56:19 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 10:56:20 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 10:56:20 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 10:56:25 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 10:56:25 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 10:59:13 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 10:59:14 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 10:59:14 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 10:59:20 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 10:59:20 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 10:59:41 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 10:59:41 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 10:59:41 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 10:59:46 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 10:59:46 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:03:02 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:03:02 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:03:02 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:03:08 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:03:08 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:04:39 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:04:39 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:04:39 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:04:47 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:04:47 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:05:05 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:05:06 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:05:06 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:05:10 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:05:10 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:05:28 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:05:28 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:05:28 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:05:32 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:05:32 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:12:13 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:12:14 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:12:14 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:12:19 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:12:19 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:12:33 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:12:33 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:12:33 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:12:37 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:12:37 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:18:14 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:18:14 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:18:14 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:18:19 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:18:19 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:20:01 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:20:01 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:20:01 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:20:06 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:20:06 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:20:24 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:20:25 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:20:25 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:20:29 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:20:29 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:23:19 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:23:19 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:23:19 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:23:25 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:23:25 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:25:25 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:25:26 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:25:26 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:25:31 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:25:31 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:27:10 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:27:11 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:27:11 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:27:16 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:27:16 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:34:08 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:34:08 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:34:08 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:34:13 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:34:13 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:35:11 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:35:12 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:35:12 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:35:17 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:35:17 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:35:39 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:35:40 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:35:40 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:35:44 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:35:44 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:36:27 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:36:28 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:36:28 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:36:33 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:36:33 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:37:30 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:37:30 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:37:30 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:37:35 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:37:35 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:49:17 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:49:17 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:49:17 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:49:22 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:49:22 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:51:53 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:51:54 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:51:54 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:51:59 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:51:59 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 11:57:27 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 11:57:28 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 11:57:28 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 11:57:33 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 11:57:33 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 12:03:23 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 12:03:23 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 12:03:23 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 12:03:28 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 12:03:28 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 12:10:22 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 12:10:23 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 12:10:23 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 12:10:28 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 12:10:28 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 12:13:49 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 12:13:49 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 12:13:49 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 12:13:54 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 12:13:54 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 12:28:04 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 12:28:04 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 12:28:04 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 12:28:09 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 12:28:09 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 12:28:28 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 12:28:28 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 12:28:28 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 12:28:33 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 12:28:33 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 12:28:45 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 12:28:45 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 12:28:45 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 12:28:49 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 12:28:49 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 12:29:08 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 12:29:09 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 12:29:09 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 12:29:14 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 12:29:14 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 12:29:31 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 12:29:32 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 12:29:32 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 12:29:36 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 12:29:36 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 12:29:53 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 12:29:53 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 12:29:53 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 12:29:58 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 12:29:58 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 12:30:04 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 12:30:04 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 12:30:04 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 12:30:08 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 12:30:08 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 12:30:12 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 12:30:12 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 12:30:12 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 12:30:17 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 12:30:17 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 12:30:33 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 12:30:34 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 12:30:34 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 12:30:38 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 12:30:38 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 12:38:18 - INFO - __create_ssh_tunnel:45 - Setting up SSH tunnel
+2024-09-26 12:38:19 - INFO - __create_ssh_tunnel:54 - SSH tunnel established on remote port 5432.
+2024-09-26 12:38:19 - INFO - create_db_engine:74 - Creating SQLAlchemy engine
+2024-09-26 12:38:19 - INFO - main:140 - Database engine is ready for use
+2024-09-26 12:38:21 - INFO - main:143 - Database connection established
+2024-09-26 12:38:21 - INFO - create_db_engine:87 - SQLAlchemy engine disposed
+2024-09-26 12:38:21 - INFO - __create_ssh_tunnel:62 - SSH tunnel closed.
+2024-09-26 13:02:23 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 13:02:23 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 13:02:23 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 13:02:32 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 13:02:32 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 13:03:08 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 13:03:08 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 13:03:08 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 13:03:16 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 13:03:16 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 13:21:18 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 13:21:18 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 13:21:18 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 13:21:26 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 13:21:26 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 17:11:02 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 17:11:02 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 17:11:02 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 17:11:23 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 17:11:23 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-26 17:23:56 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-26 17:23:57 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-26 17:23:57 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-26 17:24:13 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-26 17:24:13 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-27 18:22:53 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-27 18:23:16 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-27 18:23:16 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-27 18:23:36 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-27 18:23:36 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-27 18:24:01 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-27 18:24:09 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-27 18:24:09 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-27 18:24:24 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-27 18:24:24 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-30 23:45:56 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-30 23:45:57 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-30 23:45:57 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-30 23:46:16 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-30 23:46:16 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-30 23:49:39 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-30 23:49:39 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-30 23:49:39 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-30 23:49:59 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-30 23:49:59 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-30 23:50:53 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-30 23:50:53 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-30 23:50:53 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-30 23:51:11 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-30 23:51:11 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-30 23:51:44 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-30 23:51:45 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-30 23:51:45 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-30 23:52:37 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-30 23:52:37 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-09-30 23:58:34 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-09-30 23:58:35 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-09-30 23:58:35 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-09-30 23:58:56 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-09-30 23:58:56 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 00:08:52 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 00:08:52 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 00:08:52 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 00:09:11 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 00:09:11 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 00:09:44 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 00:09:44 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 00:09:44 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 00:10:04 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 00:10:04 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 00:10:49 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 00:10:50 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 00:10:50 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 00:11:20 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 00:11:20 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 10:52:04 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 10:52:05 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 10:52:05 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 10:52:23 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 10:52:23 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 10:52:57 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 10:52:58 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 10:52:58 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 10:53:02 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 10:53:02 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 10:53:09 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 10:53:10 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 10:53:10 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 10:53:15 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 10:53:15 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:00:08 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:00:09 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:00:09 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:00:14 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:00:14 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:01:26 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:01:26 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:01:26 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:01:31 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:01:31 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:02:12 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:02:12 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:02:12 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:02:17 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:02:17 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:02:39 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:02:39 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:02:39 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:02:45 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:02:45 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:03:33 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:03:33 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:03:33 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:03:38 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:03:38 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:04:04 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:04:04 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:04:04 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:04:10 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:04:10 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:05:40 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:05:41 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:05:41 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:05:46 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:05:46 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:06:38 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:06:39 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:06:39 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:06:43 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:06:43 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:07:45 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:07:46 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:07:46 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:07:51 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:07:51 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:09:10 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:09:10 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:09:10 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:09:16 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:09:16 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:09:44 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:09:44 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:09:44 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:09:49 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:09:49 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:11:46 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:11:46 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:11:46 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:11:51 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:11:52 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:12:55 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:12:55 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:12:55 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:13:03 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:13:03 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:13:36 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:13:37 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:13:37 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:13:41 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:13:41 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:19:57 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:19:58 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:19:58 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:20:03 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:20:03 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:20:31 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:20:32 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:20:32 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:20:36 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:20:36 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:20:43 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:20:43 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:20:43 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:20:47 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:20:47 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:26:34 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:26:34 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:26:34 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:26:40 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:26:40 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:27:02 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:27:02 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:27:02 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:27:07 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:27:07 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:27:34 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:27:34 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:27:34 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:27:41 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:27:41 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:28:21 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:28:22 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:28:22 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:28:27 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:28:27 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:32:38 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:32:38 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:32:38 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:32:43 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:32:44 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:33:47 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:33:47 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:33:47 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:33:53 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:33:53 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:35:44 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:35:44 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:35:44 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:35:50 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:35:50 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:36:24 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:36:24 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:36:24 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:36:29 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:36:29 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:36:56 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:36:57 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:36:57 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:37:02 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:37:02 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:37:55 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:37:55 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:37:55 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:38:00 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:38:00 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:44:43 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:44:43 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:44:43 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:44:48 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:44:48 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:46:42 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:46:42 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:46:42 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:46:48 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:46:48 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:47:23 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:47:23 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:47:23 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:47:27 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:47:28 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:48:05 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:48:06 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:48:06 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:48:12 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:48:12 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:51:51 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:51:52 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:51:52 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:51:57 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:51:57 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:52:09 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:52:10 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:52:10 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:52:17 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:52:17 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:52:46 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:52:46 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:52:46 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:52:50 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:52:50 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:53:46 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:53:47 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:53:47 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:53:52 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:53:52 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:54:34 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:54:35 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:54:35 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:54:39 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:54:39 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:59:35 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:59:35 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:59:35 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:59:40 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:59:41 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 11:59:52 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 11:59:53 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 11:59:53 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 11:59:57 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 11:59:57 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:01:45 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:01:45 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:01:45 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:01:51 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:01:51 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:03:03 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:03:04 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:03:04 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:03:09 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:03:09 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:12:37 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:12:37 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:12:37 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:12:38 - INFO - main:141 - Database engine is ready for use
+2024-10-01 12:12:40 - INFO - main:144 - Database connection established
+2024-10-01 12:12:40 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:12:40 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:15:32 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:15:32 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:15:32 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:15:38 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:15:38 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:16:25 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:16:25 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:16:25 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:16:29 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:16:30 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:19:56 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:19:56 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:19:56 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:20:02 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:20:02 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:20:32 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:20:32 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:20:32 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:20:36 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:20:36 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:21:09 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:21:09 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:21:09 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:21:16 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:21:16 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:25:30 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:25:30 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:25:30 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:25:36 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:25:36 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:28:11 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:28:12 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:28:12 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:28:17 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:28:17 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:29:30 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:29:30 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:29:30 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:29:36 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:29:36 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:30:11 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:30:12 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:30:12 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:30:16 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:30:16 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:30:41 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:30:42 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:30:42 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:30:47 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:30:47 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:34:37 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:34:37 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:34:37 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:34:43 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:34:44 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:38:40 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:38:41 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:38:41 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:38:46 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:38:46 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:40:01 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:40:02 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:40:02 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:40:07 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:40:07 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:41:50 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:41:51 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:41:51 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:41:56 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:41:57 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:43:30 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:43:30 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:43:30 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:43:36 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:43:36 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:54:45 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:54:45 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:54:45 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:54:51 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:54:51 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:55:08 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:55:09 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:55:09 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:55:14 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:55:14 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:57:56 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:57:56 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:57:56 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:58:02 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:58:02 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 12:58:50 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 12:58:51 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 12:58:51 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 12:58:55 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 12:58:55 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 13:10:49 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 13:10:50 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 13:10:50 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 13:10:50 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 13:10:50 - ERROR - __create_ssh_tunnel:58 - Failed to establish SSH tunnel: An error occurred while opening tunnels.
+2024-10-01 13:10:50 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 13:10:55 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 13:10:55 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 13:10:59 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 13:10:59 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 13:10:59 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 13:11:03 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 13:11:03 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 13:11:30 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 13:11:31 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 13:11:31 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 13:11:35 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 13:11:35 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 13:11:41 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 13:11:42 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 13:11:42 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 13:11:48 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 13:11:48 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 13:13:47 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 13:13:48 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 13:13:48 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 13:13:53 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 13:13:53 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 13:14:18 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 13:14:19 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 13:14:19 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 13:14:23 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 13:14:23 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 13:14:48 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 13:14:49 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 13:14:49 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 13:14:54 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 13:14:54 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 13:15:16 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 13:15:16 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 13:15:16 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 13:15:21 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 13:15:21 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 13:16:28 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 13:16:28 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 13:16:28 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 13:16:37 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 13:16:37 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 13:21:49 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 13:21:49 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 13:21:49 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 13:21:55 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 13:21:55 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 13:22:47 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 13:22:47 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 13:22:47 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 13:22:52 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 13:22:52 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 13:24:01 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 13:24:02 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 13:24:02 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 13:24:07 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 13:24:07 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 13:27:54 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 13:27:54 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 13:27:54 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 13:28:00 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 13:28:00 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.
+2024-10-01 13:28:54 - INFO - __create_ssh_tunnel:46 - Setting up SSH tunnel
+2024-10-01 13:28:54 - INFO - __create_ssh_tunnel:55 - SSH tunnel established on remote port 5432.
+2024-10-01 13:28:54 - INFO - create_db_engine:75 - Creating SQLAlchemy engine
+2024-10-01 13:28:59 - INFO - create_db_engine:88 - SQLAlchemy engine disposed
+2024-10-01 13:28:59 - INFO - __create_ssh_tunnel:63 - SSH tunnel closed.

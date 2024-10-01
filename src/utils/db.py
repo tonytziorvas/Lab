@@ -18,9 +18,9 @@ from sqlalchemy import (
 from sqlalchemy.exc import SQLAlchemyError
 from sshtunnel import SSHTunnelForwarder
 
-from utils import logger
+from utils.logger import setup_logger
 
-logging = logger.setup_logger("database")
+logging = setup_logger("database")
 
 
 load_dotenv("misc/.env")
@@ -142,10 +142,10 @@ def main():
 
             with engine.connect() as conn:
                 logging.info("Database connection established")
-                query = "SELECT * FROM crowdedness ORDER BY timestamp DESC LIMIT 10;"
+                query = "SELECT * FROM crowdedness ORDER BY timestamp DESC LIMIT 20;"
 
                 df = pd.read_sql_query(query, conn)
-                print(df.head())
+                print(df)
 
     except Exception as e:
         logging.error(f"An error occurred during the process: {e}")

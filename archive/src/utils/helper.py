@@ -1,4 +1,10 @@
 import logging
+import os
+import shutil
+import tempfile
+import time
+import zipfile
+from typing import Callable, Dict, Optional
 
 import geopandas as gpd
 import numpy as np
@@ -13,6 +19,7 @@ from sklearn.metrics import (
 from sklearn.model_selection import GridSearchCV, cross_validate, train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
+from tqdm import tqdm
 
 from utils.db import create_db_engine
 
@@ -42,6 +49,12 @@ def fetch_data(
 
             chunks = pd.read_sql_query(sql=query, con=conn, chunksize=chunk_size)
         return pd.concat(chunks, ignore_index=True, axis=0)
+
+
+def count_rows_in_csv(file_path):
+    with open(file_path, "r") as file:
+        row_count = sum(1 for _ in file) - 1
+    return row_count
 
 
 def points_in_boundaries(
@@ -89,6 +102,171 @@ def points_in_boundaries(
     return merged
 
 
+def _process_csv(
+    file: str,
+    chunk_size: Optional[int] = 10**6,
+    dtypes: Optional[Dict[str, str]] = None,
+    filter_func: Optional[Callable] = None,
+    city_boundaries: Optional[gpd.GeoDataFrame] = None,
+    n_chunks: Optional[int] = None,
+) -> pd.DataFrame:
+    """
+    Process a CSV file in chunks.
+
+    Args:
+        file (str): Path to the CSV file.
+        chunk_size (int): Size of each chunk. Defaults to 10**6.
+        dtypes (Optional[Dict[str, str]]): Data types of columns. Defaults to None.
+        filter_func (Optional[Callable]): Function to filter chunks. Defaults to None.
+        n_chunks (Optional[int]): Total number of chunks. Defaults to None.
+
+    Returns:
+        List[pd.DataFrame]: List of processed chunks.
+    """
+
+    all_chunks = []
+    for chunk in tqdm(
+        pd.read_csv(file, chunksize=chunk_size, dtype=dtypes),
+        desc="Processing Chunks",
+        total=n_chunks,
+    ):
+        chunk = filter_func(chunk, city_boundaries) if filter_func else chunk
+        all_chunks.append(chunk)
+    return pd.concat(all_chunks, ignore_index=True)
+
+
+def process_csv_zip(
+    zip_path: str,
+    city_boundaries: gpd.GeoDataFrame,
+    filter_func: Optional[Callable] = None,
+    output_path: str = "output.parquet",
+    chunk_size: int = 10**6,
+    dtypes: Optional[Dict[str, str]] = None,
+) -> None:
+
+    logger = logging.getLogger("make_dataset")
+    logger.info(f"Processing {zip_path}")
+    temp_dir = tempfile.mkdtemp()
+
+    try:
+        logger.info(f"Unzipping {zip_path} to {temp_dir}")
+        with zipfile.ZipFile(zip_path, "r") as zip_ref:
+            zip_ref.extractall(temp_dir)
+
+        csv_file = os.listdir(temp_dir)[0]
+        logger.info(f"Processing {csv_file}")
+
+        file_path = f"{temp_dir}/{csv_file}"
+        n_rows = count_rows_in_csv(file_path)
+        n_chunks = (n_rows // chunk_size) + 1
+
+        df = _process_csv(
+            file_path,
+            chunk_size,
+            dtypes,
+            filter_func,
+            city_boundaries,
+            n_chunks,
+        )
+
+        logger.info(f"Saving to {output_path}")
+        df.to_parquet(output_path, compression="gzip")
+    finally:
+        logger.info(f"Moving {zip_path} to data/raw/extracted")
+        shutil.rmtree(temp_dir)
+        shutil.move(zip_path, "data/raw/extracted")
+
+
+def etl_pipeline(output_file, chunk_size, dtypes, city_boundaries, stream=False):
+    logger = logging.getLogger("make_dataset")
+
+    if not stream:
+        # Load all csv files
+        zip_paths = sorted(
+            [
+                os.path.join("data/raw", file)
+                for file in os.listdir("data/raw")
+                if file.endswith(".csv.zip")
+            ]
+        )
+
+        # Process each csv file sequentially
+        for zip_path in zip_paths:
+            num_week = int(zip_path.split("_")[-1].split(".")[0])
+            output_path = f"data/processed/points_per_district_week_{num_week}.parquet"
+            process_csv_zip(
+                zip_path,
+                city_boundaries=city_boundaries,
+                filter_func=points_in_boundaries,
+                output_path=output_path,
+                chunk_size=chunk_size,
+                dtypes=dtypes,
+            )
+
+        # Merge all processed parquet files
+        merge_processed_weeks(output_file)
+    else:
+        # Process each csv file sequentially
+        csv_path = "src/data/raw/newdata.csv"
+
+        df = pd.read_csv(csv_path, dtype=dtypes)
+        df = points_in_boundaries(df, city_boundaries, ts_col="timestamp").reset_index(
+            drop=True
+        )
+
+        df = build_timeseries(df)
+        with db.create_db_engine() as engine:
+            with engine.connect() as conn:
+                logger.info("Connected to Database")
+
+                i = 0
+                while True:
+                    if os.listdir("src/data/raw"):
+                        df = pd.read_csv(csv_path, dtype=dtypes)
+                        print(f"Shape: {df.shape}")
+                        df = points_in_boundaries(
+                            df, city_boundaries, ts_col="timestamp"
+                        ).reset_index(drop=True)
+
+                        df = build_timeseries(df)
+                        print(f"Shape: {df.shape}")
+                        df.to_sql(
+                            "crowdedness",
+                            conn,
+                            if_exists="append",
+                            index=False,
+                            method="multi",
+                        )
+                        logger.info("Data pushed to database. Waiting for next batch")
+                        shutil.move(csv_path, f"src/data/processed/newdata_{i}.csv")
+                        conn.commit()
+                        i += 1
+                    else:
+                        logger.warning(
+                            "No new data has been pulled. Waiting for 60 seconds"
+                        )
+
+                    time.sleep(60)
+
+
+def merge_processed_weeks(output_file):
+    logger = logging.getLogger("make_dataset")
+
+    weekly_data = [
+        pd.read_parquet(f"data/processed/{week}")
+        for week in os.listdir("data/processed")
+        if week.startswith("points_")
+    ]
+
+    # Concat each dataframe and save to `final` folder
+    logger.info("Concatenating dataframes")
+    df = pd.concat(weekly_data, ignore_index=True)
+    df = build_timeseries(df)
+
+    df.to_parquet(f"{output_file}.parquet.gzip")
+    logger.info("Dataset created")
+
+
 def build_timeseries(df):
     return (
         df.groupby(by=["district_id", "timestamp"])
@@ -112,8 +290,8 @@ def feature_extraction(df, columns):
     }  # 4 Features
 
     lagged_features = {}  # 19 Features per district
-    rolling_features = {}  # len(windows) * 5 Features per district
-    exp_smoothing_features = {}  # len(windows) Features per district
+    rolling_features = {}  # len(windowds) * 5 Features per district
+    exp_smoothing_features = {}  # len(windowds) Features per district
     windows = [5, 10, 15, 30] + [60 * i for i in range(1, 7)] + [60 * 24]
     lags = list(range(1, 11)) + [15, 30] + [60 * i for i in range(1, 7)] + [60 * 24]
 
@@ -152,11 +330,11 @@ def feature_extraction(df, columns):
 
 # TODO Add `n_bins` functionality
 def create_crowd_levels(df, target_district):
-    target_column = f'{target_district.replace("_", " ")}_c_lvl'
+    target_column = f'{target_district.replace(" ", "_")}_c_lvl'
 
     out = pd.qcut(
         df[target_district].rank(method="first"),
-        q=[0, 0.3, 0.7, 1],  # q=[0, 0.2, 0.45, 0.65, 0.8, 1] for 5 bins
+        q=[0, 0.3, 0.7, 1],
         labels=[0, 1, 2],
     )
     return out.astype(np.uint8), target_column
@@ -165,7 +343,7 @@ def create_crowd_levels(df, target_district):
 def split_dataset(lagged_df, n_targets, district, step):
     temp = lagged_df.copy(deep=True)
     temp[district] = temp[district].shift(-step)
-    temp = temp.dropna()
+    temp.dropna(inplace=True)
     temp[district] = temp[district].astype(np.uint8)
 
     X = temp[temp.columns[:-n_targets]]
@@ -182,7 +360,7 @@ def split_dataset(lagged_df, n_targets, district, step):
     return X_train, X_test, y_train, y_test
 
 
-def grid_search(pipeline, param_grid, scoring, X_train, y_train, cv):
+def grid_search(pipeline, param_grid, cv, scoring, X_train, y_train):
     logger = logging.getLogger("model_training")
     logger.info("Performing Grid Search")
 
@@ -195,27 +373,23 @@ def grid_search(pipeline, param_grid, scoring, X_train, y_train, cv):
         n_jobs=1,
         verbose=1,
     )
-    try:
-        grid_search.fit(X_train, y_train)
-        logger.info("Grid Search Finished")
 
-        print("\n====== Grid Search Results ======")
-        print(f"Best score: {grid_search.best_score_:.3f}")
-        print("Best parameters:\n ")
-        for key, value in grid_search.best_params_.items():
-            print(f"    - {key.split('__')[-1]}: {value}")
+    grid_search.fit(X_train, y_train)
+    logger.info("Grid Search Finished")
 
-        for key, value in grid_search.cv_results_.items():
-            if key.startswith(("mean_test", "test")):
-                print(
-                    f"{key.replace('_', ' ').title()}: {value.mean():.3f} ± {value.std():.3f}"
-                )
+    print("\n====== Grid Search Results ======")
+    print(f"Best score: {grid_search.best_score_:.3f}")
+    print("Best parameters:\n ")
+    for key, value in grid_search.best_params_.items():
+        print(f"    - {key.split('__')[-1]}: {value}")
 
-        return grid_search.best_estimator_
-    except Exception as e:
-        print("\n --- ERROR in Grid Search - SKIP ---\n")
-        print(e)
-        return
+    for key, value in grid_search.cv_results_.items():
+        if key.startswith(("mean_test", "test")):
+            print(
+                f"{key.replace('_', ' ').title()}: {value.mean():.3f} ± {value.std():.3f}"
+            )
+
+    return grid_search.best_estimator_
 
 
 def build_pipeline(clf, num_features):
@@ -235,6 +409,7 @@ def build_pipeline(clf, num_features):
 
 
 def evaluate(model, X, y, cv, scoring, set_name):
+    print(f"\n====== {set_name} Set ======")
     cv_result = cross_validate(
         model,
         X,
@@ -245,12 +420,9 @@ def evaluate(model, X, y, cv, scoring, set_name):
     )
     for key, value in cv_result.items():
         if key.startswith(("mean_test", "test")):
-            metric = f"CV-{key.replace('_', ' ').title()}: {value.mean():.3f} ± {value.std():.3f}"
-
-    print("+" + "-" * (30 + 2) + "+")
-    print("| " + f"{set_name} Set".center(30) + " |")
-    print("| " + metric.center(30) + " |")
-    print("+" + "-" * (30 + 2) + "+")
+            print(
+                f"CV-{key.replace('_', ' ').title()}: {value.mean():.3f} ± {value.std():.3f}"
+            )
 
 
 def log_metrics(step, y_test, model, y_pred):
@@ -259,9 +431,6 @@ def log_metrics(step, y_test, model, y_pred):
     precision = precision_score(y_test, y_pred, average="micro")
     recall = recall_score(y_test, y_pred, average="micro")
     f1_micro = f1_score(y_test, y_pred, average="micro")
-    # model_size (kb)
-    # parameters
-    # 
 
     return pd.DataFrame(
         {

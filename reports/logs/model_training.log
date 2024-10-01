@@ -247,3 +247,1564 @@
 2024-07-29 16:13 - INFO - Training model for Bedrijventerrein_Schieveen_c_lvl
 2024-07-29 16:13 - INFO - Model: LGBMClassifier | Prediction Step: 5
 2024-09-02 09:30:44 - INFO - feature_extraction:283 - Extracting temporal features
+2024-09-25 15:56:50 - INFO - feature_extraction:111 - Extracting temporal features
+2024-09-25 15:58:30 - INFO - feature_extraction:111 - Extracting temporal features
+2024-09-25 16:01:45 - INFO - feature_extraction:111 - Extracting temporal features
+2024-09-25 16:01:49 - INFO - main:67 - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-09-25 16:01:49 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-25 16:02:29 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West_c_lvl/LGBMClassifier_5.pkl
+2024-09-25 16:04:26 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-25 16:05:07 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West_c_lvl/LGBMClassifier_15.pkl
+2024-09-25 16:06:58 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-25 16:07:29 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West_c_lvl/LGBMClassifier_30.pkl
+2024-09-25 16:08:48 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-25 16:09:22 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West_c_lvl/LGBMClassifier_60.pkl
+2024-09-25 16:10:50 - INFO - main:77 - Model: XGBClassifier | Prediction Step: 5
+2024-09-25 16:12:53 - INFO - feature_extraction:111 - Extracting temporal features
+2024-09-25 16:12:56 - INFO - main:67 - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-09-25 16:12:56 - WARNING - main:70 - Model exists. Skipping
+2024-09-25 16:12:56 - INFO - main:67 - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-09-25 16:12:56 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-25 16:13:26 - INFO - main:114 - Model saved to models/Bedrijventerrein_Schieveen_c_lvl/LGBMClassifier_5.pkl
+2024-09-25 16:13:27 - ERROR - main:124 - In model: LGBMClassifier | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-25 16:17:57 - INFO - feature_extraction:111 - Extracting temporal features
+2024-09-25 16:18:01 - INFO - main:67 - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-09-25 16:18:01 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-25 16:18:35 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West_c_lvl/LGBMClassifier_5.pkl
+2024-09-25 16:19:51 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-25 16:20:17 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West_c_lvl/LGBMClassifier_15.pkl
+2024-09-25 16:21:38 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-25 16:22:11 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West_c_lvl/LGBMClassifier_30.pkl
+2024-09-25 16:23:31 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-25 16:23:58 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West_c_lvl/LGBMClassifier_60.pkl
+2024-09-25 16:25:22 - INFO - main:77 - Model: XGBClassifier | Prediction Step: 5
+2024-09-25 16:26:43 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West_c_lvl/XGBClassifier_5.pkl
+2024-09-25 16:26:43 - ERROR - main:124 - In model: XGBClassifier | Invalid classes inferred from unique values of `y`.  Expected: [0 1], got [1 2]
+2024-09-25 16:26:43 - INFO - main:67 - Training model for Bedrijventerrein_Schieveen_c_lvl
+2024-09-25 16:26:43 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-25 16:27:15 - INFO - main:114 - Model saved to models/Bedrijventerrein_Schieveen_c_lvl/LGBMClassifier_5.pkl
+2024-09-25 16:27:16 - ERROR - main:124 - In model: LGBMClassifier | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-25 16:37:50 - INFO - feature_extraction:111 - Extracting temporal features
+2024-09-25 16:37:53 - INFO - main:67 - Training model for Bedrijvenpark_Noord-West_c_lvl
+2024-09-25 16:37:53 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-25 16:38:48 - INFO - feature_extraction:111 - Extracting temporal features
+2024-09-25 16:38:50 - INFO - main:67 - Training model for models/Bedrijvenpark_Noord-West
+2024-09-25 16:38:50 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-25 16:39:16 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West/LGBMClassifier_5.pkl
+2024-09-25 16:40:55 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-25 16:41:32 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West/LGBMClassifier_15.pkl
+2024-09-25 16:43:09 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-25 16:43:42 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West/LGBMClassifier_30.pkl
+2024-09-25 16:45:20 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-25 16:45:52 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West/LGBMClassifier_60.pkl
+2024-09-25 16:47:29 - INFO - main:77 - Model: XGBClassifier | Prediction Step: 5
+2024-09-25 16:48:51 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West/XGBClassifier_5.pkl
+2024-09-25 16:48:51 - ERROR - main:124 - In model: XGBClassifier | Invalid classes inferred from unique values of `y`.  Expected: [0 1], got [1 2]
+2024-09-25 16:48:51 - INFO - main:77 - Model: XGBClassifier | Prediction Step: 15
+2024-09-25 16:50:15 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West/XGBClassifier_15.pkl
+2024-09-25 16:50:15 - ERROR - main:124 - In model: XGBClassifier | Invalid classes inferred from unique values of `y`.  Expected: [0 1], got [1 2]
+2024-09-25 16:50:15 - INFO - main:77 - Model: XGBClassifier | Prediction Step: 30
+2024-09-25 16:51:44 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West/XGBClassifier_30.pkl
+2024-09-25 16:51:44 - ERROR - main:124 - In model: XGBClassifier | Invalid classes inferred from unique values of `y`.  Expected: [0 1], got [1 2]
+2024-09-25 16:51:44 - INFO - main:77 - Model: XGBClassifier | Prediction Step: 60
+2024-09-25 16:53:19 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West/XGBClassifier_60.pkl
+2024-09-25 16:53:19 - ERROR - main:124 - In model: XGBClassifier | Invalid classes inferred from unique values of `y`.  Expected: [0 1], got [1 2]
+2024-09-25 16:53:19 - INFO - main:67 - Training model for models/Bedrijventerrein_Schieveen
+2024-09-25 16:53:19 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-25 16:53:52 - INFO - main:114 - Model saved to models/Bedrijventerrein_Schieveen/LGBMClassifier_5.pkl
+2024-09-25 16:53:53 - ERROR - main:124 - In model: LGBMClassifier | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-25 16:53:53 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-25 16:54:30 - INFO - main:114 - Model saved to models/Bedrijventerrein_Schieveen/LGBMClassifier_15.pkl
+2024-09-25 16:54:31 - ERROR - main:124 - In model: LGBMClassifier | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-25 16:54:31 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-25 16:55:09 - INFO - main:114 - Model saved to models/Bedrijventerrein_Schieveen/LGBMClassifier_30.pkl
+2024-09-25 16:55:09 - ERROR - main:124 - In model: LGBMClassifier | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-25 16:55:09 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-25 16:55:48 - INFO - main:114 - Model saved to models/Bedrijventerrein_Schieveen/LGBMClassifier_60.pkl
+2024-09-25 16:55:49 - ERROR - main:124 - In model: LGBMClassifier | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-25 16:55:49 - INFO - main:77 - Model: XGBClassifier | Prediction Step: 5
+2024-09-25 16:56:43 - INFO - main:114 - Model saved to models/Bedrijventerrein_Schieveen/XGBClassifier_5.pkl
+2024-09-25 16:56:52 - ERROR - main:124 - In model: XGBClassifier | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-25 16:56:52 - INFO - main:77 - Model: XGBClassifier | Prediction Step: 15
+2024-09-25 16:57:44 - INFO - main:114 - Model saved to models/Bedrijventerrein_Schieveen/XGBClassifier_15.pkl
+2024-09-25 17:38:51 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-25 17:38:59 - ERROR - main:124 - In model: XGBClassifier | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-25 17:38:59 - INFO - main:77 - Model: XGBClassifier | Prediction Step: 30
+2024-09-25 17:39:56 - INFO - main:114 - Model saved to models/Bedrijventerrein_Schieveen/XGBClassifier_30.pkl
+2024-09-25 17:40:08 - ERROR - main:124 - In model: XGBClassifier | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-25 17:40:08 - INFO - main:77 - Model: XGBClassifier | Prediction Step: 60
+2024-09-25 17:41:31 - INFO - main:114 - Model saved to models/Bedrijventerrein_Schieveen/XGBClassifier_60.pkl
+2024-09-25 17:41:46 - ERROR - main:124 - In model: XGBClassifier | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-25 17:43:09 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-25 17:43:12 - INFO - main:67 - Training model for models/Bedrijvenpark_Noord-West
+2024-09-25 17:43:12 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-25 17:43:46 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West/LGBMClassifier_5.pkl
+2024-09-25 17:45:22 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-25 17:45:54 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West/LGBMClassifier_15.pkl
+2024-09-25 17:47:29 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-25 17:47:56 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West/LGBMClassifier_30.pkl
+2024-09-25 17:48:54 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-25 17:49:15 - INFO - main:114 - Model saved to models/Bedrijvenpark_Noord-West/LGBMClassifier_60.pkl
+2024-09-25 17:50:12 - INFO - main:67 - Training model for models/Bedrijventerrein_Schieveen
+2024-09-25 17:50:12 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-25 17:50:33 - INFO - main:114 - Model saved to models/Bedrijventerrein_Schieveen/LGBMClassifier_5.pkl
+2024-09-25 17:50:33 - ERROR - main:124 - In model: LGBMClassifier | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-25 17:50:33 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 00:07:32 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 00:07:35 - INFO - main:67 - Training model for models/Bedrijventerrein_Schieveen
+2024-09-26 00:07:35 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:07:59 - INFO - main:114 - Model saved to models/Bedrijventerrein_Schieveen/LGBMClassifier_5.pkl
+2024-09-26 00:08:00 - ERROR - main:124 - In model: LGBMClassifier | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 00:08:54 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 00:08:57 - INFO - main:67 - Training model for models/Bedrijventerrein_Schieveen
+2024-09-26 00:08:57 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:09:21 - INFO - main:114 - Model saved to models/Bedrijventerrein_Schieveen/LGBMClassifier_5.pkl
+2024-09-26 00:09:22 - ERROR - main:124 - In model: LGBMClassifier | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 00:10:57 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 00:11:00 - INFO - main:67 - Training model for models/Bedrijventerrein_Schieveen
+2024-09-26 00:11:00 - WARNING - main:70 - Model exists. Skipping
+2024-09-26 00:11:00 - INFO - main:67 - Training model for models/Botlek
+2024-09-26 00:11:00 - WARNING - main:70 - Model exists. Skipping
+2024-09-26 00:11:00 - INFO - main:67 - Training model for models/Charlois
+2024-09-26 00:11:00 - WARNING - main:70 - Model exists. Skipping
+2024-09-26 00:11:00 - INFO - main:67 - Training model for models/Delfshaven
+2024-09-26 00:11:00 - WARNING - main:70 - Model exists. Skipping
+2024-09-26 00:11:00 - INFO - main:67 - Training model for models/Feijenoord
+2024-09-26 00:11:00 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:11:23 - INFO - main:114 - Model saved to models/Feijenoord/LGBMClassifier_5.pkl
+2024-09-26 00:12:40 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 00:13:04 - INFO - main:114 - Model saved to models/Feijenoord/LGBMClassifier_15.pkl
+2024-09-26 00:14:46 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 00:15:17 - INFO - main:114 - Model saved to models/Feijenoord/LGBMClassifier_30.pkl
+2024-09-26 00:16:57 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 00:17:27 - INFO - main:114 - Model saved to models/Feijenoord/LGBMClassifier_60.pkl
+2024-09-26 00:19:08 - INFO - main:67 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 00:19:08 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:19:38 - INFO - main:114 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_5.pkl
+2024-09-26 00:21:43 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 00:22:14 - INFO - main:114 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_15.pkl
+2024-09-26 00:24:10 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 00:24:40 - INFO - main:114 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_30.pkl
+2024-09-26 00:26:36 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 00:27:06 - INFO - main:114 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_60.pkl
+2024-09-26 00:29:04 - INFO - main:67 - Training model for models/Hoek_van_Holland
+2024-09-26 00:29:04 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:29:36 - INFO - main:114 - Model saved to models/Hoek_van_Holland/LGBMClassifier_5.pkl
+2024-09-26 00:29:37 - ERROR - main:124 - In model: LGBMClassifier | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 00:29:37 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 00:30:13 - INFO - main:114 - Model saved to models/Hoek_van_Holland/LGBMClassifier_15.pkl
+2024-09-26 00:30:14 - ERROR - main:124 - In model: LGBMClassifier | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 00:30:14 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 00:30:56 - INFO - main:114 - Model saved to models/Hoek_van_Holland/LGBMClassifier_30.pkl
+2024-09-26 00:30:57 - ERROR - main:124 - In model: LGBMClassifier | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 00:30:57 - INFO - main:77 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 00:31:37 - INFO - main:114 - Model saved to models/Hoek_van_Holland/LGBMClassifier_60.pkl
+2024-09-26 00:31:38 - ERROR - main:124 - In model: LGBMClassifier | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 00:43:04 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 00:43:07 - INFO - main:68 - Training model for models/Bedrijventerrein_Schieveen
+2024-09-26 00:43:07 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:43:07 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 00:43:07 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:43:07 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 00:43:07 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:43:07 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 00:43:07 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:43:07 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 00:43:07 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:43:07 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 00:43:07 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:43:07 - INFO - main:68 - Training model for models/Hoek_van_Holland
+2024-09-26 00:43:07 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:43:07 - INFO - main:68 - Training model for models/Hoogvliet
+2024-09-26 00:43:07 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:44:15 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 00:44:18 - INFO - main:68 - Training model for models/Bedrijventerrein_Schieveen
+2024-09-26 00:44:18 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:44:18 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 00:44:18 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:44:18 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 00:44:18 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:44:18 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 00:44:18 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:44:18 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 00:44:18 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:44:18 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 00:44:18 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:44:18 - INFO - main:68 - Training model for models/Hoek_van_Holland
+2024-09-26 00:44:18 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:44:18 - INFO - main:68 - Training model for models/Hoogvliet
+2024-09-26 00:44:18 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:44:18 - INFO - main:68 - Training model for models/Kralingen-Crooswijk
+2024-09-26 00:44:18 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:44:56 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 00:44:59 - INFO - main:68 - Training model for models/Bedrijventerrein_Schieveen
+2024-09-26 00:44:59 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:44:59 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 00:44:59 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:44:59 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 00:44:59 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:44:59 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 00:44:59 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:44:59 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 00:44:59 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:44:59 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 00:44:59 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:44:59 - INFO - main:68 - Training model for models/Hoek_van_Holland
+2024-09-26 00:44:59 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:44:59 - INFO - main:68 - Training model for models/Hoogvliet
+2024-09-26 00:44:59 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:44:59 - INFO - main:68 - Training model for models/Kralingen-Crooswijk
+2024-09-26 00:44:59 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:44:59 - INFO - main:68 - Training model for models/Nieuw_Mathenesse
+2024-09-26 00:44:59 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:44:59 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 00:45:01 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 00:45:01 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 00:45:02 - INFO - main:68 - Training model for models/Noord
+2024-09-26 00:45:02 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:45:03 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 00:45:04 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 00:45:05 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 00:45:06 - INFO - main:68 - Training model for models/Overschie
+2024-09-26 00:45:06 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:45:06 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 00:45:07 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 00:45:08 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 00:45:09 - INFO - main:68 - Training model for models/Pernis
+2024-09-26 00:45:09 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:45:10 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 00:45:11 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 00:45:11 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 00:45:12 - INFO - main:68 - Training model for models/Prins_Alexander
+2024-09-26 00:45:12 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:45:13 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 00:45:14 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 00:45:15 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 00:45:15 - INFO - main:68 - Training model for models/Rivium
+2024-09-26 00:45:15 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:45:16 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 00:45:17 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 00:45:18 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 00:45:19 - INFO - main:68 - Training model for models/Rotterdam_Centrum
+2024-09-26 00:45:19 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:45:19 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 00:45:20 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 00:45:21 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 00:45:22 - INFO - main:68 - Training model for models/Spaanse_Polder
+2024-09-26 00:45:22 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:45:23 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 00:45:24 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 00:45:24 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 00:45:25 - INFO - main:68 - Training model for models/Vondelingenplaat
+2024-09-26 00:45:25 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:45:26 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 00:45:27 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 00:45:27 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 00:45:28 - INFO - main:68 - Training model for models/Waalhaven
+2024-09-26 00:45:28 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:45:29 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 00:45:30 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 00:45:31 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 00:45:32 - INFO - main:68 - Training model for models/Ĳsselmonde
+2024-09-26 00:45:32 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:45:32 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 00:45:33 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 00:45:34 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 00:47:57 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Bedrijventerrein_Schieveen
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Hoek_van_Holland
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Hoogvliet
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Kralingen-Crooswijk
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Nieuw_Mathenesse
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Noord
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Overschie
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Pernis
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Prins_Alexander
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Rivium
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Rotterdam_Centrum
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Spaanse_Polder
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Vondelingenplaat
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Waalhaven
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:48:02 - INFO - main:68 - Training model for models/Ĳsselmonde
+2024-09-26 00:48:02 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 00:50:06 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 00:50:11 - INFO - main:68 - Training model for models/Bedrijventerrein_Schieveen
+2024-09-26 00:50:11 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:12 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 00:50:12 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:13 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 00:50:13 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:14 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 00:50:14 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:16 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 00:50:16 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:17 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 00:50:17 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:18 - INFO - main:68 - Training model for models/Hoek_van_Holland
+2024-09-26 00:50:18 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:19 - INFO - main:68 - Training model for models/Hoogvliet
+2024-09-26 00:50:19 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:20 - INFO - main:68 - Training model for models/Kralingen-Crooswijk
+2024-09-26 00:50:20 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:21 - INFO - main:68 - Training model for models/Nieuw_Mathenesse
+2024-09-26 00:50:21 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:23 - INFO - main:68 - Training model for models/Noord
+2024-09-26 00:50:23 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:24 - INFO - main:68 - Training model for models/Overschie
+2024-09-26 00:50:24 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:25 - INFO - main:68 - Training model for models/Pernis
+2024-09-26 00:50:25 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:27 - INFO - main:68 - Training model for models/Prins_Alexander
+2024-09-26 00:50:27 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:28 - INFO - main:68 - Training model for models/Rivium
+2024-09-26 00:50:28 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:29 - INFO - main:68 - Training model for models/Rotterdam_Centrum
+2024-09-26 00:50:29 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:30 - INFO - main:68 - Training model for models/Spaanse_Polder
+2024-09-26 00:50:30 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:31 - INFO - main:68 - Training model for models/Vondelingenplaat
+2024-09-26 00:50:31 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:32 - INFO - main:68 - Training model for models/Waalhaven
+2024-09-26 00:50:32 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 00:50:34 - INFO - main:68 - Training model for models/Ĳsselmonde
+2024-09-26 00:50:34 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 01:30:43 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 01:30:46 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 01:30:46 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 01:30:46 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 01:30:46 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 01:31:18 - INFO - main:115 - Model saved to models/Bedrijventerrein Schieveen/LGBMClassifier_5.pkl
+2024-09-26 01:31:19 - ERROR - main:125 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 01:31:19 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 01:38:27 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 01:38:30 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 01:38:30 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 01:38:30 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 01:38:30 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 01:39:03 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 01:39:03 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 01:39:37 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 01:41:46 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 01:41:49 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 01:41:49 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 01:41:49 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 01:41:49 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 01:42:21 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 01:42:21 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 01:42:57 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 01:42:57 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 01:43:31 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 01:43:31 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 01:44:04 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 01:44:04 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 01:44:04 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 01:44:04 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 01:44:04 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 01:44:04 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 01:44:04 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 01:44:04 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 01:44:04 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 01:46:16 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_5.pkl
+2024-09-26 01:46:16 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 01:49:47 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_15.pkl
+2024-09-26 01:49:47 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 01:51:59 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_30.pkl
+2024-09-26 01:51:59 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 01:54:11 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_60.pkl
+2024-09-26 01:54:11 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 01:54:11 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 01:56:04 - INFO - main:124 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_5.pkl
+2024-09-26 01:56:04 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 01:57:35 - INFO - main:124 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_15.pkl
+2024-09-26 01:57:35 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 01:59:07 - INFO - main:124 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_30.pkl
+2024-09-26 01:59:07 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 02:00:39 - INFO - main:124 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_60.pkl
+2024-09-26 02:00:39 - INFO - main:68 - Training model for models/Hoek van Holland
+2024-09-26 02:00:39 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 02:01:02 - ERROR - main:126 - In model: models/Hoek van Holland | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 02:01:02 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 02:01:24 - ERROR - main:126 - In model: models/Hoek van Holland | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 02:01:24 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 02:01:46 - ERROR - main:126 - In model: models/Hoek van Holland | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 02:01:46 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 02:02:08 - ERROR - main:126 - In model: models/Hoek van Holland | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 02:02:08 - INFO - main:68 - Training model for models/Hoogvliet
+2024-09-26 02:02:08 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 02:02:28 - ERROR - main:126 - In model: models/Hoogvliet | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 02:02:28 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 02:02:49 - ERROR - main:126 - In model: models/Hoogvliet | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 02:02:49 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 02:03:10 - ERROR - main:126 - In model: models/Hoogvliet | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 02:03:10 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 02:03:31 - ERROR - main:126 - In model: models/Hoogvliet | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 02:03:31 - INFO - main:68 - Training model for models/Kralingen-Crooswijk
+2024-09-26 02:03:31 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 02:05:14 - INFO - main:124 - Model saved to models/Kralingen-Crooswijk/LGBMClassifier_5.pkl
+2024-09-26 02:05:14 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 02:06:54 - INFO - main:124 - Model saved to models/Kralingen-Crooswijk/LGBMClassifier_15.pkl
+2024-09-26 02:06:54 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 02:08:36 - INFO - main:124 - Model saved to models/Kralingen-Crooswijk/LGBMClassifier_30.pkl
+2024-09-26 02:08:36 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 02:10:18 - INFO - main:124 - Model saved to models/Kralingen-Crooswijk/LGBMClassifier_60.pkl
+2024-09-26 02:10:18 - INFO - main:68 - Training model for models/Nieuw Mathenesse
+2024-09-26 02:10:18 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 02:11:56 - INFO - main:124 - Model saved to models/Nieuw Mathenesse/LGBMClassifier_5.pkl
+2024-09-26 02:11:56 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 02:13:35 - INFO - main:124 - Model saved to models/Nieuw Mathenesse/LGBMClassifier_15.pkl
+2024-09-26 02:13:35 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 02:15:38 - INFO - main:124 - Model saved to models/Nieuw Mathenesse/LGBMClassifier_30.pkl
+2024-09-26 02:15:38 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 02:17:53 - INFO - main:124 - Model saved to models/Nieuw Mathenesse/LGBMClassifier_60.pkl
+2024-09-26 02:17:53 - INFO - main:68 - Training model for models/Noord
+2024-09-26 02:17:53 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 02:20:12 - INFO - main:124 - Model saved to models/Noord/LGBMClassifier_5.pkl
+2024-09-26 02:20:12 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 02:22:30 - INFO - main:124 - Model saved to models/Noord/LGBMClassifier_15.pkl
+2024-09-26 02:22:30 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 02:24:49 - INFO - main:124 - Model saved to models/Noord/LGBMClassifier_30.pkl
+2024-09-26 02:24:49 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 02:27:10 - INFO - main:124 - Model saved to models/Noord/LGBMClassifier_60.pkl
+2024-09-26 02:27:10 - INFO - main:68 - Training model for models/Overschie
+2024-09-26 02:27:10 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 02:29:29 - INFO - main:124 - Model saved to models/Overschie/LGBMClassifier_5.pkl
+2024-09-26 02:29:29 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 02:31:53 - INFO - main:124 - Model saved to models/Overschie/LGBMClassifier_15.pkl
+2024-09-26 02:31:53 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 02:34:19 - INFO - main:124 - Model saved to models/Overschie/LGBMClassifier_30.pkl
+2024-09-26 02:34:19 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 02:36:47 - INFO - main:124 - Model saved to models/Overschie/LGBMClassifier_60.pkl
+2024-09-26 02:36:47 - INFO - main:68 - Training model for models/Pernis
+2024-09-26 02:36:47 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 02:37:20 - ERROR - main:126 - In model: models/Pernis | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 02:37:20 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 02:37:51 - ERROR - main:126 - In model: models/Pernis | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 02:37:51 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 02:38:25 - ERROR - main:126 - In model: models/Pernis | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 02:38:25 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 02:38:55 - ERROR - main:126 - In model: models/Pernis | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 02:38:55 - INFO - main:68 - Training model for models/Prins Alexander
+2024-09-26 02:38:55 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 02:41:23 - INFO - main:124 - Model saved to models/Prins Alexander/LGBMClassifier_5.pkl
+2024-09-26 02:41:23 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 02:43:53 - INFO - main:124 - Model saved to models/Prins Alexander/LGBMClassifier_15.pkl
+2024-09-26 02:43:53 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 02:46:19 - INFO - main:124 - Model saved to models/Prins Alexander/LGBMClassifier_30.pkl
+2024-09-26 02:46:19 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 02:48:41 - INFO - main:124 - Model saved to models/Prins Alexander/LGBMClassifier_60.pkl
+2024-09-26 02:48:41 - INFO - main:68 - Training model for models/Rivium
+2024-09-26 02:48:41 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 02:49:15 - ERROR - main:126 - In model: models/Rivium | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 02:49:15 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 02:49:48 - ERROR - main:126 - In model: models/Rivium | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 02:49:48 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 02:50:21 - ERROR - main:126 - In model: models/Rivium | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 02:50:21 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 02:50:51 - ERROR - main:126 - In model: models/Rivium | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 02:50:51 - INFO - main:68 - Training model for models/Rotterdam Centrum
+2024-09-26 02:50:51 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 02:53:18 - INFO - main:124 - Model saved to models/Rotterdam Centrum/LGBMClassifier_5.pkl
+2024-09-26 02:53:18 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 02:55:42 - INFO - main:124 - Model saved to models/Rotterdam Centrum/LGBMClassifier_15.pkl
+2024-09-26 02:55:42 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 02:58:14 - INFO - main:124 - Model saved to models/Rotterdam Centrum/LGBMClassifier_30.pkl
+2024-09-26 02:58:14 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 03:00:38 - INFO - main:124 - Model saved to models/Rotterdam Centrum/LGBMClassifier_60.pkl
+2024-09-26 03:00:38 - INFO - main:68 - Training model for models/Spaanse Polder
+2024-09-26 03:00:38 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 03:02:56 - INFO - main:124 - Model saved to models/Spaanse Polder/LGBMClassifier_5.pkl
+2024-09-26 03:02:56 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 03:05:09 - INFO - main:124 - Model saved to models/Spaanse Polder/LGBMClassifier_15.pkl
+2024-09-26 03:05:09 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 03:07:21 - INFO - main:124 - Model saved to models/Spaanse Polder/LGBMClassifier_30.pkl
+2024-09-26 03:07:21 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 03:09:35 - INFO - main:124 - Model saved to models/Spaanse Polder/LGBMClassifier_60.pkl
+2024-09-26 03:09:35 - INFO - main:68 - Training model for models/Vondelingenplaat
+2024-09-26 03:09:35 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 03:10:10 - ERROR - main:126 - In model: models/Vondelingenplaat | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 03:10:10 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 03:10:44 - ERROR - main:126 - In model: models/Vondelingenplaat | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 03:10:44 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 03:11:18 - ERROR - main:126 - In model: models/Vondelingenplaat | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 03:11:18 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 03:11:52 - ERROR - main:126 - In model: models/Vondelingenplaat | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 03:11:52 - INFO - main:68 - Training model for models/Waalhaven
+2024-09-26 03:11:52 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 03:14:09 - INFO - main:124 - Model saved to models/Waalhaven/LGBMClassifier_5.pkl
+2024-09-26 03:14:09 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 03:16:27 - INFO - main:124 - Model saved to models/Waalhaven/LGBMClassifier_15.pkl
+2024-09-26 03:16:27 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 03:18:41 - INFO - main:124 - Model saved to models/Waalhaven/LGBMClassifier_30.pkl
+2024-09-26 03:18:41 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 03:20:54 - INFO - main:124 - Model saved to models/Waalhaven/LGBMClassifier_60.pkl
+2024-09-26 03:20:54 - INFO - main:68 - Training model for models/Ĳsselmonde
+2024-09-26 03:20:54 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 03:21:24 - ERROR - main:126 - In model: models/Ĳsselmonde | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 03:21:24 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 03:21:53 - ERROR - main:126 - In model: models/Ĳsselmonde | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 03:21:53 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 03:22:22 - ERROR - main:126 - In model: models/Ĳsselmonde | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 03:22:22 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 03:22:50 - ERROR - main:126 - In model: models/Ĳsselmonde | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 10:48:34 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 10:48:36 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 10:48:36 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:48:36 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 10:48:36 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:48:37 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 10:48:38 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 10:48:38 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 10:48:39 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 10:48:39 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:48:39 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 10:48:39 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:48:39 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 10:48:39 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:48:39 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 10:48:39 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:48:39 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 10:48:39 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:48:39 - INFO - main:68 - Training model for models/Hoek van Holland
+2024-09-26 10:48:39 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:48:40 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 10:48:40 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 10:48:41 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 10:48:42 - INFO - main:68 - Training model for models/Hoogvliet
+2024-09-26 10:48:42 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:48:42 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 10:48:43 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 10:48:43 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 10:48:44 - INFO - main:68 - Training model for models/Kralingen-Crooswijk
+2024-09-26 10:48:44 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:48:44 - INFO - main:68 - Training model for models/Nieuw Mathenesse
+2024-09-26 10:48:44 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:48:44 - INFO - main:68 - Training model for models/Noord
+2024-09-26 10:48:44 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:48:44 - INFO - main:68 - Training model for models/Overschie
+2024-09-26 10:48:44 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:48:44 - INFO - main:68 - Training model for models/Pernis
+2024-09-26 10:48:44 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:48:45 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 10:48:45 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 10:48:46 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 10:48:47 - INFO - main:68 - Training model for models/Prins Alexander
+2024-09-26 10:48:47 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:48:47 - INFO - main:68 - Training model for models/Rivium
+2024-09-26 10:48:47 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:48:47 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 10:48:48 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 10:48:48 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 10:48:49 - INFO - main:68 - Training model for models/Rotterdam Centrum
+2024-09-26 10:48:49 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:48:49 - INFO - main:68 - Training model for models/Spaanse Polder
+2024-09-26 10:48:49 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:48:49 - INFO - main:68 - Training model for models/Vondelingenplaat
+2024-09-26 10:48:49 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:48:50 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 10:48:50 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 10:48:51 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 10:48:52 - INFO - main:68 - Training model for models/Waalhaven
+2024-09-26 10:48:52 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:48:52 - INFO - main:68 - Training model for models/Ĳsselmonde
+2024-09-26 10:48:52 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:48:52 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 10:48:53 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 10:48:53 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 10:49:52 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Hoek van Holland
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Hoogvliet
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Kralingen-Crooswijk
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Nieuw Mathenesse
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Noord
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Overschie
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Pernis
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Prins Alexander
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Rivium
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Rotterdam Centrum
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Spaanse Polder
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Vondelingenplaat
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Waalhaven
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:49:53 - INFO - main:68 - Training model for models/Ĳsselmonde
+2024-09-26 10:49:53 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:53:06 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 10:53:08 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 10:53:08 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:53:09 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 10:53:09 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:53:09 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 10:53:09 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:53:10 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 10:53:10 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:53:11 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 10:53:11 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:53:11 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 10:53:11 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:53:12 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 10:53:12 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:53:13 - INFO - main:68 - Training model for models/Hoek van Holland
+2024-09-26 10:53:13 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:53:13 - INFO - main:68 - Training model for models/Hoogvliet
+2024-09-26 10:53:13 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:53:14 - INFO - main:68 - Training model for models/Kralingen-Crooswijk
+2024-09-26 10:53:14 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:53:14 - INFO - main:68 - Training model for models/Nieuw Mathenesse
+2024-09-26 10:53:14 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:53:15 - INFO - main:68 - Training model for models/Noord
+2024-09-26 10:53:15 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:53:16 - INFO - main:68 - Training model for models/Overschie
+2024-09-26 10:53:16 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:56:25 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 10:56:27 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 10:56:27 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:56:27 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 10:56:27 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:56:45 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 10:56:45 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 10:57:04 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 10:57:04 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 10:57:22 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 10:57:22 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 10:57:39 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 10:57:39 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 10:57:39 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:57:39 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 10:57:39 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:57:39 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 10:57:39 - WARNING - main:71 - Model exists. Skipping
+2024-09-26 10:57:39 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 10:57:39 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 10:58:58 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_5.pkl
+2024-09-26 10:58:58 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:00:14 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_15.pkl
+2024-09-26 11:00:14 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:01:27 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_30.pkl
+2024-09-26 11:01:27 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:02:37 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_60.pkl
+2024-09-26 11:02:37 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 11:02:37 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:05:33 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 11:05:34 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 11:05:34 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:05:34 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 11:05:34 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:05:55 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 11:05:55 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:06:14 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 11:06:14 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:06:32 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 11:06:32 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:06:51 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 11:06:51 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 11:06:51 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:06:51 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 11:06:51 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:06:51 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 11:06:51 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:06:51 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 11:06:51 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:08:04 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_5.pkl
+2024-09-26 11:08:04 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:09:20 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_15.pkl
+2024-09-26 11:09:20 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:10:42 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_30.pkl
+2024-09-26 11:10:42 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:11:59 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_60.pkl
+2024-09-26 11:11:59 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 11:11:59 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:18:19 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 11:18:21 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 11:18:21 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:18:21 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 11:18:21 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:18:22 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:18:22 - ERROR - main:124 - In model: models/Bedrijventerrein Schieveen | Invalid parameter 'classifier' for estimator Pipeline(steps=[('list',
+                 [ColumnTransformer(remainder='passthrough',
+                                    transformers=[('scaler', StandardScaler(),
+                                                   ['Bedrijvenpark Noord-West',
+                                                    'Bedrijventerrein '
+                                                    'Schieveen',
+                                                    'Botlek', 'Charlois',
+                                                    'Delfshaven', 'Feijenoord',
+                                                    'Hillegersberg-Schiebroek',
+                                                    'Hoek van Holland',
+                                                    'Hoogvliet',
+                                                    'Kralingen-Crooswijk',
+                                                    'Nieuw Mathenesse', 'Noord',
+                                                    'Overschie', 'Pernis',
+                                                    'Prins Alexande...
+                                                    'Bedrijvenpark_Noord-West_lag_5',
+                                                    'Bedrijvenpark_Noord-West_lag_6',
+                                                    'Bedrijvenpark_Noord-West_lag_7',
+                                                    'Bedrijvenpark_Noord-West_lag_8',
+                                                    'Bedrijvenpark_Noord-West_lag_9', ...])]),
+                  LGBMClassifier(force_col_wise=True, max_depth=10,
+                                 n_estimators=200, n_jobs=-1, num_class=3,
+                                 num_leaves=3, objective='multiclass',
+                                 random_state=42, use_label_encoder=False,
+                                 verbosity=-1)])]). Valid parameters are: ['memory', 'steps', 'verbose'].
+2024-09-26 11:18:22 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:20:07 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 11:20:08 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 11:20:08 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:20:08 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 11:20:08 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:20:08 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 11:20:08 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:20:08 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 11:20:08 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:20:08 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 11:20:08 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:20:08 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 11:20:08 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:20:09 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:20:29 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 11:20:31 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 11:20:31 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:20:31 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 11:20:31 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:20:31 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:21:37 - INFO - grid_search:200 - Grid Search Finished
+2024-09-26 11:21:55 - ERROR - main:124 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 11:21:55 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:22:16 - ERROR - main:124 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 11:22:16 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:22:35 - ERROR - main:124 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 11:22:35 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:22:54 - ERROR - main:124 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 11:22:54 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 11:22:54 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:22:54 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 11:22:54 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:22:54 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 11:22:54 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:22:54 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 11:22:54 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:22:54 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 11:22:54 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:22:55 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:23:25 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 11:23:26 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 11:23:26 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:23:26 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 11:23:26 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:23:27 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:25:31 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 11:25:33 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 11:25:33 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:25:33 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 11:25:33 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:25:33 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:27:16 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 11:27:18 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 11:27:18 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:27:18 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 11:27:18 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:27:19 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:27:19 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:27:19 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:27:20 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:27:20 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 11:27:20 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:27:20 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 11:27:20 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:27:20 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 11:27:20 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:27:20 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 11:27:20 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:27:21 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:27:21 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:27:21 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:27:22 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:27:22 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 11:27:22 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:27:23 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:27:23 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:27:23 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:27:24 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:27:24 - INFO - main:68 - Training model for models/Hoek van Holland
+2024-09-26 11:27:24 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:27:25 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:27:25 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:27:25 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:27:26 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:27:26 - INFO - main:68 - Training model for models/Hoogvliet
+2024-09-26 11:27:26 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:27:27 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:27:27 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:27:27 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:27:28 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:27:28 - INFO - main:68 - Training model for models/Kralingen-Crooswijk
+2024-09-26 11:27:28 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:27:29 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:27:29 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:27:29 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:27:30 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:27:30 - INFO - main:68 - Training model for models/Nieuw Mathenesse
+2024-09-26 11:27:30 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:27:31 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:27:31 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:27:31 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:27:32 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:27:32 - INFO - main:68 - Training model for models/Noord
+2024-09-26 11:27:32 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:27:33 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:27:33 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:27:33 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:27:34 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:27:34 - INFO - main:68 - Training model for models/Overschie
+2024-09-26 11:27:34 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:27:35 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:27:35 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:27:35 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:27:36 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:27:36 - INFO - main:68 - Training model for models/Pernis
+2024-09-26 11:27:36 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:27:37 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:27:37 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:27:37 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:27:38 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:27:38 - INFO - main:68 - Training model for models/Prins Alexander
+2024-09-26 11:27:38 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:27:39 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:27:39 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:27:39 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:27:40 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:27:40 - INFO - main:68 - Training model for models/Rivium
+2024-09-26 11:27:40 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:27:41 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:27:41 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:27:41 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:27:42 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:27:42 - INFO - main:68 - Training model for models/Rotterdam Centrum
+2024-09-26 11:27:42 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:27:43 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:27:43 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:27:43 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:27:44 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:27:44 - INFO - main:68 - Training model for models/Spaanse Polder
+2024-09-26 11:27:44 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:27:45 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:27:45 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:27:45 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:27:46 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:27:46 - INFO - main:68 - Training model for models/Vondelingenplaat
+2024-09-26 11:27:46 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:27:47 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:27:47 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:27:47 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:27:48 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:27:48 - INFO - main:68 - Training model for models/Waalhaven
+2024-09-26 11:27:48 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:27:49 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:27:49 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:27:49 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:27:50 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:27:50 - INFO - main:68 - Training model for models/Ĳsselmonde
+2024-09-26 11:27:50 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:27:51 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:27:51 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:27:51 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:27:52 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:34:14 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 11:34:15 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 11:34:15 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:34:15 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 11:34:15 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:34:15 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 11:34:15 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:34:15 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 11:34:15 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:34:15 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 11:34:15 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:34:15 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 11:34:15 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:34:16 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:34:16 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:34:17 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:34:17 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:34:18 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 11:34:18 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:34:18 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:34:18 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:34:19 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:34:19 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:34:20 - INFO - main:68 - Training model for models/Hoek van Holland
+2024-09-26 11:34:20 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:34:20 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:34:20 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:35:17 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 11:35:19 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 11:35:19 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:35:19 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 11:35:19 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:35:19 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 11:35:19 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:35:19 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 11:35:19 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:35:19 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 11:35:19 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:35:19 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 11:35:19 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:35:19 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 11:35:19 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:35:19 - INFO - main:68 - Training model for models/Hoek van Holland
+2024-09-26 11:35:19 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:35:19 - INFO - main:68 - Training model for models/Hoogvliet
+2024-09-26 11:35:19 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:35:20 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:35:44 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 11:35:46 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 11:35:46 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:35:46 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 11:35:46 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:35:46 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 11:35:46 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:35:46 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 11:35:46 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:35:46 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 11:35:46 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:35:46 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 11:35:46 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:35:46 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:36:33 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 11:36:35 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 11:36:35 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:36:35 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 11:36:35 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:36:35 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 11:36:35 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:36:35 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 11:36:35 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:36:35 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 11:36:35 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:36:35 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 11:36:35 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:36:35 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:37:36 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 11:37:37 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 11:37:37 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:37:37 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 11:37:37 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:37:37 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 11:37:37 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:37:37 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 11:37:37 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:37:37 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 11:37:37 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:37:37 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 11:37:37 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:37:37 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 11:37:37 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:37:38 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:39:07 - INFO - grid_search:200 - Grid Search Finished
+2024-09-26 11:39:59 - INFO - main:122 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_5.pkl
+2024-09-26 11:39:59 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:40:52 - INFO - main:122 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_15.pkl
+2024-09-26 11:40:52 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:41:46 - INFO - main:122 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_30.pkl
+2024-09-26 11:41:46 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:42:39 - INFO - main:122 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_60.pkl
+2024-09-26 11:42:39 - INFO - main:68 - Training model for models/Hoek van Holland
+2024-09-26 11:42:39 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:42:40 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:44:10 - INFO - grid_search:200 - Grid Search Finished
+2024-09-26 11:44:30 - ERROR - main:124 - In model: models/Hoek van Holland | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 11:44:30 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:44:49 - ERROR - main:124 - In model: models/Hoek van Holland | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 11:44:49 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:45:08 - ERROR - main:124 - In model: models/Hoek van Holland | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 11:45:08 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:45:26 - ERROR - main:124 - In model: models/Hoek van Holland | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 11:45:26 - INFO - main:68 - Training model for models/Hoogvliet
+2024-09-26 11:45:26 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:45:27 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:46:53 - INFO - grid_search:200 - Grid Search Finished
+2024-09-26 11:47:11 - ERROR - main:124 - In model: models/Hoogvliet | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 11:47:11 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:47:30 - ERROR - main:124 - In model: models/Hoogvliet | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 11:47:30 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:47:48 - ERROR - main:124 - In model: models/Hoogvliet | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 11:47:48 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:48:07 - ERROR - main:124 - In model: models/Hoogvliet | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 11:48:07 - INFO - main:68 - Training model for models/Kralingen-Crooswijk
+2024-09-26 11:48:07 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:48:08 - INFO - grid_search:187 - Performing Grid Search
+2024-09-26 11:51:59 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 11:52:01 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 11:52:01 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:52:01 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 11:52:01 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:52:20 - INFO - main:116 - Model saved to models/Bedrijventerrein Schieveen/LGBMClassifier_5.pkl
+2024-09-26 11:52:21 - ERROR - main:127 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 11:52:21 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:52:37 - INFO - main:116 - Model saved to models/Bedrijventerrein Schieveen/LGBMClassifier_15.pkl
+2024-09-26 11:52:38 - ERROR - main:127 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 11:52:38 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:52:58 - INFO - main:116 - Model saved to models/Bedrijventerrein Schieveen/LGBMClassifier_30.pkl
+2024-09-26 11:52:58 - ERROR - main:127 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 11:52:58 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:53:17 - INFO - main:116 - Model saved to models/Bedrijventerrein Schieveen/LGBMClassifier_60.pkl
+2024-09-26 11:53:18 - ERROR - main:127 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 11:53:18 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 11:53:18 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:53:18 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 11:53:18 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:53:18 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 11:53:18 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 11:53:18 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 11:53:18 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 11:53:36 - INFO - main:116 - Model saved to models/Feijenoord/LGBMClassifier_5.pkl
+2024-09-26 11:54:09 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 11:54:27 - INFO - main:116 - Model saved to models/Feijenoord/LGBMClassifier_15.pkl
+2024-09-26 11:55:00 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 11:55:18 - INFO - main:116 - Model saved to models/Feijenoord/LGBMClassifier_30.pkl
+2024-09-26 11:55:56 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 11:56:15 - INFO - main:116 - Model saved to models/Feijenoord/LGBMClassifier_60.pkl
+2024-09-26 11:56:52 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 11:56:52 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:03:28 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 12:03:31 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 12:03:31 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 12:03:31 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 12:03:31 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 12:03:31 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 12:03:31 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 12:03:31 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 12:03:31 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 12:03:31 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 12:03:31 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 12:03:31 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 12:03:31 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:04:21 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_5.joblib
+2024-09-26 12:04:21 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 12:05:13 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_15.joblib
+2024-09-26 12:05:13 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 12:06:06 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_30.joblib
+2024-09-26 12:06:06 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 12:06:56 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_60.joblib
+2024-09-26 12:06:56 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 12:06:56 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:07:56 - INFO - main:124 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_5.joblib
+2024-09-26 12:07:56 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 12:10:28 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 12:10:30 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 12:10:30 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:11:13 - INFO - main:124 - Model saved to models/Bedrijvenpark Noord-West/LGBMClassifier_5.joblib
+2024-09-26 12:11:13 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 12:13:54 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 12:13:56 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 12:13:56 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:14:43 - INFO - main:124 - Model saved to models/Bedrijvenpark Noord-West/LGBMClassifier_5.joblib
+2024-09-26 12:14:43 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 12:15:33 - INFO - main:124 - Model saved to models/Bedrijvenpark Noord-West/LGBMClassifier_15.joblib
+2024-09-26 12:15:33 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 12:16:23 - INFO - main:124 - Model saved to models/Bedrijvenpark Noord-West/LGBMClassifier_30.joblib
+2024-09-26 12:16:23 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 12:17:16 - INFO - main:124 - Model saved to models/Bedrijvenpark Noord-West/LGBMClassifier_60.joblib
+2024-09-26 12:17:16 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 12:17:16 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:17:37 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:17:37 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 12:17:56 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:17:56 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 12:18:17 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:18:17 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 12:18:40 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:18:40 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 12:18:40 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:19:00 - ERROR - main:126 - In model: models/Botlek | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:19:00 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 12:19:20 - ERROR - main:126 - In model: models/Botlek | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:19:20 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 12:19:37 - ERROR - main:126 - In model: models/Botlek | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:19:37 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 12:19:54 - ERROR - main:126 - In model: models/Botlek | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:19:54 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 12:19:54 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:20:42 - INFO - main:124 - Model saved to models/Charlois/LGBMClassifier_5.joblib
+2024-09-26 12:20:42 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 12:21:30 - INFO - main:124 - Model saved to models/Charlois/LGBMClassifier_15.joblib
+2024-09-26 12:21:30 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 12:22:19 - INFO - main:124 - Model saved to models/Charlois/LGBMClassifier_30.joblib
+2024-09-26 12:22:19 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 12:23:14 - INFO - main:124 - Model saved to models/Charlois/LGBMClassifier_60.joblib
+2024-09-26 12:23:14 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 12:23:14 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:24:10 - INFO - main:124 - Model saved to models/Delfshaven/LGBMClassifier_5.joblib
+2024-09-26 12:24:10 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 12:25:11 - INFO - main:124 - Model saved to models/Delfshaven/LGBMClassifier_15.joblib
+2024-09-26 12:25:11 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 12:26:10 - INFO - main:124 - Model saved to models/Delfshaven/LGBMClassifier_30.joblib
+2024-09-26 12:26:10 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 12:27:10 - INFO - main:124 - Model saved to models/Delfshaven/LGBMClassifier_60.joblib
+2024-09-26 12:27:10 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 12:27:10 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:30:38 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 12:30:40 - INFO - main:68 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 12:30:40 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 12:30:40 - INFO - main:68 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 12:30:40 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:30:56 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:30:56 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 12:31:16 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:31:16 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 12:31:36 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:31:36 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 12:31:57 - ERROR - main:126 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:31:57 - INFO - main:68 - Training model for models/Botlek
+2024-09-26 12:31:57 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:32:18 - ERROR - main:126 - In model: models/Botlek | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:32:18 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 12:32:35 - ERROR - main:126 - In model: models/Botlek | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:32:35 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 12:32:53 - ERROR - main:126 - In model: models/Botlek | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:32:53 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 12:33:15 - ERROR - main:126 - In model: models/Botlek | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:33:15 - INFO - main:68 - Training model for models/Charlois
+2024-09-26 12:33:15 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 12:33:15 - INFO - main:68 - Training model for models/Delfshaven
+2024-09-26 12:33:15 - WARNING - main:71 - Model exists. Skipping
+
+2024-09-26 12:33:15 - INFO - main:68 - Training model for models/Feijenoord
+2024-09-26 12:33:15 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:34:28 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_5.joblib
+2024-09-26 12:34:28 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 12:35:22 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_15.joblib
+2024-09-26 12:35:22 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 12:36:11 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_30.joblib
+2024-09-26 12:36:11 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 12:37:03 - INFO - main:124 - Model saved to models/Feijenoord/LGBMClassifier_60.joblib
+2024-09-26 12:37:03 - INFO - main:68 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 12:37:03 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:38:10 - INFO - main:124 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_5.joblib
+2024-09-26 12:38:10 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 12:39:13 - INFO - main:124 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_15.joblib
+2024-09-26 12:39:13 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 12:40:20 - INFO - main:124 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_30.joblib
+2024-09-26 12:40:20 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 12:41:24 - INFO - main:124 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_60.joblib
+2024-09-26 12:41:24 - INFO - main:68 - Training model for models/Hoek van Holland
+2024-09-26 12:41:24 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:41:45 - ERROR - main:126 - In model: models/Hoek van Holland | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 12:41:45 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 12:42:05 - ERROR - main:126 - In model: models/Hoek van Holland | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 12:42:05 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 12:42:25 - ERROR - main:126 - In model: models/Hoek van Holland | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 12:42:25 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 12:42:44 - ERROR - main:126 - In model: models/Hoek van Holland | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 12:42:44 - INFO - main:68 - Training model for models/Hoogvliet
+2024-09-26 12:42:44 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:43:04 - ERROR - main:126 - In model: models/Hoogvliet | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:43:04 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 12:43:23 - ERROR - main:126 - In model: models/Hoogvliet | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:43:23 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 12:43:44 - ERROR - main:126 - In model: models/Hoogvliet | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:43:44 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 12:44:04 - ERROR - main:126 - In model: models/Hoogvliet | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 12:44:04 - INFO - main:68 - Training model for models/Kralingen-Crooswijk
+2024-09-26 12:44:04 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:45:07 - INFO - main:124 - Model saved to models/Kralingen-Crooswijk/LGBMClassifier_5.joblib
+2024-09-26 12:45:07 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 12:46:10 - INFO - main:124 - Model saved to models/Kralingen-Crooswijk/LGBMClassifier_15.joblib
+2024-09-26 12:46:10 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 12:47:16 - INFO - main:124 - Model saved to models/Kralingen-Crooswijk/LGBMClassifier_30.joblib
+2024-09-26 12:47:16 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 12:48:52 - INFO - main:124 - Model saved to models/Kralingen-Crooswijk/LGBMClassifier_60.joblib
+2024-09-26 12:48:52 - INFO - main:68 - Training model for models/Nieuw Mathenesse
+2024-09-26 12:48:52 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:50:21 - INFO - main:124 - Model saved to models/Nieuw Mathenesse/LGBMClassifier_5.joblib
+2024-09-26 12:50:21 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 12:51:46 - INFO - main:124 - Model saved to models/Nieuw Mathenesse/LGBMClassifier_15.joblib
+2024-09-26 12:51:46 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 12:53:12 - INFO - main:124 - Model saved to models/Nieuw Mathenesse/LGBMClassifier_30.joblib
+2024-09-26 12:53:12 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 12:54:37 - INFO - main:124 - Model saved to models/Nieuw Mathenesse/LGBMClassifier_60.joblib
+2024-09-26 12:54:37 - INFO - main:68 - Training model for models/Noord
+2024-09-26 12:54:37 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 12:56:05 - INFO - main:124 - Model saved to models/Noord/LGBMClassifier_5.joblib
+2024-09-26 12:56:05 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 12:57:33 - INFO - main:124 - Model saved to models/Noord/LGBMClassifier_15.joblib
+2024-09-26 12:57:33 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 12:59:01 - INFO - main:124 - Model saved to models/Noord/LGBMClassifier_30.joblib
+2024-09-26 12:59:01 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 13:00:32 - INFO - main:124 - Model saved to models/Noord/LGBMClassifier_60.joblib
+2024-09-26 13:00:32 - INFO - main:68 - Training model for models/Overschie
+2024-09-26 13:00:32 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 13:02:03 - INFO - main:124 - Model saved to models/Overschie/LGBMClassifier_5.joblib
+2024-09-26 13:02:03 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 13:03:37 - INFO - main:124 - Model saved to models/Overschie/LGBMClassifier_15.joblib
+2024-09-26 13:03:37 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 13:05:02 - INFO - main:124 - Model saved to models/Overschie/LGBMClassifier_30.joblib
+2024-09-26 13:05:02 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 13:06:27 - INFO - main:124 - Model saved to models/Overschie/LGBMClassifier_60.joblib
+2024-09-26 13:06:27 - INFO - main:68 - Training model for models/Pernis
+2024-09-26 13:06:27 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 13:06:54 - ERROR - main:126 - In model: models/Pernis | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 13:06:54 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 13:07:21 - ERROR - main:126 - In model: models/Pernis | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 13:07:21 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 13:07:49 - ERROR - main:126 - In model: models/Pernis | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 13:07:49 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 13:08:17 - ERROR - main:126 - In model: models/Pernis | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 13:08:17 - INFO - main:68 - Training model for models/Prins Alexander
+2024-09-26 13:08:17 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 13:09:50 - INFO - main:124 - Model saved to models/Prins Alexander/LGBMClassifier_5.joblib
+2024-09-26 13:09:50 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 13:11:22 - INFO - main:124 - Model saved to models/Prins Alexander/LGBMClassifier_15.joblib
+2024-09-26 13:11:22 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 13:12:29 - INFO - main:124 - Model saved to models/Prins Alexander/LGBMClassifier_30.joblib
+2024-09-26 13:12:29 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 13:13:32 - INFO - main:124 - Model saved to models/Prins Alexander/LGBMClassifier_60.joblib
+2024-09-26 13:13:32 - INFO - main:68 - Training model for models/Rivium
+2024-09-26 13:13:32 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 13:14:06 - ERROR - main:126 - In model: models/Rivium | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 13:14:06 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 13:14:38 - ERROR - main:126 - In model: models/Rivium | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 13:14:38 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 13:15:05 - ERROR - main:126 - In model: models/Rivium | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 13:15:05 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 13:15:37 - ERROR - main:126 - In model: models/Rivium | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 13:15:37 - INFO - main:68 - Training model for models/Rotterdam Centrum
+2024-09-26 13:15:37 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 13:16:51 - INFO - main:124 - Model saved to models/Rotterdam Centrum/LGBMClassifier_5.joblib
+2024-09-26 13:16:51 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 13:18:13 - INFO - main:124 - Model saved to models/Rotterdam Centrum/LGBMClassifier_15.joblib
+2024-09-26 13:18:13 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 13:19:15 - INFO - main:124 - Model saved to models/Rotterdam Centrum/LGBMClassifier_30.joblib
+2024-09-26 13:19:15 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 13:20:17 - INFO - main:124 - Model saved to models/Rotterdam Centrum/LGBMClassifier_60.joblib
+2024-09-26 13:20:17 - INFO - main:68 - Training model for models/Spaanse Polder
+2024-09-26 13:20:17 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 13:21:16 - INFO - main:124 - Model saved to models/Spaanse Polder/LGBMClassifier_5.joblib
+2024-09-26 13:21:16 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 13:22:20 - INFO - main:124 - Model saved to models/Spaanse Polder/LGBMClassifier_15.joblib
+2024-09-26 13:22:20 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 13:23:17 - INFO - main:124 - Model saved to models/Spaanse Polder/LGBMClassifier_30.joblib
+2024-09-26 13:23:17 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 13:24:16 - INFO - main:124 - Model saved to models/Spaanse Polder/LGBMClassifier_60.joblib
+2024-09-26 13:24:16 - INFO - main:68 - Training model for models/Vondelingenplaat
+2024-09-26 13:24:16 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 13:24:37 - ERROR - main:126 - In model: models/Vondelingenplaat | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 13:24:37 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 13:25:00 - ERROR - main:126 - In model: models/Vondelingenplaat | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 13:25:00 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 13:25:24 - ERROR - main:126 - In model: models/Vondelingenplaat | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 13:25:24 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 13:25:52 - ERROR - main:126 - In model: models/Vondelingenplaat | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 13:25:52 - INFO - main:68 - Training model for models/Waalhaven
+2024-09-26 13:25:52 - INFO - main:78 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 17:11:23 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 17:11:26 - INFO - main:69 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 17:11:26 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 17:12:52 - INFO - main:125 - Model saved to models/Bedrijvenpark Noord-West/LGBMClassifier_5.joblib
+2024-09-26 17:12:52 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 17:14:19 - INFO - main:125 - Model saved to models/Bedrijvenpark Noord-West/LGBMClassifier_15.joblib
+2024-09-26 17:14:19 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 17:15:46 - INFO - main:125 - Model saved to models/Bedrijvenpark Noord-West/LGBMClassifier_30.joblib
+2024-09-26 17:15:46 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 17:17:12 - INFO - main:125 - Model saved to models/Bedrijvenpark Noord-West/LGBMClassifier_60.joblib
+2024-09-26 17:17:12 - INFO - main:69 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 17:17:12 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 17:17:44 - ERROR - main:127 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 17:17:44 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 17:18:17 - ERROR - main:127 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 17:18:17 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 17:18:50 - ERROR - main:127 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 17:18:50 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 17:19:22 - ERROR - main:127 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 17:24:14 - INFO - feature_extraction:104 - Extracting temporal features
+2024-09-26 17:24:16 - INFO - main:69 - Training model for models/Bedrijvenpark Noord-West
+2024-09-26 17:24:16 - WARNING - main:72 - Model models/Bedrijvenpark Noord-West exists. Skipping
+
+2024-09-26 17:24:16 - INFO - main:69 - Training model for models/Bedrijventerrein Schieveen
+2024-09-26 17:24:16 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 17:24:49 - ERROR - main:128 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 17:24:49 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 17:25:21 - ERROR - main:128 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 17:25:21 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 17:25:54 - ERROR - main:128 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 17:25:54 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 17:26:26 - ERROR - main:128 - In model: models/Bedrijventerrein Schieveen | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 17:26:26 - INFO - main:69 - Training model for models/Botlek
+2024-09-26 17:26:26 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 17:26:56 - ERROR - main:128 - In model: models/Botlek | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 17:26:56 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 17:27:26 - ERROR - main:128 - In model: models/Botlek | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 17:27:26 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 17:27:57 - ERROR - main:128 - In model: models/Botlek | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 17:27:57 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 17:28:27 - ERROR - main:128 - In model: models/Botlek | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 17:28:27 - INFO - main:69 - Training model for models/Charlois
+2024-09-26 17:28:27 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 17:29:55 - INFO - main:125 - Model saved to models/Charlois/LGBMClassifier_5.joblib
+2024-09-26 17:29:55 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 17:31:24 - INFO - main:125 - Model saved to models/Charlois/LGBMClassifier_15.joblib
+2024-09-26 17:31:24 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 17:32:52 - INFO - main:125 - Model saved to models/Charlois/LGBMClassifier_30.joblib
+2024-09-26 17:32:52 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 17:34:22 - INFO - main:125 - Model saved to models/Charlois/LGBMClassifier_60.joblib
+2024-09-26 17:34:22 - INFO - main:69 - Training model for models/Delfshaven
+2024-09-26 17:34:22 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 17:36:05 - INFO - main:125 - Model saved to models/Delfshaven/LGBMClassifier_5.joblib
+2024-09-26 17:36:05 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 17:37:49 - INFO - main:125 - Model saved to models/Delfshaven/LGBMClassifier_15.joblib
+2024-09-26 17:37:49 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 17:39:31 - INFO - main:125 - Model saved to models/Delfshaven/LGBMClassifier_30.joblib
+2024-09-26 17:39:31 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 17:41:14 - INFO - main:125 - Model saved to models/Delfshaven/LGBMClassifier_60.joblib
+2024-09-26 17:41:14 - INFO - main:69 - Training model for models/Feijenoord
+2024-09-26 17:41:14 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 17:42:45 - INFO - main:125 - Model saved to models/Feijenoord/LGBMClassifier_5.joblib
+2024-09-26 17:42:45 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 17:44:16 - INFO - main:125 - Model saved to models/Feijenoord/LGBMClassifier_15.joblib
+2024-09-26 17:44:16 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 17:45:46 - INFO - main:125 - Model saved to models/Feijenoord/LGBMClassifier_30.joblib
+2024-09-26 17:45:46 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 17:47:19 - INFO - main:125 - Model saved to models/Feijenoord/LGBMClassifier_60.joblib
+2024-09-26 17:47:19 - INFO - main:69 - Training model for models/Hillegersberg-Schiebroek
+2024-09-26 17:47:19 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 17:49:01 - INFO - main:125 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_5.joblib
+2024-09-26 17:49:01 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 17:50:44 - INFO - main:125 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_15.joblib
+2024-09-26 17:50:44 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 17:52:24 - INFO - main:125 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_30.joblib
+2024-09-26 17:52:24 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 17:54:04 - INFO - main:125 - Model saved to models/Hillegersberg-Schiebroek/LGBMClassifier_60.joblib
+2024-09-26 17:54:04 - INFO - main:69 - Training model for models/Hoek van Holland
+2024-09-26 17:54:04 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 17:54:37 - ERROR - main:128 - In model: models/Hoek van Holland | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 17:54:37 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 17:55:11 - ERROR - main:128 - In model: models/Hoek van Holland | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 17:55:11 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 17:55:45 - ERROR - main:128 - In model: models/Hoek van Holland | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 17:55:45 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 17:56:19 - ERROR - main:128 - In model: models/Hoek van Holland | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 17:56:19 - INFO - main:69 - Training model for models/Hoogvliet
+2024-09-26 17:56:19 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 17:56:51 - ERROR - main:128 - In model: models/Hoogvliet | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 17:56:51 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 17:57:23 - ERROR - main:128 - In model: models/Hoogvliet | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 17:57:23 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 17:57:56 - ERROR - main:128 - In model: models/Hoogvliet | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 17:57:56 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 17:58:27 - ERROR - main:128 - In model: models/Hoogvliet | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 17:58:27 - INFO - main:69 - Training model for models/Kralingen-Crooswijk
+2024-09-26 17:58:27 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 18:00:10 - INFO - main:125 - Model saved to models/Kralingen-Crooswijk/LGBMClassifier_5.joblib
+2024-09-26 18:00:10 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 18:01:52 - INFO - main:125 - Model saved to models/Kralingen-Crooswijk/LGBMClassifier_15.joblib
+2024-09-26 18:01:52 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 18:03:34 - INFO - main:125 - Model saved to models/Kralingen-Crooswijk/LGBMClassifier_30.joblib
+2024-09-26 18:03:34 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 18:05:16 - INFO - main:125 - Model saved to models/Kralingen-Crooswijk/LGBMClassifier_60.joblib
+2024-09-26 18:05:16 - INFO - main:69 - Training model for models/Nieuw Mathenesse
+2024-09-26 18:05:16 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 18:06:58 - INFO - main:125 - Model saved to models/Nieuw Mathenesse/LGBMClassifier_5.joblib
+2024-09-26 18:06:58 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 18:08:37 - INFO - main:125 - Model saved to models/Nieuw Mathenesse/LGBMClassifier_15.joblib
+2024-09-26 18:08:37 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 18:10:13 - INFO - main:125 - Model saved to models/Nieuw Mathenesse/LGBMClassifier_30.joblib
+2024-09-26 18:10:13 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 18:11:51 - INFO - main:125 - Model saved to models/Nieuw Mathenesse/LGBMClassifier_60.joblib
+2024-09-26 18:11:51 - INFO - main:69 - Training model for models/Noord
+2024-09-26 18:11:51 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 18:13:34 - INFO - main:125 - Model saved to models/Noord/LGBMClassifier_5.joblib
+2024-09-26 18:13:34 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 18:15:16 - INFO - main:125 - Model saved to models/Noord/LGBMClassifier_15.joblib
+2024-09-26 18:15:16 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 18:16:59 - INFO - main:125 - Model saved to models/Noord/LGBMClassifier_30.joblib
+2024-09-26 18:16:59 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 18:18:29 - INFO - main:125 - Model saved to models/Noord/LGBMClassifier_60.joblib
+2024-09-26 18:18:29 - INFO - main:69 - Training model for models/Overschie
+2024-09-26 18:18:29 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 18:19:42 - INFO - main:125 - Model saved to models/Overschie/LGBMClassifier_5.joblib
+2024-09-26 18:19:42 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 18:20:55 - INFO - main:125 - Model saved to models/Overschie/LGBMClassifier_15.joblib
+2024-09-26 18:20:55 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 18:22:09 - INFO - main:125 - Model saved to models/Overschie/LGBMClassifier_30.joblib
+2024-09-26 18:22:09 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 18:23:21 - INFO - main:125 - Model saved to models/Overschie/LGBMClassifier_60.joblib
+2024-09-26 18:23:21 - INFO - main:69 - Training model for models/Pernis
+2024-09-26 18:23:21 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 18:23:45 - ERROR - main:128 - In model: models/Pernis | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 18:23:45 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 18:24:09 - ERROR - main:128 - In model: models/Pernis | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 18:24:09 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 18:24:33 - ERROR - main:128 - In model: models/Pernis | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 18:24:33 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 18:24:56 - ERROR - main:128 - In model: models/Pernis | pos_label=1 is not a valid label: It should be one of [0]
+2024-09-26 18:24:56 - INFO - main:69 - Training model for models/Prins Alexander
+2024-09-26 18:24:56 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 18:26:09 - INFO - main:125 - Model saved to models/Prins Alexander/LGBMClassifier_5.joblib
+2024-09-26 18:26:09 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 18:27:22 - INFO - main:125 - Model saved to models/Prins Alexander/LGBMClassifier_15.joblib
+2024-09-26 18:27:22 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 18:28:34 - INFO - main:125 - Model saved to models/Prins Alexander/LGBMClassifier_30.joblib
+2024-09-26 18:28:34 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 18:30:16 - INFO - main:125 - Model saved to models/Prins Alexander/LGBMClassifier_60.joblib
+2024-09-26 18:30:16 - INFO - main:69 - Training model for models/Rivium
+2024-09-26 18:30:16 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 18:30:55 - ERROR - main:128 - In model: models/Rivium | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 18:30:55 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 18:31:32 - ERROR - main:128 - In model: models/Rivium | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 18:31:32 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 18:32:08 - ERROR - main:128 - In model: models/Rivium | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 18:32:08 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 18:32:47 - ERROR - main:128 - In model: models/Rivium | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 18:32:47 - INFO - main:69 - Training model for models/Rotterdam Centrum
+2024-09-26 18:32:47 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 18:34:37 - INFO - main:125 - Model saved to models/Rotterdam Centrum/LGBMClassifier_5.joblib
+2024-09-26 18:34:37 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 18:36:15 - INFO - main:125 - Model saved to models/Rotterdam Centrum/LGBMClassifier_15.joblib
+2024-09-26 18:36:15 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 18:38:01 - INFO - main:125 - Model saved to models/Rotterdam Centrum/LGBMClassifier_30.joblib
+2024-09-26 18:38:01 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 18:39:44 - INFO - main:125 - Model saved to models/Rotterdam Centrum/LGBMClassifier_60.joblib
+2024-09-26 18:39:44 - INFO - main:69 - Training model for models/Spaanse Polder
+2024-09-26 18:39:44 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 18:41:25 - INFO - main:125 - Model saved to models/Spaanse Polder/LGBMClassifier_5.joblib
+2024-09-26 18:41:25 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 18:43:05 - INFO - main:125 - Model saved to models/Spaanse Polder/LGBMClassifier_15.joblib
+2024-09-26 18:43:05 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 18:44:46 - INFO - main:125 - Model saved to models/Spaanse Polder/LGBMClassifier_30.joblib
+2024-09-26 18:44:46 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 18:46:26 - INFO - main:125 - Model saved to models/Spaanse Polder/LGBMClassifier_60.joblib
+2024-09-26 18:46:26 - INFO - main:69 - Training model for models/Vondelingenplaat
+2024-09-26 18:46:26 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 18:47:06 - ERROR - main:128 - In model: models/Vondelingenplaat | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 18:47:06 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 18:47:45 - ERROR - main:128 - In model: models/Vondelingenplaat | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 18:47:45 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 18:48:25 - ERROR - main:128 - In model: models/Vondelingenplaat | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 18:48:25 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 18:49:05 - ERROR - main:128 - In model: models/Vondelingenplaat | pos_label=1 is not a valid label: It should be one of [0 2]
+2024-09-26 18:49:05 - INFO - main:69 - Training model for models/Waalhaven
+2024-09-26 18:49:05 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 18:50:47 - INFO - main:125 - Model saved to models/Waalhaven/LGBMClassifier_5.joblib
+2024-09-26 18:50:47 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 18:51:55 - INFO - main:125 - Model saved to models/Waalhaven/LGBMClassifier_15.joblib
+2024-09-26 18:51:55 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 18:53:00 - INFO - main:125 - Model saved to models/Waalhaven/LGBMClassifier_30.joblib
+2024-09-26 18:53:00 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 18:54:06 - INFO - main:125 - Model saved to models/Waalhaven/LGBMClassifier_60.joblib
+2024-09-26 18:54:06 - INFO - main:69 - Training model for models/Ĳsselmonde
+2024-09-26 18:54:06 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 5
+2024-09-26 18:54:27 - ERROR - main:128 - In model: models/Ĳsselmonde | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 18:54:27 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 15
+2024-09-26 18:54:50 - ERROR - main:128 - In model: models/Ĳsselmonde | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 18:54:50 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 30
+2024-09-26 18:55:11 - ERROR - main:128 - In model: models/Ĳsselmonde | pos_label=1 is not a valid label: It should be one of [2]
+2024-09-26 18:55:11 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
+2024-09-26 18:55:32 - ERROR - main:128 - In model: models/Ĳsselmonde | pos_label=1 is not a valid label: It should be one of [2]
