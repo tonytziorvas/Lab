@@ -20,9 +20,6 @@ from sshtunnel import SSHTunnelForwarder
 
 from utils.logger import setup_logger
 
-logging = setup_logger("database")
-
-
 load_dotenv("misc/.env")
 
 # SSH and DB configuration from environment variables
@@ -37,13 +34,15 @@ DB_NAME = os.getenv("DB_NAME")
 DB_USER = os.getenv("DB_USER")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
 
+logger = setup_logger("database")
+
 
 @contextmanager
 def __create_ssh_tunnel():
 
     tunnel = None
     try:
-        logging.info("Setting up SSH tunnel")
+        logger.info("Setting up SSH tunnel")
         tunnel = SSHTunnelForwarder(
             (SSH_HOST, SSH_PORT),
             ssh_username=SSH_USER,
@@ -52,15 +51,15 @@ def __create_ssh_tunnel():
             local_bind_address=("127.0.0.1", 5432),
         )
         tunnel.start()
-        logging.info(f"SSH tunnel established on remote port {tunnel.local_bind_port}.")
+        logger.info(f"SSH tunnel established on remote port {tunnel.local_bind_port}.")
         yield tunnel
     except Exception as e:
-        logging.error(f"Failed to establish SSH tunnel: {e}")
+        logger.error(f"Failed to establish SSH tunnel: {e}")
         raise
     finally:
         if tunnel:
             tunnel.stop()
-            logging.info("SSH tunnel closed.")
+            logger.info("SSH tunnel closed.")
 
 
 @contextmanager
@@ -72,7 +71,7 @@ def create_db_engine():
     with __create_ssh_tunnel() as tunnel:
         engine = None
         try:
-            logging.info("Creating SQLAlchemy engine")
+            logger.info("Creating SQLAlchemy engine")
             connection_string = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{tunnel.local_bind_port}/{DB_NAME}"
 
             engine = create_engine(
@@ -80,19 +79,19 @@ def create_db_engine():
             )
             yield engine
         except SQLAlchemyError as e:
-            logging.error(f"Failed to create engine or connect to database | {e}")
+            logger.error(f"Failed to create engine or connect to database | {e}")
             raise
         finally:
             if engine:
                 engine.dispose()
-                logging.info("SQLAlchemy engine disposed")
+                logger.info("SQLAlchemy engine disposed")
 
 
 def init_db(engine: Engine, table_name: str, push: bool = True) -> Literal[-1, 0, 1]:
 
     try:
         with engine.connect() as conn:
-            logging.info("Connection established")
+            logger.info("Connection established")
             create_table(engine, table_name)
 
             if push:
@@ -100,7 +99,7 @@ def init_db(engine: Engine, table_name: str, push: bool = True) -> Literal[-1, 0
                 return 1
             return 0
     except OperationalError as e:
-        logging.error(f"Connection failed | {e}")
+        logger.error(f"Connection failed | {e}")
         return -1
 
 
@@ -123,7 +122,7 @@ def push_data(
     file_path: str = "data/final/points_per_district_full.parquet.gzip",
     table_name: str = "crowdedness",
 ):
-    logging.info("Pushing data")
+    logger.info("Pushing data")
     pd.read_parquet(file_path).to_sql(
         table_name,
         con=conn,
@@ -132,23 +131,23 @@ def push_data(
         method="multi",
     )
 
-    logging.info("Data pushed to database")
+    logger.info("Data pushed to database")
 
 
 def main():
     try:
         with create_db_engine() as engine:
-            logging.info("Database engine is ready for use")
+            logger.info("Database engine is ready for use")
 
             with engine.connect() as conn:
-                logging.info("Database connection established")
+                logger.info("Database connection established")
                 query = "SELECT * FROM crowdedness ORDER BY timestamp DESC LIMIT 20;"
 
                 df = pd.read_sql_query(query, conn)
                 print(df)
 
     except Exception as e:
-        logging.error(f"An error occurred during the process: {e}")
+        logger.error(f"An error occurred during the process: {e}")
 
 
 if __name__ == "__main__":

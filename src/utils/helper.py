@@ -1,18 +1,18 @@
 import logging
+import os
+from pathlib import Path
+from typing import Dict, Tuple, Union
 
 import geopandas as gpd
 import numpy as np
 import pandas as pd
+from lightgbm import LGBMClassifier
 from sklearn.compose import ColumnTransformer
-from sklearn.metrics import (
-    balanced_accuracy_score,
-    f1_score,
-    precision_score,
-    recall_score,
-)
+from sklearn.metrics import balanced_accuracy_score, f1_score, precision_score, recall_score
 from sklearn.model_selection import GridSearchCV, cross_validate, train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
+from xgboost import XGBClassifier
 
 from utils.db import create_db_engine
 
@@ -45,9 +45,7 @@ def fetch_data(
 
 
 def points_in_boundaries(
-    chunk: pd.DataFrame,
-    city_boundaries: gpd.GeoDataFrame,
-    ts_col: str = TS_COL,
+    chunk: pd.DataFrame, city_boundaries: gpd.GeoDataFrame, ts_col: str = TS_COL
 ) -> pd.DataFrame:
     """
     Process points in boundaries.
@@ -100,8 +98,9 @@ def build_timeseries(df):
 
 
 # Feature engineering
-def feature_extraction(df, columns):
-    logging.getLogger("model_training").info("Extracting temporal features")
+def feature_extraction(df: pd.DataFrame) -> pd.DataFrame:
+    logger = logging.getLogger("model_training")
+    logger.info("Extracting temporal features")
 
     # Time-related features
     time_related_features = {
@@ -117,7 +116,7 @@ def feature_extraction(df, columns):
     windows = [5, 10, 15, 30] + [60 * i for i in range(1, 7)] + [60 * 24]
     lags = list(range(1, 11)) + [15, 30] + [60 * i for i in range(1, 7)] + [60 * 24]
 
-    for district in columns:
+    for district in df.columns[1:]:
         lagged_features |= {
             f"{district.replace(' ', '_')}_lag_{i}": df[district].shift(i).diff()
             for i in lags
@@ -151,7 +150,7 @@ def feature_extraction(df, columns):
 
 
 # TODO Add `n_bins` functionality
-def create_crowd_levels(df, target_district):
+def create_crowd_levels(df: pd.DataFrame, target_district: str) -> Tuple[pd.Series, str]:
     target_column = f'{target_district.replace("_", " ")}_c_lvl'
 
     out = pd.qcut(
@@ -182,6 +181,7 @@ def split_dataset(lagged_df, n_targets, district, step):
     return X_train, X_test, y_train, y_test
 
 
+# TODO: Replace GridSearchCV with Bayesian Search
 def grid_search(pipeline, param_grid, scoring, X_train, y_train, cv):
     logger = logging.getLogger("model_training")
     logger.info("Performing Grid Search")
@@ -207,9 +207,8 @@ def grid_search(pipeline, param_grid, scoring, X_train, y_train, cv):
 
         for key, value in grid_search.cv_results_.items():
             if key.startswith(("mean_test", "test")):
-                print(
-                    f"{key.replace('_', ' ').title()}: {value.mean():.3f} ± {value.std():.3f}"
-                )
+                key = key.replace("_", " ").title()
+                print(f"{key}: {value.mean():.3f} ± {value.std():.3f}")
 
         return grid_search.best_estimator_
     except Exception as e:
@@ -235,14 +234,8 @@ def build_pipeline(clf, num_features):
 
 
 def evaluate(model, X, y, cv, scoring, set_name):
-    cv_result = cross_validate(
-        model,
-        X,
-        y,
-        cv=cv,
-        scoring=scoring,
-        error_score="raise",
-    )
+    cv_result = cross_validate(model, X, y, cv=cv, scoring=scoring, error_score="raise")
+
     for key, value in cv_result.items():
         if key.startswith(("mean_test", "test")):
             metric = f"CV-{key.replace('_', ' ').title()}: {value.mean():.3f} ± {value.std():.3f}"
@@ -253,26 +246,29 @@ def evaluate(model, X, y, cv, scoring, set_name):
     print("+" + "-" * (30 + 2) + "+")
 
 
-def log_metrics(step, y_test, model, y_pred):
+def log_metrics(model, step, y_test, y_pred, model_path) -> Dict:
+
     model_name = model.__class__.__name__
     accuracy = balanced_accuracy_score(y_test, y_pred)
     precision = precision_score(y_test, y_pred, average="micro")
     recall = recall_score(y_test, y_pred, average="micro")
     f1_micro = f1_score(y_test, y_pred, average="micro")
-    # model_size (kb)
-    # parameters
-    # 
 
-    return pd.DataFrame(
-        {
-            "Model": [model_name],
-            "Step": [step],
-            "Accuracy": [accuracy],
-            "Precision": [precision],
-            "Recall": [recall],
-            "F1_Micro": [f1_micro],
-        }
-    )
+    model_size = os.stat(model_path).st_size / 1024
+    # params = model.get_params()["classifier"].get_params()
+
+    row_dict = {
+        "Model": model_name,
+        "Step": step,
+        "Accuracy": accuracy,
+        "Precision": precision,
+        "Recall": recall,
+        "F1_Micro": f1_micro,
+        "Size": model_size,
+    }
+    # row_dict |= params
+
+    return row_dict
 
 
 def pivot_table(df: pd.DataFrame) -> pd.DataFrame:

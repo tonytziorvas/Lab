@@ -1,9 +1,9 @@
 import os
-import pickle
 import shutil
 import time
 
 import geopandas as gpd
+import joblib
 import numpy as np
 import pandas as pd
 
@@ -21,9 +21,9 @@ def main(model_name, district, city):
 
     # Load model
     models = [
-        pickle.load(open(f"models/{file}", "rb"))
+        joblib.load(open(f"models/{file}", "rb"))
         for file in os.listdir("models")
-        if file.startswith(MODEL_MAP[model_name])  # type: ignore
+        if file.endswith(MODEL_MAP.get(model_name))
     ]
 
     i = 0

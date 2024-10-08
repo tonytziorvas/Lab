@@ -10,12 +10,7 @@ import geopandas as gpd
 import numpy as np
 import pandas as pd
 from sklearn.compose import ColumnTransformer
-from sklearn.metrics import (
-    balanced_accuracy_score,
-    f1_score,
-    precision_score,
-    recall_score,
-)
+from sklearn.metrics import balanced_accuracy_score, f1_score, precision_score, recall_score
 from sklearn.model_selection import GridSearchCV, cross_validate, train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler

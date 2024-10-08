@@ -1,21 +1,36 @@
 import os
+import shutil
+import tempfile
+import zipfile
+from io import BytesIO
+from pathlib import Path
+from tempfile import tempdir
 from typing import List
 
 import folium
 import geopandas as gpd
 import joblib
 import pandas as pd
+import paramiko
 import streamlit as st
 from branca import colormap
+from dotenv import load_dotenv
 from streamlit_folium import folium_static
 
 from utils import helper
 
 STEPS = [5, 15, 30, 60]
 MODEL_MAP = {"lgb": "LGBMClassifier", "xgb": "XGBClassifier"}
-boundaries = gpd.read_file("misc/rotterdam_.geojson")[
-    ["cartodb_id", "name", "geometry"]
-]
+boundaries = gpd.read_file("misc/rotterdam_.geojson")
+boundaries = boundaries[["cartodb_id", "name", "geometry"]]
+
+load_dotenv("misc/.env")
+
+# SSH and DB configuration from environment variables
+SSH_HOST = os.getenv("SSH_HOST")
+SSH_PORT = int(os.getenv("SSH_PORT", 22))
+SSH_USER = os.getenv("SSH_USER")
+SSH_PASSWORD = os.getenv("SSH_PASSWORD")
 
 
 def main():
@@ -23,15 +38,20 @@ def main():
     cols = st.columns([2, 1])
 
     data = helper.fetch_data().pipe(helper.pivot_table)
+    data = data[[col for col in data.columns if data[col].var() > 100]]
     data["timestamp"] = pd.to_datetime(data["timestamp"], unit="s")
     areas = set(data.columns[1:])
+    missing_columns = set(boundaries.name) - areas
+    for col in missing_columns:
+        data[col] = 0
 
     data = (
-        helper.feature_extraction(data, data.columns[1:])
+        helper.feature_extraction(data)
         .dropna()
         .reset_index(drop=True)
         .set_index("timestamp")
     )
+
     with st.sidebar:
         st.title("TrafficFlow Forecaster")
         st.subheader("Select Models and AOIs")
@@ -58,13 +78,13 @@ def main():
             unsafe_allow_html=True,
         )
 
-        for col in metrics.columns:
+        for metric, value in metrics.items():
             col1, col2 = st.columns([1, 3])
-            metric = metrics[col].values[0]
-            col1.metric(col, f"{metric:.0%}")
-            col2.progress(metric)
+            col1.metric(str(metric), f"{value:.0%}")
+            col2.progress(value)
 
-    models = load_models(areas=list(areas), instance=str(model_name))
+    models = load_models()
+
     last_record = data.index.max()
     predictions = predict_crowdedness(models, data.loc[data.index == last_record])
 
@@ -106,36 +126,40 @@ def main():
         )
 
 
-# Function to load the models based on the selection
 @st.cache_data
-def load_models(areas: List[str], instance: str = "lgb"):
-    instance = MODEL_MAP.get(instance, "LGBMClassifier")
-
+def load_models():
     models = {}
-    for district in areas:
-        FILE_PATH = f"models/{district}"
-        if os.path.exists(FILE_PATH):
-            area_models = {}
-            for interval in STEPS:
-                with open(f"{FILE_PATH}/{instance}_{interval}.joblib", "rb") as file:
-                    model = joblib.load(file)
-                    area_models[interval] = model
 
-            models[district] = area_models
+    with paramiko.SSHClient() as ssh:
+        ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+        ssh.connect(SSH_HOST, port=SSH_PORT, username=SSH_USER, password=SSH_PASSWORD)
 
-    return models
+        remote_path = "/ext1/models.zip"
+
+        with ssh.open_sftp() as sftp:
+            local_path = "models.zip"
+            sftp.get(remote_path, local_path)
+
+        with tempfile.TemporaryDirectory(dir=".") as temp_dir:
+            with zipfile.ZipFile(local_path, "r") as zip_ref:
+                zip_ref.extractall(temp_dir)
+
+                model_dir = Path(f"{temp_dir}/models")
+                for district in model_dir.iterdir():
+                    area_models = {}
+                    for model in district.iterdir():
+                        interval = model.name.split("_")[-1].split(".")[0]
+                        area_models[interval] = joblib.load(model)
+
+                    models[district.name] = area_models
+
+        return models
 
 
 @st.cache_data
-def load_model_metrics() -> pd.DataFrame:
-    return pd.DataFrame(
-        {
-            "Accuracy": [0.94, 0.87, 0.83, 0.64],
-            "Precision": [0.92, 0.86, 0.83, 0.72],
-            "Recall": [0.89, 0.82, 0.76, 0.58],
-            "F1": [0.91, 0.85, 0.80, 0.7],
-        }
-    )
+def load_model_metrics():
+    metrics_df = pd.read_json("reports/benchmarks/metrics.json")
+    return metrics_df.mean(axis=0)
 
 
 @st.cache_data
@@ -144,21 +168,20 @@ def predict_crowdedness(_models, data):
     predictions = []
     for model_name, model_list in _models.items():
         prediction = pd.DataFrame(
-            data={
-                interval: model.predict(data) for interval, model in model_list.items()
-            },
+            data={interval: model.predict(data) for interval, model in model_list.items()},
             columns=model_list.keys(),
         )
         prediction["name"] = model_name
         predictions.append(prediction)
 
     merged = pd.concat(predictions, axis=0, ignore_index=True)
+    merged = merged[["5", "15", "30", "60", "name"]]
     merged = merged.rename(
         columns={
-            5: "5 min",
-            15: "15 min",
-            30: "30 min",
-            60: "60 min",
+            "5": "5 min",
+            "15": "15 min",
+            "30": "30 min",
+            "60": "60 min",
         }
     )
 

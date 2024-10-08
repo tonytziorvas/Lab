@@ -1808,3 +1808,195 @@
 2024-09-26 18:55:11 - ERROR - main:128 - In model: models/Ĳsselmonde | pos_label=1 is not a valid label: It should be one of [2]
 2024-09-26 18:55:11 - INFO - main:79 - Model: LGBMClassifier | Prediction Step: 60
 2024-09-26 18:55:32 - ERROR - main:128 - In model: models/Ĳsselmonde | pos_label=1 is not a valid label: It should be one of [2]
+2024-10-03 12:56:30 - INFO - feature_extraction:99 - Extracting temporal features
+2024-10-03 12:56:55 - INFO - feature_extraction:99 - Extracting temporal features
+2024-10-03 12:58:43 - INFO - feature_extraction:99 - Extracting temporal features
+2024-10-03 12:59:17 - INFO - feature_extraction:99 - Extracting temporal features
+2024-10-03 13:11:35 - INFO - feature_extraction:99 - Extracting temporal features
+2024-10-03 13:11:37 - INFO - main:79 - Training model for Bedrijvenpark_Noord-West
+2024-10-03 13:11:37 - INFO - main:82 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-03 14:54:34 - INFO - feature_extraction:99 - Extracting temporal features
+2024-10-03 14:54:36 - INFO - main:79 - Training model for Bedrijvenpark_Noord-West
+2024-10-03 14:54:36 - INFO - main:82 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-03 14:55:11 - ERROR - main:132 - In model: Bedrijvenpark_Noord-West | This ColumnTransformer instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2024-10-03 14:55:11 - INFO - main:82 - Model: LGBMClassifier | Prediction Step: 15
+2024-10-03 14:55:58 - INFO - feature_extraction:99 - Extracting temporal features
+2024-10-03 14:55:59 - INFO - main:79 - Training model for Bedrijvenpark_Noord-West
+2024-10-03 14:55:59 - INFO - main:82 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-04 10:33:35 - INFO - feature_extraction:103 - Extracting temporal features
+2024-10-04 10:33:36 - INFO - main:79 - Training model for Bedrijvenpark_Noord-West
+2024-10-04 10:33:36 - INFO - main:82 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-04 10:34:48 - INFO - feature_extraction:103 - Extracting temporal features
+2024-10-04 10:34:49 - INFO - main:79 - Training model for Bedrijvenpark_Noord-West
+2024-10-04 10:34:49 - INFO - main:82 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-04 10:37:24 - INFO - feature_extraction:103 - Extracting temporal features
+2024-10-04 10:37:25 - INFO - main:78 - Training model for Bedrijvenpark_Noord-West
+2024-10-04 10:37:25 - INFO - main:81 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-04 10:38:08 - INFO - feature_extraction:103 - Extracting temporal features
+2024-10-04 10:38:09 - INFO - main:78 - Training model for Bedrijvenpark_Noord-West
+2024-10-04 10:38:09 - INFO - main:81 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-04 10:38:54 - INFO - feature_extraction:103 - Extracting temporal features
+2024-10-04 10:38:56 - INFO - main:78 - Training model for Bedrijvenpark_Noord-West
+2024-10-04 10:38:56 - INFO - main:81 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-04 10:38:57 - ERROR - main:137 - In model: Bedrijvenpark_Noord-West | too many values to unpack (expected 2)
+2024-10-04 10:38:57 - INFO - main:81 - Model: LGBMClassifier | Prediction Step: 15
+2024-10-04 10:38:58 - ERROR - main:137 - In model: Bedrijvenpark_Noord-West | too many values to unpack (expected 2)
+2024-10-04 10:38:58 - INFO - main:81 - Model: LGBMClassifier | Prediction Step: 30
+2024-10-04 10:38:59 - ERROR - main:137 - In model: Bedrijvenpark_Noord-West | too many values to unpack (expected 2)
+2024-10-04 10:38:59 - INFO - main:81 - Model: LGBMClassifier | Prediction Step: 60
+2024-10-04 10:39:00 - ERROR - main:137 - In model: Bedrijvenpark_Noord-West | too many values to unpack (expected 2)
+2024-10-04 10:39:00 - INFO - main:78 - Training model for Charlois
+2024-10-04 10:39:00 - INFO - main:81 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-04 10:39:01 - ERROR - main:137 - In model: Charlois | too many values to unpack (expected 2)
+2024-10-04 10:39:01 - INFO - main:81 - Model: LGBMClassifier | Prediction Step: 15
+2024-10-04 10:39:02 - ERROR - main:137 - In model: Charlois | too many values to unpack (expected 2)
+2024-10-04 10:39:02 - INFO - main:81 - Model: LGBMClassifier | Prediction Step: 30
+2024-10-04 10:39:03 - ERROR - main:137 - In model: Charlois | too many values to unpack (expected 2)
+2024-10-04 10:39:03 - INFO - main:81 - Model: LGBMClassifier | Prediction Step: 60
+2024-10-04 10:39:03 - ERROR - main:137 - In model: Charlois | too many values to unpack (expected 2)
+2024-10-04 10:39:03 - INFO - main:78 - Training model for Delfshaven
+2024-10-04 10:39:03 - INFO - main:81 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-04 10:39:40 - INFO - feature_extraction:103 - Extracting temporal features
+2024-10-04 10:39:42 - INFO - main:78 - Training model for Bedrijvenpark_Noord-West
+2024-10-04 10:39:42 - INFO - main:81 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-04 10:41:20 - INFO - feature_extraction:103 - Extracting temporal features
+2024-10-04 10:41:22 - INFO - main:78 - Training model for Bedrijvenpark_Noord-West
+2024-10-04 10:41:22 - INFO - main:81 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-04 10:41:23 - ERROR - main:137 - In model: Bedrijvenpark_Noord-West | too many values to unpack (expected 2)
+2024-10-04 10:41:23 - INFO - main:81 - Model: LGBMClassifier | Prediction Step: 15
+2024-10-04 10:41:24 - ERROR - main:137 - In model: Bedrijvenpark_Noord-West | too many values to unpack (expected 2)
+2024-10-04 10:41:24 - INFO - main:81 - Model: LGBMClassifier | Prediction Step: 30
+2024-10-04 10:41:25 - ERROR - main:137 - In model: Bedrijvenpark_Noord-West | too many values to unpack (expected 2)
+2024-10-04 10:41:25 - INFO - main:81 - Model: LGBMClassifier | Prediction Step: 60
+2024-10-04 10:41:52 - INFO - feature_extraction:103 - Extracting temporal features
+2024-10-04 10:41:53 - INFO - main:78 - Training model for Bedrijvenpark_Noord-West
+2024-10-04 10:41:53 - INFO - main:81 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-04 10:49:15 - INFO - feature_extraction:103 - Extracting temporal features
+2024-10-04 10:49:16 - INFO - main:80 - Training model for Bedrijvenpark_Noord-West
+2024-10-04 10:49:16 - INFO - main:83 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-07 12:30:57 - INFO - feature_extraction:103 - Extracting temporal features
+2024-10-07 12:30:58 - INFO - main:81 - Training model for Bedrijvenpark_Noord-West
+2024-10-07 12:30:58 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-07 12:30:59 - INFO - grid_search:187 - Performing Grid Search
+2024-10-07 12:32:00 - INFO - feature_extraction:103 - Extracting temporal features
+2024-10-07 12:32:02 - INFO - main:81 - Training model for Bedrijvenpark_Noord-West
+2024-10-07 12:32:02 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-07 12:33:09 - INFO - main:127 - Model saved to models/Bedrijvenpark_Noord-West_LGBMClassifier_5.joblib
+2024-10-07 12:36:21 - INFO - feature_extraction:103 - Extracting temporal features
+2024-10-07 12:51:43 - INFO - feature_extraction:103 - Extracting temporal features
+2024-10-07 12:51:44 - INFO - main:81 - Training model for Bedrijvenpark_Noord-West
+2024-10-07 12:51:44 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-07 12:53:30 - INFO - feature_extraction:103 - Extracting temporal features
+2024-10-07 12:53:56 - INFO - feature_extraction:103 - Extracting temporal features
+2024-10-07 12:53:58 - INFO - main:81 - Training model for Bedrijvenpark_Noord-West
+2024-10-07 12:53:58 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-07 12:55:02 - INFO - main:127 - Model saved to models/Bedrijvenpark_Noord-West/Bedrijvenpark_Noord-West_LGBMClassifier_5.joblib
+2024-10-07 12:55:36 - INFO - feature_extraction:103 - Extracting temporal features
+2024-10-07 12:55:38 - INFO - main:81 - Training model for Bedrijvenpark_Noord-West
+2024-10-07 12:55:38 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-07 12:56:47 - INFO - main:127 - Model saved to models/Bedrijvenpark_Noord-West/Bedrijvenpark_Noord-West_LGBMClassifier_5.joblib
+2024-10-07 12:56:47 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 15
+2024-10-07 12:57:59 - INFO - main:127 - Model saved to models/Bedrijvenpark_Noord-West/Bedrijvenpark_Noord-West_LGBMClassifier_15.joblib
+2024-10-07 12:57:59 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 30
+2024-10-07 12:59:13 - INFO - main:127 - Model saved to models/Bedrijvenpark_Noord-West/Bedrijvenpark_Noord-West_LGBMClassifier_30.joblib
+2024-10-07 12:59:13 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 60
+2024-10-07 13:00:36 - INFO - main:127 - Model saved to models/Bedrijvenpark_Noord-West/Bedrijvenpark_Noord-West_LGBMClassifier_60.joblib
+2024-10-07 13:00:36 - INFO - main:81 - Training model for Charlois
+2024-10-07 13:00:36 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-07 13:00:58 - ERROR - main:135 - In model: Charlois | pos_label=1 is not a valid label: It should be one of [2]
+2024-10-07 13:00:58 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 15
+2024-10-07 13:01:17 - ERROR - main:135 - In model: Charlois | pos_label=1 is not a valid label: It should be one of [2]
+2024-10-07 13:01:17 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 30
+2024-10-07 13:01:37 - ERROR - main:135 - In model: Charlois | pos_label=1 is not a valid label: It should be one of [2]
+2024-10-07 13:01:37 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 60
+2024-10-07 13:01:56 - ERROR - main:135 - In model: Charlois | pos_label=1 is not a valid label: It should be one of [2]
+2024-10-07 13:01:56 - INFO - main:81 - Training model for Delfshaven
+2024-10-07 13:01:56 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-07 13:03:22 - INFO - main:127 - Model saved to models/Delfshaven/Delfshaven_LGBMClassifier_5.joblib
+2024-10-07 13:03:22 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 15
+2024-10-07 13:04:59 - INFO - main:127 - Model saved to models/Delfshaven/Delfshaven_LGBMClassifier_15.joblib
+2024-10-07 13:04:59 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 30
+2024-10-07 13:06:31 - INFO - main:127 - Model saved to models/Delfshaven/Delfshaven_LGBMClassifier_30.joblib
+2024-10-07 13:06:31 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 60
+2024-10-07 13:08:04 - INFO - main:127 - Model saved to models/Delfshaven/Delfshaven_LGBMClassifier_60.joblib
+2024-10-07 13:08:04 - INFO - main:81 - Training model for Feijenoord
+2024-10-07 13:08:04 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-07 13:09:26 - INFO - main:127 - Model saved to models/Feijenoord/Feijenoord_LGBMClassifier_5.joblib
+2024-10-07 13:09:26 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 15
+2024-10-07 13:10:49 - INFO - main:127 - Model saved to models/Feijenoord/Feijenoord_LGBMClassifier_15.joblib
+2024-10-07 13:10:49 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 30
+2024-10-07 13:12:17 - INFO - main:127 - Model saved to models/Feijenoord/Feijenoord_LGBMClassifier_30.joblib
+2024-10-07 13:12:17 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 60
+2024-10-07 13:13:37 - INFO - main:127 - Model saved to models/Feijenoord/Feijenoord_LGBMClassifier_60.joblib
+2024-10-07 13:13:37 - INFO - main:81 - Training model for Hillegersberg-Schiebroek
+2024-10-07 13:13:37 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-07 13:15:17 - INFO - main:127 - Model saved to models/Hillegersberg-Schiebroek/Hillegersberg-Schiebroek_LGBMClassifier_5.joblib
+2024-10-07 13:15:17 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 15
+2024-10-07 13:16:48 - INFO - main:127 - Model saved to models/Hillegersberg-Schiebroek/Hillegersberg-Schiebroek_LGBMClassifier_15.joblib
+2024-10-07 13:16:48 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 30
+2024-10-07 13:18:13 - INFO - main:127 - Model saved to models/Hillegersberg-Schiebroek/Hillegersberg-Schiebroek_LGBMClassifier_30.joblib
+2024-10-07 13:18:13 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 60
+2024-10-07 13:19:44 - INFO - main:127 - Model saved to models/Hillegersberg-Schiebroek/Hillegersberg-Schiebroek_LGBMClassifier_60.joblib
+2024-10-07 13:19:44 - INFO - main:81 - Training model for Kralingen-Crooswijk
+2024-10-07 13:19:44 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-07 13:21:20 - INFO - main:127 - Model saved to models/Kralingen-Crooswijk/Kralingen-Crooswijk_LGBMClassifier_5.joblib
+2024-10-07 13:21:20 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 15
+2024-10-07 13:22:39 - INFO - main:127 - Model saved to models/Kralingen-Crooswijk/Kralingen-Crooswijk_LGBMClassifier_15.joblib
+2024-10-07 13:22:39 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 30
+2024-10-07 13:24:28 - INFO - main:127 - Model saved to models/Kralingen-Crooswijk/Kralingen-Crooswijk_LGBMClassifier_30.joblib
+2024-10-07 13:24:29 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 60
+2024-10-07 13:25:46 - INFO - main:127 - Model saved to models/Kralingen-Crooswijk/Kralingen-Crooswijk_LGBMClassifier_60.joblib
+2024-10-07 13:25:46 - INFO - main:81 - Training model for Nieuw_Mathenesse
+2024-10-07 13:25:46 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-07 13:27:07 - INFO - main:127 - Model saved to models/Nieuw_Mathenesse/Nieuw_Mathenesse_LGBMClassifier_5.joblib
+2024-10-07 13:27:07 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 15
+2024-10-07 13:28:24 - INFO - main:127 - Model saved to models/Nieuw_Mathenesse/Nieuw_Mathenesse_LGBMClassifier_15.joblib
+2024-10-07 13:28:24 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 30
+2024-10-07 13:29:46 - INFO - main:127 - Model saved to models/Nieuw_Mathenesse/Nieuw_Mathenesse_LGBMClassifier_30.joblib
+2024-10-07 13:29:46 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 60
+2024-10-07 13:31:07 - INFO - main:127 - Model saved to models/Nieuw_Mathenesse/Nieuw_Mathenesse_LGBMClassifier_60.joblib
+2024-10-07 13:31:07 - INFO - main:81 - Training model for Noord
+2024-10-07 13:31:07 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-07 13:32:27 - INFO - main:127 - Model saved to models/Noord/Noord_LGBMClassifier_5.joblib
+2024-10-07 13:32:27 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 15
+2024-10-07 13:33:53 - INFO - main:127 - Model saved to models/Noord/Noord_LGBMClassifier_15.joblib
+2024-10-07 13:33:53 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 30
+2024-10-07 13:35:11 - INFO - main:127 - Model saved to models/Noord/Noord_LGBMClassifier_30.joblib
+2024-10-07 13:35:11 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 60
+2024-10-07 13:36:29 - INFO - main:127 - Model saved to models/Noord/Noord_LGBMClassifier_60.joblib
+2024-10-07 13:36:29 - INFO - main:81 - Training model for Prins_Alexander
+2024-10-07 13:36:29 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-07 13:37:49 - INFO - main:127 - Model saved to models/Prins_Alexander/Prins_Alexander_LGBMClassifier_5.joblib
+2024-10-07 13:37:49 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 15
+2024-10-07 13:39:09 - INFO - main:127 - Model saved to models/Prins_Alexander/Prins_Alexander_LGBMClassifier_15.joblib
+2024-10-07 13:39:09 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 30
+2024-10-07 13:40:27 - INFO - main:127 - Model saved to models/Prins_Alexander/Prins_Alexander_LGBMClassifier_30.joblib
+2024-10-07 13:40:27 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 60
+2024-10-07 13:41:47 - INFO - main:127 - Model saved to models/Prins_Alexander/Prins_Alexander_LGBMClassifier_60.joblib
+2024-10-07 13:41:47 - INFO - main:81 - Training model for Rotterdam_Centrum
+2024-10-07 13:41:47 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-07 13:43:05 - INFO - main:127 - Model saved to models/Rotterdam_Centrum/Rotterdam_Centrum_LGBMClassifier_5.joblib
+2024-10-07 13:43:05 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 15
+2024-10-07 13:44:39 - INFO - main:127 - Model saved to models/Rotterdam_Centrum/Rotterdam_Centrum_LGBMClassifier_15.joblib
+2024-10-07 13:44:39 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 30
+2024-10-07 13:45:58 - INFO - main:127 - Model saved to models/Rotterdam_Centrum/Rotterdam_Centrum_LGBMClassifier_30.joblib
+2024-10-07 13:45:58 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 60
+2024-10-07 13:47:16 - INFO - main:127 - Model saved to models/Rotterdam_Centrum/Rotterdam_Centrum_LGBMClassifier_60.joblib
+2024-10-07 13:47:16 - INFO - main:81 - Training model for Spaanse_Polder
+2024-10-07 13:47:16 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-07 13:48:43 - INFO - main:127 - Model saved to models/Spaanse_Polder/Spaanse_Polder_LGBMClassifier_5.joblib
+2024-10-07 13:48:43 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 15
+2024-10-07 13:50:05 - INFO - main:127 - Model saved to models/Spaanse_Polder/Spaanse_Polder_LGBMClassifier_15.joblib
+2024-10-07 13:50:05 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 30
+2024-10-07 13:51:29 - INFO - main:127 - Model saved to models/Spaanse_Polder/Spaanse_Polder_LGBMClassifier_30.joblib
+2024-10-07 13:51:29 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 60
+2024-10-07 13:52:55 - INFO - main:127 - Model saved to models/Spaanse_Polder/Spaanse_Polder_LGBMClassifier_60.joblib
+2024-10-07 13:52:55 - INFO - main:81 - Training model for Ĳsselmonde
+2024-10-07 13:52:55 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 5
+2024-10-07 13:53:14 - ERROR - main:135 - In model: Ĳsselmonde | pos_label=1 is not a valid label: It should be one of [2]
+2024-10-07 13:53:14 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 15
+2024-10-07 13:53:33 - ERROR - main:135 - In model: Ĳsselmonde | pos_label=1 is not a valid label: It should be one of [2]
+2024-10-07 13:53:33 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 30
+2024-10-07 13:53:52 - ERROR - main:135 - In model: Ĳsselmonde | pos_label=1 is not a valid label: It should be one of [2]
+2024-10-07 13:53:52 - INFO - main:84 - Model: LGBMClassifier | Prediction Step: 60
+2024-10-07 13:54:10 - ERROR - main:135 - In model: Ĳsselmonde | pos_label=1 is not a valid label: It should be one of [2]

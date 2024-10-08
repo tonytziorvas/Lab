@@ -4,6 +4,6 @@ __pycache__
 .vscode
 Lab.code-workspace
 /misc/.env
-/data/** 
+/archive/data/** 
 /models/**
 /reports/** 
